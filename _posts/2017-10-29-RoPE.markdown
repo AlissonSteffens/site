@@ -13,6 +13,7 @@ tags:
 *That subject is about the development of programmable toys to help children from kindergarten to understand concepts about Creative Learning and Science while playing*
 
 **Role:** Co-creator, engineer and advisor
+
 **Team:** André L. M. Santana, André Raabe (Creator), Rodrigo R. Martins, Felipe T. Souza, Raphael da Silva, Tatiane A. M. do Rosário 
 
 ![](https://i.imgur.com/CYKCanv.jpg)
