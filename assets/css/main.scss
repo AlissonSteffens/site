@@ -25,8 +25,11 @@ h1.post-pre-title, h1.page-title {
     font-size: 3rem;
 }
 .category-div{
-    width: 20%;
-    margin: 10%;
+    padding: 3rem;
+    display: inline-block;
     background-color: $link-color;
     color: white;
+}
+.category-div>a .category-div>a:hover{
+    color: white !important;
 }
