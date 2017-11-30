@@ -1,0 +1,15 @@
+{% comment %}
+  Dynamically generate list of links to all category pages
+{% endcomment %}
+{% assign pages_list = site.pages %}
+{% for node in pages_list %}
+  {% if node.title != null %}
+    {% if node.layout == "category" %}
+      <div class="category-div">
+        <a href="{{ site.baseurl }}{{ node.url }}">
+          {{ node.title }}
+        </a>
+      </div>
+    {% endif %}
+  {% endif %}
+{% endfor %}

@@ -3,7 +3,12 @@ layout: default
 ---
 
 <div class="content">
-  <h2>Projects</h2>
+
+  {% include category-divs.html %}
+
+  <h1 class="post-pre-title">Projects</h1>
+  <hr>
+
   {% include pagination-newer.html %}
 
   {{ content }}

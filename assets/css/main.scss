@@ -21,3 +21,12 @@ body {
 .content{
     background-color: transparent;
 }
+h1.post-pre-title, h1.page-title {
+    font-size: 3rem;
+}
+.category-div{
+    width: 20%;
+    margin: 10%;
+    background-color: $link-color;
+    color: white;
+}
