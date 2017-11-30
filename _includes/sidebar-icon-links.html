@@ -1,8 +1,8 @@
 <nav id="sidebar-icon-links">
-  {% if site.github.repo %}
+  {% if site.github_username %}
     <a id="github-link"
        class="icon" title="Github" aria-label="Github"
-       href="{{ site.github.repo }}">
+       href="https://github.com/{{ site.github_username }}">
       {% include svg/github.svg %}
     </a>
   {% endif %}
