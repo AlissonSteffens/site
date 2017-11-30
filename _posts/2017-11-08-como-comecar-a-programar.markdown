@@ -4,7 +4,6 @@ title:  "Como começar a programar?"
 date:   2017-11-08 22:40:27 -0200
 categories: jekyll update
 ---
-<link rel="stylesheet" href="/css/styles.css">
 
 ## Resolução
 
