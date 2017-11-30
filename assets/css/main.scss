@@ -6,10 +6,18 @@
 $sidebar-bg-color: #ac4142;
 $link-color: #ac4142;
 $sidebar-sticky: false;
+$section-spacing: 3rem;
+$sidebar-width: 25rem;
 @import "hydeout";
 
 body {
     background-image: url('https://raw.githubusercontent.com/AlissonSteffens/showcase/master/bg.jpg?token=AF8gdhKxwK4XdIUah08vRvcE-E7pqVqVks5aKLuYwA%3D%3D');
     background-size: cover;
     background-attachment: fixed;
+}
+.container{
+    background-color: rgba(255,255,255,220);
+}
+.content{
+    background-color: transparent;
 }
