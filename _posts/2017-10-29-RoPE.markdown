@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Programmable toy"
+title:  "Programmable Toy"
 date:   2017-10-30 00:00:00 -0200
 categories:
   - Education
@@ -34,7 +34,7 @@ PANDA or Programming and Arts to help Novices in the Development of Algorithms, 
 [Paper Pt-Br - WIE 2017](http://www.br-ie.org/pub/index.php/wie/article/view/7349/5147)
 *Authors: André L. M. Santana, André L. A. Raabe, Rodrigo R. Martins, Felipe T. Souza, Raphael da Silva, Tatiane A. M. do Rosário*
 
-* **(2017) Analysis of maps creation process in activities with Programmable Toys by children in kindergarten**
+* **(2017) Using of Sound Waves as interface for programmable toys**
 [Paper Pt-Br - Monograph](https://drive.google.com/open?id=1MswUNltR5g8hKVTQloTvbSE4PIY1eaLQ)
 *Authors: André L. M. Santana (advisor) and Willy Andrew Vieira (advised)*
 
