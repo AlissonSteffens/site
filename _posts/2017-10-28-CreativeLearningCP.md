@@ -68,7 +68,7 @@ The project aims to involve students from the middle and high school with the ma
 
 4. **(2017) Design of a low price Laser Cutter for makerspaces**
 
-![](https://i.imgur.com/OSbj7as.png)
+![](https://i.imgur.com/undefined.jpeg)
 
 [Paper Pt-Br - Monograph](https://drive.google.com/open?id=1v9QnDwZ0BDKC2g2JI3Tb_r59k30pQtIX)
 *Authors: André L. M. Santana (advisor) and Raphael da Silva (advised)*

@@ -11,7 +11,7 @@ $sidebar-width: 25rem;
 @import "hydeout";
 
 body {
-    background-image: url('https://i.imgur.com/x50vS8V.jpg');
+    background-image: url('https://i.imgur.com/R5XDNnd.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -30,8 +30,9 @@ h1.post-pre-title, h1.page-title {
     font-size: 3rem;
 }
 .category-div{
-    padding: 3rem;
+    padding: 1rem 1.5rem;
     display: inline-block;
+    margin: 0.5rem;
     background-color: $link-color;
     color: white;
 }

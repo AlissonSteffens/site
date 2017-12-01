@@ -4,9 +4,6 @@ title: About
 sidebar_link: true
 ---
 
-
-## Resume CV
-
 André Luiz Maciel Santana is a researcher at UNIVALI (Universidade do Vale de Itajaí) since 2014 and his work is focused in Engineering and Computer Science Applied at Health & Education. Furthermore, he also teaches Algorithms and Programming, Mechanics of Materials, System Modeling and Discrete Simulation in Mechanical Engineering, Production Engineering and Computer Science.
 
 He holds a degree in Industrial Mechanical Engineering (from 2009 to 2013), with specialization in Production Engineering (from 2013 to 2014) and had completed a Master in Applied Computing (from 2014 to 2015) at the Universidade do Vale do Itajaí, which allowed him to approach the areas of robotics, education and students development based on their personal trajectories and how to respect it.
