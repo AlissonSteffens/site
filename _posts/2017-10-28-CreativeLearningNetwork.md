@@ -29,7 +29,7 @@ tags:
 ## Papers
 
 1. **(2017) Tem Ideia na Rede: Computational Thinking in Brazilian Public Schools**
-[Paper Pt-Br - WIE 2017](http://www.br-ie.org/pub/index.php/wie/article/view/7340
+[Paper Pt-Br - WIE 2017](http://www.br-ie.org/pub/index.php/wie/article/view/7340)
 *Authors: André Luiz Maciel Santana, Elieser Ademir de Jesus, André Raabe, Luís Santana, Larissa Cucco, Gustavo Ramos*
 
 ## Awards
