@@ -1,6 +1,7 @@
 ---
 layout: category
 title: Engineering & Social Needs
+image: https://steamuniverse.com/~/media/EDU/SteamUniverse/2017/20170615engineering.jpg
 ---
 
 Sample category page. You need to create a page for each category.
