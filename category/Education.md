@@ -1,7 +1,7 @@
 ---
 layout: category
 title: Education
-image: https://steamuniverse.com/~/media/EDU/SteamUniverse/2017/20170615engineering.jpg
+image: http://www.oregon.gov/ode/PublishingImages/students-and-family.jpg
 ---
 
-Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+That subjects were related to finding ways to introduce Creative Learning in public schools. Additionally, we have started to develop curriculums, toys, social networks and protocols to help other universities and spaces to try it in Brazil. Finally, we have started to create low-cost tools such as laser-cutter to help the dissemination of maker culture in Brazil. 
