@@ -3,8 +3,8 @@
 # only main files contain this front matter, not partials.
 ---
 
-$sidebar-bg-color: #ac4142;
-$link-color: #ac4142;
+$sidebar-bg-color: #c0392b;
+$link-color: #c0392b;
 $sidebar-sticky: false;
 $section-spacing: 3rem;
 $sidebar-width: 25rem;
@@ -16,11 +16,16 @@ body {
     background-attachment: fixed;
 }
 .container{
-    background-color: rgba(255,255,255,0.85);
+    
 }
 .content{
-    background-color: transparent;
+    
 }
+
+.post-body h3{
+    font-size: 1.1rem;
+}
+
 h1.post-pre-title, h1.page-title {
     font-size: 3rem;
 }
