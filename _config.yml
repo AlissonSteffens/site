@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            Alisson Steffens
 tagline:          ''
-description:      'Geek programer and cinephile'
+description:      'Geek programer and cinephile. '
 url:              https://AlissonSteffens.github.io
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
@@ -32,5 +32,5 @@ sidebar_home_link:  true
                                 # to enable a separate blog link.
 github:
   repo:             https://AlissonSteffens.github.io
-twitter_username: AlissonSteffens
+
 github_username:  AlissonSteffens
