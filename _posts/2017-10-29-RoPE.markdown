@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "RoPE: A programmable toy"
+title:  "Programmable toy"
 date:   2017-10-30 00:00:00 -0200
 categories:
   - Education
@@ -12,11 +12,21 @@ tags:
 ---
 *That subject is about the development of programmable toys to help children from kindergarten to understand concepts about Creative Learning and Science while playing*
 
-**Role:** Co-creator, engineer and advisor
+## Projects
 
-**Team:** André L. M. Santana, André Raabe (Creator), Rodrigo R. Martins, Felipe T. Souza, Raphael da Silva, Tatiane A. M. do Rosário 
+### **(2015 - now) RoPE:** 
 
-![](https://i.imgur.com/CYKCanv.jpg)
+It's a project in which we have created a cheap wooden robot to help kids in the kindergarten to get in touch with Computer Science.
+
+![](https://i.imgur.com/ykO5jSC.png)
+
+**Team:** André L. M. Santana (Co-Creator), André Raabe (Creator), Rodrigo R. Martins, Felipe T. Souza, Raphael da Silva, Tatiane A. M. do Rosário 
+
+### **(Under Development) PANDA:** 
+
+PANDA or Programming and Arts to help Novices in the Development of Algorithms, consists in two different boards, a pair of low-cost microcontrollers, paper, pencil and small blocks of wood, using that I will try the experience of the project with peers, play and passion creating a tangible version of Scratch Jr.
+
+**Team:** André L. M. Santana (creator and adviser) and Julia P. Metzger (advised and Co-Creator)
 
 ## Papers
 
@@ -25,19 +35,31 @@ tags:
 *Authors: André L. M. Santana, André L. A. Raabe, Rodrigo R. Martins, Felipe T. Souza, Raphael da Silva, Tatiane A. M. do Rosário*
 
 2. **(2017) Analysis of maps creation process in activities with Programmable Toys by children in kindergarten**
-[Paper Pt-Br](https://drive.google.com/open?id=1MswUNltR5g8hKVTQloTvbSE4PIY1eaLQ)
+[Paper Pt-Br - Monograph](https://drive.google.com/open?id=1MswUNltR5g8hKVTQloTvbSE4PIY1eaLQ)
 *Authors: André L. M. Santana (advisor) and Willy Andrew Vieira (advised)*
 
 3. **(2016) Analysis of maps creation process in activities with Programmable Toys by children in kindergarten**
-[Paper Pt-Br](https://drive.google.com/open?id=1v9QnDwZ0BDKC2g2JI3Tb_r59k30pQtIX)
+[Paper Pt-Br - Monograph](https://drive.google.com/open?id=1v9QnDwZ0BDKC2g2JI3Tb_r59k30pQtIX)
 *Authors: André L. M. Santana (advisor) and Leonardo Antonio Pinheiro (advised)*
 
-4. **(2016) Development of a methodology to explore engineering abilities through the use of programmable toys**
-[Paper Pt-Br](https://drive.google.com/open?id=1vYOooOSqEHLtFQwVO0byVC4bGYAsMtnG)
+4. **(2016)Design of a Programmable Toy for children between 4 and 5 years old: a methodology using Desing Thinking**
+[Paper Pt-Br - Monograph](https://drive.google.com/open?id=1vYOooOSqEHLtFQwVO0byVC4bGYAsMtnG)
 *Authors: André L. M. Santana (advisor) and Rodrigo Ramos Martins (advised)*
 	
 > The demand for engineers is growing in a nation that seeks economic development. The difficulty in forming engineers in Brazil is a consolidated reality, and one of the main reasons is the difficulty for the students to assimilate subjects related to mathematics, logic and innovation. This research seeks to stimulate computational thinking through programmable toys, as a tool to provide the development of knowledge related to engineering in children. Therefore, the objective of this research is to develop a methodology for the application of programmable toys as common tool for developing engineering skills. Among the methodologies covered in this research are exploratory and bibliographic research. A sample group composed of nine children between three and four years old were involved in a sequence of activities involving the use of a toy set as a tool for troubleshooting. The analysis of interactions of this group with the toy was set based on the Students Progress. This research also first used the toy RoPE, created by the Innovation Technology in Education Laboratory (LITE),and allowed to validate a number of features to the product design. The use of the toy with educators also identified that the use of collaborative methodologies such as Design Thinking, enrich the development of a product by constant interaction with those involved in the process. The results of the activities demonstrated that the skills related to engineering, identified in this research are used by children when they participate in the activities proposed by the methodology developed in this research. The Pearson correlation found between the groups of children showed a value of 0.99, this value indicates that participants have advanced in solving problems with a high level of correlation.
 
-5. **(2016) Development of a methodology to explore engineering abilities through the use of programmable toys**
+Design de um Brinquedo Programável para Crianças de 4 a 5 anos de idade através da metodologia Design Thinking
+
+5. **(2016 - ERIMT 2016) Design of a Programmable Toy for children between 4 and 5 years old: a methodology using Desing Thinking**
 [Paper Pt-Br](http://anaiserimt.ic.ufmt.br/index.php/erimt/article/view/58)
 *Authors: André L. M. Santana, Daniel R. Richter, André L. A. Raabe, Marli F. Vick Vieira, Rodrigo Ramos*
+
+### Under Development Papers
+
+1. (2018/1 - Monograph) **Development of a Hybrid Interface for RoPE: programming using computer and an embedded interface** 
+*Authors: André L. M. Santana and Cesar Pererira Viana*
+
+## Extra Information
+
+*[Promotional Movie](https://youtu.be/xFxnc6SHL-s)
+*[Manual](http://lite.acad.univali.br/wp-content/uploads/2017/09/Manual-Vers%C3%A3o-Beta-0.2.pdf)

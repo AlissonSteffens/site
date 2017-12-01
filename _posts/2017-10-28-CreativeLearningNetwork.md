@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "Tem Ideia na Rede: a network to create, share and transform"
+date:   2017-10-28 00:00:00 -0200
+categories:
+  - Education
+tags:
+  - Creative Learning
+  - Family
+  - Middle School
+  - Computational Thinking
+  - Scratch
+---
+*This project is about how to engage kids to develop their own science projects putting together their experience and interacting with other kids.*
+
+ **Team:** André L. M. Santana (Creator and Coordinator), Elieser A. de Jesus (Co-Creator), Larissa Cucco, Guilherme Venancio, Luís F. M. Santana, Camila Scheer (Volunteer), Paulo E. Martins and Alisson H. Steffens (Volunteer) 
+
+[**Official WebPage:**](http://www.temideianarede.com.br)
+[**Shares**](https://temideianarede.com.br/evento)
+
+![](https://i.imgur.com/felPuWt.jpg)
+![](https://i.imgur.com/IIBosMq.jpg)
+![](https://i.imgur.com/wY6Sf50.jpg)
+
+## Abstract
+
+ Tem Ideia na Rede is a project introduce Computer Science and Technology in all Itajai’s (my hometown) public schools through Creative Learning.The project achieved about 28 schools of the municipal education network in 2016 with the keypoint of allowing public school students to develop their own projects related to Computer Science and even interact with each other in a platform created specifically for science knowledge sharing. And this year, with the new Tem Ideia na Rede - 2017 edition - the students have submitted a lot of great experiences. They were sharing their projects like in a social network, with small missions divided into seven categories: for fun, sound, tutorial, hands-on, plan, design, and programming. That results were really amazing! Students left their communities, involving their family, their neighborhood, teachers and school.
+
+## Papers
+
+1. **(2017) Tem Ideia na Rede: Computational Thinking in Brazilian Public Schools**
+[Paper Pt-Br - WIE 2017](http://www.br-ie.org/pub/index.php/wie/article/view/7340
+*Authors: André Luiz Maciel Santana, Elieser Ademir de Jesus, André Raabe, Luís Santana, Larissa Cucco, Gustavo Ramos*
+
+## Awards
+
+1. Best Paper on Brazilian Conference of Informatics in Education (in 2017 - paper about Tem Ideia na Rede);
