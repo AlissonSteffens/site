@@ -4,7 +4,7 @@ title: Scratch Jr. Day
 color: e67e22
 ---
 
-**Team:** André L. M. Santana (Coordinator), André Raabe , Julia P. Metzger, Luís F. M. Santana, Annelize da C. P. Maciel, Clara Maciel (Teacher from Kindergarten)
+**Team:** André L. M. Santana (Coordinator), André Raabe , Alisson S. Henrique, Julia P. Metzger, Luís F. M. Santana, Annelize da C. P. Maciel, Clara Maciel (Teacher from Kindergarten)
 
 ![](https://i.imgur.com/qjwvDwr.jpg)
 
