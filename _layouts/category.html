@@ -8,6 +8,7 @@ layout: page
 
 <ul class="posts-list">
   {% assign category = page.category | default: page.title %}
+  <h3> Posts </h3>
   {% for post in site.categories[category] %}
     <li>
       <h3>
