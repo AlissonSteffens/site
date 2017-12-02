@@ -5,8 +5,9 @@ date:   2017-12-02 00:00:00 -0200
 categories:
   - Education
 tags:
-  - Portugol
   - Scratch
+projects:
+  - Portugol Studio
 ---
 
 ## Resolução
