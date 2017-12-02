@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: category
 title: Tem Ideia na Rede
 color: e74c3c
 ---

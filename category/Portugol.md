@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: category
 title: Portugol Studio
 color: 3498db
 ---

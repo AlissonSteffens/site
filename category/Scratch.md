@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: category
 title: Scratch Jr. Day
 color: e67e22
 ---

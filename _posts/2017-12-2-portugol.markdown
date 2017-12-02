@@ -3,12 +3,10 @@ layout: post
 title:  "Como começar a programar?"
 date:   2017-12-02 00:00:00 -0200
 categories:
-  - Education
+  - Portugol Studio
 tags:
   - Scratch
-projects:
-  - Other
-  - Portugol Studio
+  - Creative Learning
   
 ---
 

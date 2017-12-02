@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: category
 title: Maker Culture and Elderly People
 color: 1abc9c
 ---
