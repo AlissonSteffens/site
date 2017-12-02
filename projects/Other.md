@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Other
-color: 3498db
+color: 34495e
 ---
 
 * **(2017) Análise de mobilidade entre Cidades Gêmeas: uma abordagem por Lógica Difusa**

@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Maker Culture and Elderly People
-color: 3498db
+color: 1abc9c
 ---
 
 **Team:** André L. M. Santana (Coordinator), Bianca de Farias (advised), Larissa Cucco (volunteer), Julia P. Metzger (volunteer), Luís F. M. Santana (volunteer), Alisson S. Henrique (volunteer)

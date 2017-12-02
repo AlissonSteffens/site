@@ -1,7 +1,7 @@
 ---
 layout: project
-title: Scratch Jr. Day
-color: 3498db
+title: Tem Ideia na Rede
+color: e74c3c
 ---
 
 **Team:** André L. M. Santana (Coordinator), André Raabe , Alisson S. Henrique, Julia P. Metzger, Luís F. M. Santana, Annelize da C. P. Maciel, Clara Maciel (Teacher from Kindergarten)
