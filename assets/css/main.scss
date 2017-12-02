@@ -3,15 +3,16 @@
 # only main files contain this front matter, not partials.
 ---
 
-$sidebar-bg-color: #c0392b;
-$link-color: #c0392b;
+$sidebar-bg-color: #8e44ad;
+$link-color: #8e44ad;
 $sidebar-sticky: false;
 $section-spacing: 3rem;
 $sidebar-width: 25rem;
 @import "hydeout";
 
 body {
- 
+    background-image: url("http://i.imgur.com/ZSsC5Ju.jpg");
+    background-size: cover;
 }
 .container{
     
