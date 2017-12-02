@@ -7,8 +7,9 @@ categories:
 tags:
   - Scratch
 projects:
-  - "Portugol Studio"
   - Other
+  - Portugol Studio
+  
 ---
 
 Você é um bom solucionador de problemas? Costuma jogar para exercitar o raciocínio lógico? Joga Xadrez? Preenche Palavras Cruzadas? Gosta de charadas e desafios?

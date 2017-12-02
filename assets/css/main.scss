@@ -1,7 +1,4 @@
----
-# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
-# only main files contain this front matter, not partials.
----
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 $sidebar-bg-color: #c0392b;
 $link-color: #c0392b;
@@ -11,9 +8,11 @@ $sidebar-width: 25rem;
 @import "hydeout";
 
 body {
-    background-image: url('https://i.imgur.com/R5XDNnd.jpg');
     background-size: cover;
     background-attachment: fixed;
+}
+.site-title{
+    font-family: 'Raleway', sans-serif;
 }
 .container{
     
