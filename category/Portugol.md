@@ -4,7 +4,7 @@ title: Portugol Studio
 color: 3498db
 ---
 
-**Team:** Alisson S. Henrique, Adson M.S. Estaves, Luiz F. Noschang, Rafael Ferreira
+**Team:** Alisson S. Henrique, Adson M.S. Esteves, Luiz F. Noschang, Rafael Ferreira
 
 ![](http://i.ytimg.com/vi/kMZtpKotFHI/maxresdefault.jpg)
 
