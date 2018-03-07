@@ -1,14 +1,13 @@
-----	
--layout: post	
--title:  "Game Programming at 1st BC Smart Week"	
--date:   2018-03-06 00:00:00 -0200	
--categories:	
--  - Scratch for Educators
--tags:	
--  - Scratch	
--  - Creative Learning	
--  	
-----
+---	
+layout: post	
+title:  "Game Programming at 1st BC Smart Week"	
+date:   2018-03-06 00:00:00 -0200	
+categories:	
+  - Scratch for Educators
+tags:	
+  - Scratch	
+  - Creative Learning	 	
+---
 
 Yesterday (05-03-2018), I had the chance to teach scratch for twenty-one students from Balneario Camboriú's publics school.
 
