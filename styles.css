@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+  -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html { font-size: 16px; }
+@media (min-width: 30em) {
+  html { font-size: 18px; }
+}
+body {
+  margin: 0;
+  padding: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  color: #767676;
+  background-color: #fafafa;
+}
+@media (min-width: 500px) {
+  body {
+    padding: 3rem;
+  }
+}
+a {
+  color: #0074d9;
+  text-decoration: none;
+  -webkit-transition: color .2s ease-in-out;
+      -moz-transition: color .2s ease-in-out;
+          transition: color .2s ease-in-out;
+}
+a:hover {
+  color: #005baa;
+}
+h1, h2, h3 {
+  margin-top: 0;
+  font-weight: 400;
+}
+h1 {
+  margin-bottom: .5rem;
+  font-size: 2.25rem;
+  line-height: 1;
+
+}
+h1 a {
+  color: #333;
+}
+h1 a span {
+  display: inline-block;
+  font-weight: 300;
+  color: rgba(0,0,0,0.6);
+}
+h2 {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  color: #444;
+}
+h3 {
+  margin-bottom: 0;
+  font-size: 1.25rem;
+}
+h3 a{
+  color: #f80759; 
+}
+h3 a:hover{
+  color: #ac073e; 
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.lead {
+  font-size: 1.25rem;
+  line-height: 1.3;
+  color: #333;
+}
+hr {
+  width: 6rem;
+  height: 1px;
+  margin: 2.5rem 0;
+  background-color: #e5e5e5;
+  border: 0;
+}
+@media (min-width: 500px) {
+  .masthead {
+    max-width: 450px;
+  }
+}
+.links {
+  font-size: 1.5rem;
+}
+.links a {
+  color: #666;
+}
+.links a:hover {
+  color: #333;
+}
+@font-face {
+  font-family: 'fontello';
+  src: url('font/fontello.eot?63629409');
+  src: url('font/fontello.eot?63629409#iefix') format('embedded-opentype'),
+        url('font/fontello.woff?63629409') format('woff'),
+        url('font/fontello.ttf?63629409') format('truetype'),
+        url('font/fontello.svg?63629409#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.footer {
+  color: #7a7a7a;
+}
+.fa-code{
+  color: #bc4e9c;
+}
+.fa-heart{
+  color: #f80759;
+}
+.project{
+}
+.icon{
+  margin: 1rem;
+}
