@@ -49,7 +49,10 @@ h1 {
 
 }
 h1 a {
-  color: #333;
+  color: #6a3093;
+}
+h1 a:hover {
+  color: #a044ff;
 }
 h1 a span {
   display: inline-block;
@@ -66,10 +69,10 @@ h3 {
   font-size: 1.25rem;
 }
 h3 a{
-  color: #f80759; 
+  color: #a044ff; 
 }
 h3 a:hover{
-  color: #ac073e; 
+  color: #6a3093; 
 }
 p {
   margin-top: 0;
@@ -118,7 +121,7 @@ hr {
   color: #bc4e9c;
 }
 .fa-heart{
-  color: #f80759;
+  color: #a044ff;
 }
 .project{
 }
