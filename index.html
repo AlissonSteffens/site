@@ -3,8 +3,9 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://alissonsteffens.github.io/ministrap/normalize.css">
     <link rel="stylesheet" href="https://alissonsteffens.github.io/ministrap/ministrap.css">
     <link rel="stylesheet" href="style.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
@@ -32,68 +33,95 @@
 
   </head>
   <body>
-    <div class="container">
-      <div class="links">
-        <a href="https://github.com/AlissonSteffens" title="Follow me on GitHub" class="icon"><i class="fab fa-github"></i></a>
-        <a href="https://twitter.com/AlissonSteffens" title="Follow me on Twitter" class="icon"><i class="fab fa-twitter"></i></a>
-      </div>
-      <div class="masthead">
-          <h1><a href="/">Alisson Steffens</a></h1>
-          <p class="lead">
-              Geek programer and cinephile.
-          </p>
-          
-      </div>
+    <section class="jumbotron auroral-northern" id="header">
       
-      <hr>
+      <h1>Alisson Steffens</h1>
+      <h5 class=""> 🐋 Geek, programer and cinephile. 🌸</h5>
+      
+    </section>
+    <div class="auroral-stars"></div>
+    <!-- Narbar -->
+    <nav class="navbar">
+      <div class="container">
+          <ul class="navbar-list brand-list">
+            <li class="navbar-item"><a class="navbar-link" id="brand" href="#"></a></li>
+          </ul>
+          <ul class="navbar-right">
+            <a class="navbar-link" href="https://github.com/AlissonSteffens"><i class="fab fa-github"></i></a>
+            <a class="navbar-link" href="https://twitter.com/AlissonSteffens"><i class="fab fa-twitter"></i></a>
+          </ul>
+      </div>
+    </nav>
+    
+    <div class="container">
+      
+      <section class="" id="intro">
+        <h4 class="docs-header">Introduction</h4>
+        <p>I'm a brazilian computer scientist, who loves to code, and make beautiful apps.</p>
+        <p>As hobbies I like to watch movies, play video games (mostly cooperative ones), and read to some Marvel's comic books.</p>
+        <p>My first language is Portuguese.</p>
+      </section>
+      <section class="" id="projects">
+        <h4 class="docs-header">Personal Projects</h4>
+        <div class="">
+          <div class="project">
+            <h5><a href="https://alissonsteffens.github.io/ministrap/">Ministrap</a></h3>
+            <p>Yet Another CSS Boilerplate</p>
+          </div>
+          <div class="project">
+            <h5><a href="http://univali-lite.github.io/Portugol-Studio/">Portugol Studio</a></h3>
+            <p>IDE for the Portuguese programming language Portugol</p>
+          </div>
+          <div class="project">
+            <h5><a href="http://nyachan-server.herokuapp.com/">NyaChan</a></h3>
+            <p>An opensource Image board</p>
+          </div>
+          <div class="project">
+            <h5><a href="https://alissonsteffens.github.io/Synthos/">Synthos</a></h3>
+            <p>A simple js sound synthesizer</p>
+          </div>
+          <div class="project">
+            <h5><a href="https://beholderdev.github.io/castlevania-symphony-of-the-agents/">Symphony of the Agents</a></h3>
+            <p>A Castlevania based game using JADE for AI</p>
+          </div>
+          <div class="project">
+            <h5><a href="https://github.com/AlissonSteffens/dali-bot">DaliBot</a></h3>
+            <p>A pixel canvas like discord bot</p>
+          </div>
+        </div>
+      </section>
 
-      <h2><i class="fab fa-osi"></i> Open source <span>(more at <a href="https://github.com/AlissonSteffens?tab=repositories">github</a>)</span></h2>
-      <div class="project row">
-        <div class="one columns">
-          <img src= 'https://alissonsteffens.github.io/ministrap/logo.svg' class="thumb">
-        </div>
-        <div class="eleven columns">
-          <h3><a href="https://alissonsteffens.github.io/ministrap/">Ministrap</a></h3>
-          <p>Yet Another CSS Boilerplate</p>
-        </div>        
-      </div>
-      <div class="project row">
-        <div class="one columns">
-          <img src= 'http://univali-lite.github.io/Portugol-Studio/assets/img/logo.png' class="thumb">
-        </div>
-        <div class="eleven columns">
-          <h3><a href="http://univali-lite.github.io/Portugol-Studio/">Portugol-Studio</a></h3>
-          <p>IDE for the Portuguese programming language Portugol</p>
-        </div>        
-      </div>
-      <div class="project row">
-        <div class="one columns">
-          <img src= 'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhLS0gR2VuZXJhdG9yOiBHcmF2%0D%0AaXQuaW8gLS0+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhs%0D%0AaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBzdHlsZT0iaXNvbGF0aW9uOmlzb2xh%0D%0AdGUiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiI+PGRlZnM+%0D%0APGNsaXBQYXRoIGlkPSJfY2xpcFBhdGhfUkwzQ2wxcVF0cElITGZLRFVnazB4TjNXNFBDMmVNcnMi%0D%0APjxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIi8+PC9jbGlwUGF0aD48L2RlZnM+PGcgY2xp%0D%0AcC1wYXRoPSJ1cmwoI19jbGlwUGF0aF9STDNDbDFxUXRwSUhMZktEVWdrMHhOM1c0UEMyZU1ycyki%0D%0APjxwYXRoIGQ9IiBNIDQ5MC41OTQgNDExLjE1NiBMIDQxMy44MjkgNDk3LjY3NyBMIDE3Ny40NDUg%0D%0AMjc5LjU2NiBMIDE4Mi4yNDMgMjIwLjY0NSBMIDIzIDQxLjk0MSBMIDYxLjE0IDUuMDk1IEwgMjI4%0D%0ALjE3MiAxODguNDYyIEwgMjYyLjQ4NCAxODQuODc4IEwgNDkwLjU5NCA0MTEuMTU2IFogIiBmaWxs%0D%0APSJyZ2IoMjUyLDI1NCwyNTUpIiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiIHN0%0D%0Acm9rZS13aWR0aD0iMSIgc3Ryb2tlPSJyZ2IoMCwwLDApIiBzdHJva2Utb3BhY2l0eT0iMTAwIiBz%0D%0AdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbGluZWNhcD0ic3F1YXJlIiBzdHJva2UtbWl0%0D%0AZXJsaW1pdD0iMyIvPjxjbGlwUGF0aCBpZD0iX2NsaXBQYXRoXzFxZUkzRWQ2QXJ2eVg1NHg4bkpK%0D%0Aa1hJMDM4dHZ1TzFJIj48cGF0aCBkPSIgTSA0OTAuNTk0IDQxMS4xNTYgTCA0MTMuODI5IDQ5Ny42%0D%0ANzcgTCAxNzcuNDQ1IDI3OS41NjYgTCAxODIuMjQzIDIyMC42NDUgTCAyMyA0MS45NDEgTCA2MS4x%0D%0ANCA1LjA5NSBMIDIyOC4xNzIgMTg4LjQ2MiBMIDI2Mi40ODQgMTg0Ljg3OCBMIDQ5MC41OTQgNDEx%0D%0ALjE1NiBaICIgZmlsbD0icmdiKDI1NSwyNTUsMjU1KSIvPjwvY2xpcFBhdGg+PGcgY2xpcC1wYXRo%0D%0APSJ1cmwoI19jbGlwUGF0aF8xcWVJM0VkNkFydnlYNTR4OG5KSmtYSTAzOHR2dU8xSSkiPjxnIGlk%0D%0APSJHcnVwbyI+PHBhdGggZD0iIE0gMjg1LjA5OCAxOTEuNjQzIEwgMjExLjE5MSAyNzAuNTY0IEwg%0D%0ANDExLjEwNyA0NTQuMTQ3IEwgNTM1LjMzNyAzMTUuMiBMIDI4NS4wOTggMTkxLjY0MyBaICIgZmls%0D%0AbD0icmdiKDI1NCwyNTQsMjUzKSIgdmVjdG9yLWVmZmVjdD0ibm9uLXNjYWxpbmctc3Ryb2tlIiBz%0D%0AdHJva2Utd2lkdGg9IjEiIHN0cm9rZT0icmdiKDAsMCwwKSIgc3Ryb2tlLW9wYWNpdHk9IjEwMCIg%0D%0Ac3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1taXRl%0D%0AcmxpbWl0PSIzIi8+PGNsaXBQYXRoIGlkPSJfY2xpcFBhdGhfVHpWeHJFWm05a3ZEMEtsbEJ1RG43%0D%0ARm9GbDlwZkJHTGgiPjxwYXRoIGQ9IiBNIDI4NS4wOTggMTkxLjY0MyBMIDIxMS4xOTEgMjcwLjU2%0D%0ANCBMIDQxMS4xMDcgNDU0LjE0NyBMIDUzNS4zMzcgMzE1LjIgTCAyODUuMDk4IDE5MS42NDMgWiAi%0D%0AIGZpbGw9InJnYigyNTUsMjU1LDI1NSkiLz48L2NsaXBQYXRoPjxnIGNsaXAtcGF0aD0idXJsKCNf%0D%0AY2xpcFBhdGhfVHpWeHJFWm05a3ZEMEtsbEJ1RG43Rm9GbDlwZkJHTGgpIj48ZyBpZD0iR3J1cG8i%0D%0APjxsaW5lIHgxPSIyNzIuNDAzIiB5MT0iMjYyLjM0MyIgeDI9IjMxOC42MjkiIHkyPSIyMTUuNTI0%0D%0AIiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiIHN0cm9rZS13aWR0aD0iMSIgc3Ry%0D%0Ab2tlPSJyZ2IoMCwwLDApIiBzdHJva2Utb3BhY2l0eT0iMTAwIiBzdHJva2UtbGluZWpvaW49Im1p%0D%0AdGVyIiBzdHJva2UtbGluZWNhcD0ic3F1YXJlIiBzdHJva2UtbWl0ZXJsaW1pdD0iMyIvPjxsaW5l%0D%0AIHgxPSIyOTQuMzQzIiB5MT0iMjgwLjEzMyIgeDI9IjM0MC4wMDMiIHkyPSIyMjcuODk2IiB2ZWN0%0D%0Ab3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlPSJy%0D%0AZ2IoMCwwLDApIiBzdHJva2Utb3BhY2l0eT0iMTAwIiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBz%0D%0AdHJva2UtbGluZWNhcD0ic3F1YXJlIiBzdHJva2UtbWl0ZXJsaW1pdD0iMyIvPjxsaW5lIHgxPSIy%0D%0ANzUuOTYxIiB5MT0iMzMxLjM0NSIgeDI9IjM1MS4yOTciIHkyPSIyNDguNjI0IiB2ZWN0b3ItZWZm%0D%0AZWN0PSJub24tc2NhbGluZy1zdHJva2UiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlPSJyZ2IoMCww%0D%0ALDApIiBzdHJva2Utb3BhY2l0eT0iMTAwIiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2Ut%0D%0AbGluZWNhcD0ic3F1YXJlIiBzdHJva2UtbWl0ZXJsaW1pdD0iMyIvPjxsaW5lIHgxPSIzMjUuMzk0%0D%0AIiB5MT0iMzE1LjIyNyIgeDI9IjM3MS4yNDMiIHkyPSIyNjQuNzk2IiB2ZWN0b3ItZWZmZWN0PSJu%0D%0Ab24tc2NhbGluZy1zdHJva2UiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlPSJyZ2IoMCwwLDApIiBz%0D%0AdHJva2Utb3BhY2l0eT0iMTAwIiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbGluZWNh%0D%0AcD0ic3F1YXJlIiBzdHJva2UtbWl0ZXJsaW1pdD0iMyIvPjxsaW5lIHgxPSIzNDcuNTIzIiB5MT0i%0D%0AMzM0LjgyMiIgeDI9IjM5MS45NDMiIHkyPSIyODguMTkyIiB2ZWN0b3ItZWZmZWN0PSJub24tc2Nh%0D%0AbGluZy1zdHJva2UiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlPSJyZ2IoMCwwLDApIiBzdHJva2Ut%0D%0Ab3BhY2l0eT0iMTAwIiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbGluZWNhcD0ic3F1%0D%0AYXJlIiBzdHJva2UtbWl0ZXJsaW1pdD0iMyIvPjxsaW5lIHgxPSIzMzQuOTM1IiB5MT0iMzg5LjA4%0D%0AIiB4Mj0iNDA4LjY1NCIgeTI9IjMwOC4zNTQiIHZlY3Rvci1lZmZlY3Q9Im5vbi1zY2FsaW5nLXN0%0D%0Acm9rZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2U9InJnYigwLDAsMCkiIHN0cm9rZS1vcGFjaXR5%0D%0APSIxMDAiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiIHN0%0D%0Acm9rZS1taXRlcmxpbWl0PSIzIi8+PGxpbmUgeDE9IjM4Mi45NCIgeTE9IjM3Ni43NjIiIHgyPSI0%0D%0AMjMuOTM3IiB5Mj0iMzMyLjMxNiIgdmVjdG9yLWVmZmVjdD0ibm9uLXNjYWxpbmctc3Ryb2tlIiBz%0D%0AdHJva2Utd2lkdGg9IjEiIHN0cm9rZT0icmdiKDAsMCwwKSIgc3Ryb2tlLW9wYWNpdHk9IjEwMCIg%0D%0Ac3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLWxpbmVjYXA9InNxdWFyZSIgc3Ryb2tlLW1p%0D%0AdGVybGltaXQ9IjMiLz48bGluZSB4MT0iNDAzLjI2MyIgeTE9IjM5Ni41NDYiIHgyPSI0NDMuNjk0%0D%0AIiB5Mj0iMzQ2LjY4MiIgdmVjdG9yLWVmZmVjdD0ibm9uLXNjYWxpbmctc3Ryb2tlIiBzdHJva2Ut%0D%0Ad2lkdGg9IjEiIHN0cm9rZT0icmdiKDAsMCwwKSIgc3Ryb2tlLW9wYWNpdHk9IjEwMCIgc3Ryb2tl%0D%0ALWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLWxpbmVjYXA9InNxdWFyZSIgc3Ryb2tlLW1pdGVybGlt%0D%0AaXQ9IjMiLz48bGluZSB4MT0iNDIxLjAyNiIgeTE9IjQwOS4yOTYiIHgyPSI0NjMuNDUxIiB5Mj0i%0D%0AMzYxLjA0OSIgdmVjdG9yLWVmZmVjdD0ibm9uLXNjYWxpbmctc3Ryb2tlIiBzdHJva2Utd2lkdGg9%0D%0AIjEiIHN0cm9rZT0icmdiKDAsMCwwKSIgc3Ryb2tlLW9wYWNpdHk9IjEwMCIgc3Ryb2tlLWxpbmVq%0D%0Ab2luPSJtaXRlciIgc3Ryb2tlLWxpbmVjYXA9InNxdWFyZSIgc3Ryb2tlLW1pdGVybGltaXQ9IjMi%0D%0ALz48bGluZSB4MT0iMjU4LjI1MiIgeTE9IjI0OS4yMTYiIHgyPSIzMDEuMDU1IiB5Mj0iMjA0LjU4%0D%0AMSIgdmVjdG9yLWVmZmVjdD0ibm9uLXNjYWxpbmctc3Ryb2tlIiBzdHJva2Utd2lkdGg9IjEiIHN0%0D%0Acm9rZT0icmdiKDAsMCwwKSIgc3Ryb2tlLW9wYWNpdHk9IjEwMCIgc3Ryb2tlLWxpbmVqb2luPSJt%0D%0AaXRlciIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1taXRlcmxpbWl0PSIzIi8+PGcgaWQ9%0D%0AIkdydXBvIiBzdHlsZT0ib3BhY2l0eTowLjk4OyI+PGcgb3BhY2l0eT0iMC45OCI+PHBhdGggZD0i%0D%0AIE0gMjA0LjkxMSAyODAuMzQ4IEwgMjIxLjE2NCAyNzguNjUgTCAyNTQuMDc0IDI0NC4xNzYgTCAy%0D%0ANjIuNDMgMjU0LjI1NyBMIDIzMS4xMzcgMjg2LjczNiBMIDIzMC4yNzQgMjk1Ljk1NCBMIDIzNS4x%0D%0AMjYgMjg5Ljk3MSBMIDI2Ni40MTkgMjU3LjQ5MSBMIDI3Ni41ODEgMjY3LjM4MyBMIDI0NS40NzYg%0D%0AMzAxLjY2OSBMIDI0Ni40MTkgMzEwLjY5OCBMIDI1NS40NDkgMzA5Ljc1NSBMIDI4OC4zNiAyNzUu%0D%0AMjgxIEwgMjk2LjUyNyAyODMuNTU2IEwgMjYwLjM4MSAzMjIuMDE5IEwgMjg0LjY5NCAzNDUuMDM3%0D%0AIEwgMzE5LjQxIDMxMC4zNzUgTCAzMjkuMTk0IDMxNi42NTUgTCAyOTEuOTk4IDM2Mi41MyBMIDMw%0D%0ANy4wMTEgMzY2LjQzOSBMIDM0MS43MjggMzMxLjc3NiBMIDM1MS43MDEgMzM5Ljg2MiBMIDMxMi41%0D%0AMSAzODQuMTIgTCAzNDUuMjg2IDQwMC43NzggTCAzNzYuNzY4IDM3MC4xMDUgTCAzODYuOTI5IDM3%0D%0AOS45OTcgTCAzNTIuMDI0IDQxMi44NTMgTCAzNzEuNDA0IDQyMy42MDggTCAzOTkuMDg1IDM5MS41%0D%0AMDYgTCA0MDUuNDQ3IDM5OS45NyBMIDM3Ny43NjUgNDMyLjA3MiBMIDM4NS4zNjYgNDM0LjkyOSBM%0D%0AIDQxNi44NDggNDA0LjI1NSBMIDQyNS4wMTUgNDEyLjUzIEwgMzkyLjI5MyA0NDguODEgTCAyMzQu%0D%0ANTMzIDMxOS4yNDIgTCAyMDQuOTExIDI4MC4zNDggWiAiIGZpbGw9InJnYig3Miw5NiwxMDApIi8+%0D%0APC9nPjwvZz48L2c+PC9nPjxnIGlkPSJudWxsIj48cGF0aCBkPSIgTSA2Mi42MjIgNTQuMjMyIEMg%0D%0ANjIuMzEgNTEuMjQxIDY0LjQ4MyA0OC41NjEgNjcuNDc0IDQ4LjI0OCBDIDcwLjQ2NCA0Ny45MzYg%0D%0ANzMuMTQ1IDUwLjEwOSA3My40NTggNTMuMSBDIDczLjc3IDU2LjA5IDcxLjU5NiA1OC43NzEgNjgu%0D%0ANjA2IDU5LjA4NCBDIDY1LjYxNSA1OS4zOTYgNjIuOTM1IDU3LjIyMiA2Mi42MjIgNTQuMjMyIFog%0D%0AIiBmaWxsPSJyZ2IoMTc5LDI1MSwyMzYpIiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJv%0D%0Aa2UiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlPSJyZ2IoMCwwLDApIiBzdHJva2Utb3BhY2l0eT0i%0D%0AMTAwIiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tl%0D%0ALW1pdGVybGltaXQ9IjMiLz48cGF0aCBkPSIgTSA4Ny41IDgyLjY2OCBDIDg3LjE4OCA3OS42Nzgg%0D%0AODkuMzYxIDc2Ljk5NyA5Mi4zNTIgNzYuNjg0IEMgOTUuMzQzIDc2LjM3MiA5OC4wMjMgNzguNTQ2%0D%0AIDk4LjMzNiA4MS41MzYgQyA5OC42NDggODQuNTI3IDk2LjQ3NSA4Ny4yMDcgOTMuNDg0IDg3LjUy%0D%0AIEMgOTAuNDk0IDg3LjgzMiA4Ny44MTMgODUuNjU5IDg3LjUgODIuNjY4IFogIiBmaWxsPSJyZ2Io%0D%0AMTc5LDI1MSwyMzYpIiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiIHN0cm9rZS13%0D%0AaWR0aD0iMSIgc3Ryb2tlPSJyZ2IoMCwwLDApIiBzdHJva2Utb3BhY2l0eT0iMTAwIiBzdHJva2Ut%0D%0AbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLW1pdGVybGltaXQ9%0D%0AIjMiLz48cGF0aCBkPSIgTSAxMTIuMDAxIDEwNy40OTMgQyAxMTEuNjg5IDEwNC41MDIgMTEzLjg2%0D%0AMiAxMDEuODIxIDExNi44NTMgMTAxLjUwOSBDIDExOS44NDQgMTAxLjE5NyAxMjIuNTI0IDEwMy4z%0D%0ANyAxMjIuODM3IDEwNi4zNjEgQyAxMjMuMTQ5IDEwOS4zNTEgMTIwLjk3NiAxMTIuMDMyIDExNy45%0D%0AODUgMTEyLjM0NCBDIDExNC45OTQgMTEyLjY1NyAxMTIuMzE0IDExMC40ODMgMTEyLjAwMSAxMDcu%0D%0ANDkzIFogIiBmaWxsPSJyZ2IoMTc5LDI1MSwyMzYpIiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGlu%0D%0AZy1zdHJva2UiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlPSJyZ2IoMCwwLDApIiBzdHJva2Utb3Bh%0D%0AY2l0eT0iMTAwIiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbGluZWNhcD0iYnV0dCIg%0D%0Ac3Ryb2tlLW1pdGVybGltaXQ9IjMiLz48cGF0aCBkPSIgTSAxMzQuNTA4IDEzMC43IEMgMTM0LjE5%0D%0ANSAxMjcuNzA5IDEzNi4zNjkgMTI1LjAyOSAxMzkuMzU5IDEyNC43MTYgQyAxNDIuMzUgMTI0LjQw%0D%0ANCAxNDUuMDMxIDEyNi41NzcgMTQ1LjM0MyAxMjkuNTY4IEMgMTQ1LjY1NiAxMzIuNTU5IDE0My40%0D%0AODIgMTM1LjIzOSAxNDAuNDkxIDEzNS41NTIgQyAxMzcuNTAxIDEzNS44NjQgMTM0LjgyIDEzMy42%0D%0AOTEgMTM0LjUwOCAxMzAuNyBaICIgZmlsbD0icmdiKDE3OSwyNTEsMjM2KSIgdmVjdG9yLWVmZmVj%0D%0AdD0ibm9uLXNjYWxpbmctc3Ryb2tlIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZT0icmdiKDAsMCww%0D%0AKSIgc3Ryb2tlLW9wYWNpdHk9IjEwMCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLWxp%0D%0AbmVjYXA9ImJ1dHQiIHN0cm9rZS1taXRlcmxpbWl0PSIzIi8+PHBhdGggZD0iIE0gMTc4LjI4IDE4%0D%0AMi43MjEgQyAxNzcuOTY4IDE3OS43MzEgMTgwLjE0MiAxNzcuMDUgMTgzLjEzMiAxNzYuNzM3IEMg%0D%0AMTg2LjEyMyAxNzYuNDI1IDE4OC44MDMgMTc4LjU5OCAxODkuMTE2IDE4MS41ODkgQyAxODkuNDI4%0D%0AIDE4NC41OCAxODcuMjU1IDE4Ny4yNiAxODQuMjY0IDE4Ny41NzMgQyAxODEuMjc0IDE4Ny44ODUg%0D%0AMTc4LjU5MyAxODUuNzEyIDE3OC4yOCAxODIuNzIxIFogIiBmaWxsPSJyZ2IoMTg0LDI1MywyMzgp%0D%0AIiB2ZWN0b3ItZWZmZWN0PSJub24tc2NhbGluZy1zdHJva2UiIHN0cm9rZS13aWR0aD0iMSIgc3Ry%0D%0Ab2tlPSJyZ2IoMCwwLDApIiBzdHJva2Utb3BhY2l0eT0iMTAwIiBzdHJva2UtbGluZWpvaW49Im1p%0D%0AdGVyIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLW1pdGVybGltaXQ9IjMiLz48L2c+PC9n%0D%0APjwvZz48L2c+PC9zdmc+' class="thumb">
-        </div>
-        <div class="eleven columns">
-          <h3><a href="https://alissonsteffens.github.io/Synthos/">Synthos</a></h3>
-          <p>simple js sound synthesizer</p>
-        </div> 
-      </div>
-      <div class="project row">
-        <div class="one columns">
-          <img src= 'https://raw.githubusercontent.com/BeholderDEV/NyaChan/master/documentation/misc/chibi.png' class="thumb">
-        </div>
-        <div class="eleven columns">
-          <h3><a href="http://nyachan-server.herokuapp.com/">NyaChan</a></h3>
-          <p>An opensource Image board</p>
-        </div>
-      </div>
-      <div class="project row">
-        <div class="one columns">
-          <img src= 'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhLS0gR2VuZXJhdG9yOiBHcmF2%0D%0AaXQuaW8gLS0+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhs%0D%0AaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBzdHlsZT0iaXNvbGF0aW9uOmlzb2xh%0D%0AdGUiIHZpZXdCb3g9IjAgMCAxMjggMTI4IiB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCI+PGRlZnM+%0D%0APGNsaXBQYXRoIGlkPSJfY2xpcFBhdGhfVG5kY1FZS21EWTdMZmhGblhGeDdyUE1qYXFvenFWMjki%0D%0APjxyZWN0IHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4Ii8+PC9jbGlwUGF0aD48L2RlZnM+PGcgY2xp%0D%0AcC1wYXRoPSJ1cmwoI19jbGlwUGF0aF9UbmRjUVlLbURZN0xmaEZuWEZ4N3JQTWphcW96cVYyOSki%0D%0APjxwYXRoIGQ9IiBNIDE4LjY5NCA4NC40MTMgQyAyMC42MyA4MC4xNjIgMjIuODQ5IDc4LjQzMyAy%0D%0ANS4zMTggNzkuMTQ1IEMgMjMuNjA1IDgzLjAyMSAxNi45OTUgODguMDggMjUuMzE4IDg3LjggQyAz%0D%0ANS4xNzIgODcuNDY3IDM0LjU2MyA4My43MjEgMzYuMTM2IDg3LjggQyAzNy40IDkxLjA3OCAzOS41%0D%0AMTYgODkuNTgyIDQwLjIyOSA4Ni4yMjQgQyAzNi4yMzUgNzkuNjY0IDMzLjk3MiA3Mi4wNzcgMzMu%0D%0AOTcyIDY0IEMgMzMuOTcyIDM4LjkyMyA1NS43ODYgMTguNTY1IDgyLjY1MyAxOC41NjUgQyA5NC4z%0D%0ANjcgMTguNTY1IDEwNS4xMjEgMjIuNDM0IDExMy41IDI4LjkwNCBDIDEwMy4yMDUgMTcuMjc0IDg3%0D%0ALjg2NyA5LjkxIDcwLjc1MyA5LjkxIEMgMzkuNzA2IDkuOTEgMTQuNSAzNC4xNDcgMTQuNSA2NCBD%0D%0AIDE0LjUgNzEuMjI4IDE1Ljk3OCA3OC4xMjYgMTguNjk0IDg0LjQxMyBMIDE4LjY5NCA4NC40MTMg%0D%0AWiAgTSA1Mi42ODYgOTkuNzMgQyA2MC45MTggMTA1LjgyNCA3MS4zMzcgMTA5LjQzNSA4Mi42NTMg%0D%0AMTA5LjQzNSBDIDk0LjM2NyAxMDkuNDM1IDEwNS4xMjEgMTA1LjU2NiAxMTMuNSA5OS4wOTYgQyAx%0D%0AMDMuMjA1IDExMC43MjYgODcuODY3IDExOC4wOSA3MC43NTMgMTE4LjA5IEMgNjQuMDU1IDExOC4w%0D%0AOSA1Ny42MjkgMTE2Ljk2MiA1MS42NjkgMTE0Ljg5MyBRIDUzLjA3NiAxMTQuMTQ2IDUzLjQ0NSAx%0D%0AMTMuNzYzIFEgNTQuMzg1IDExMi43ODUgNTEuMjgxIDExMS41OTkgUSA1MC4xNjQgMTEyLjkzMiA0%0D%0ANi45NTQgMTExLjU5OSBRIDQzLjc0MyAxMTAuMjY2IDQ5LjExOCAxMDUuMTA4IFEgNTEuNzYgMTAy%0D%0ALjYxNiA1MS4yODEgMTA1LjEwOCBDIDUwLjgwMyAxMDcuNjAxIDYzLjQwNiAxMTkuMTU0IDU1LjYw%0D%0AOCAxMDkuNDM1IEMgNTIuNjU3IDEwNS43NTcgNTIuMTI3IDEwMi40MzggNTIuNjg2IDk5LjczIFog%0D%0AIE0gNTAuNjM3IDk2LjYzMyBMIDUwLjYzNyA5Ni42MzMgQyA1Ni45MzQgOTMuNzcyIDU5LjIzOCA4%0D%0AMC40MzkgNTUuNjA4IDgxIEMgNTYuNjIgODkuMTM3IDQ5LjU1MSA5My43MDIgNTAgODcgQyA1MC4z%0D%0ANzIgODYuMDI3IDQ5LjM0OSA4NC4zMjQgNDggODUgQyA0Ni42NTEgODUuNjc2IDQ3Ljg5NiA4Mi44%0D%0ANzIgNDIuNjI3IDgwIEMgNDYuMjU0IDg2LjY1NSA0Ny4xMTggOTQuMDA0IDQwLjQ2MyA5Mi4xMjcg%0D%0AQyAzMS42OTMgODkuNjUzIDI4LjMyIDk4LjUyOCAzMS45NjUgMTAzLjE2IEMgMzIuNzIyIDEwMy44%0D%0ANTQgMzMuNDk5IDEwNC41MjggMzQuMjk2IDEwNS4xOCBRIDM5LjI5MSAxMDEuMjMyIDQyLjYyNyAx%0D%0AMDAuNzgxIFEgNDUuODU1IDEwMC4zNDUgNTAuNjM3IDk2LjYzMyBaICIgZmlsbC1ydWxlPSJldmVu%0D%0Ab2RkIiBmaWxsPSJyZ2IoMTM0LDEsMjkpIi8+PC9nPjwvc3ZnPg==' class="thumb">
-        </div>
-        <div class="eleven columns">
-          <h3><a href="https://beholderdev.github.io/castlevania-symphony-of-the-agents/">Symphony of the Agents</a></h3>
-          <p>A Castlevania based game using JADE for AI</p>
-        </div>
-      </div>
-
+      <section class="" id="academic">
+        <h4 class="docs-header">Academic</h4>
+        <p>I made some papers 😉. You can find my complete academic CV at <a href="http://lattes.cnpq.br/4379708414084009" target="_blank">lattes</a></p>
+      </section>
     </div>
+    <footer class="container">
+      <p><i class="fas fa-code"></i> with <i class="fas fa-heart"></i> by <a href="#">Alisson</a></p>
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      var navOffsetTop
+      $(document).ready(function(){
+        navOffsetTop = $('nav').offset().top
+        $(window).on('scroll', onScroll)
+      })
+      function onScroll() {
+        
+        if(navOffsetTop < $(window).scrollTop() && !$('nav').hasClass('fixed')) {
+          $('nav').addClass('fixed')
+          $('#brand').append("Alisson Steffens")
+          $('#brand').addClass('active')
+          $('body').css("padding-top", $('nav').height())
+        }
+        if(navOffsetTop > $(window).scrollTop() && $('nav').hasClass('fixed')) {
+          $('nav').removeClass('fixed')        
+          $('#brand').html("")
+          $('#brand').removeClass('active')
+          $('body').css("padding-top", 0)
+        }
+      }
+    </script>
   </body>
 </html>
