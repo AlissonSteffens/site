@@ -108,7 +108,9 @@
         navOffsetTop = $('nav').offset().top
         $(window).on('scroll', onScroll)
       })
-      function onScroll() {;
+      function onScroll() {
+        let top = $(window).scrollTop()*1.5;
+        $('.auroral-stars').css("top", -top);
         if(navOffsetTop < $(window).scrollTop() && !$('nav').hasClass('fixed')) {
           $('nav').addClass('fixed')
           $('.navborder').addClass('active');
