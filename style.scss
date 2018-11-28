@@ -1,4 +1,4 @@
-$star-number: 30;
+$star-number: 60;
 $current-stars: 1;
 $break-large: 500px;
 
@@ -10,18 +10,17 @@ img{
   padding-top: 1.5rem;
 }
 .auroral-stars {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   display: block;
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background-attachment: fixed;
   @while $star-number > 0 {
-    $current-stars: $current-stars + (random(100) +vw) (random(50) +vh) 0 (random(2) +px) rgba(255,255,255,.3) + unquote(", ");
+    $current-stars: $current-stars + (random(100) +vw) (random(100) +vh) 0 (random(2) +px) rgba(255,255,255,.3) + unquote(", ");
     @if $star-number == 1 {
-      $current-stars: $current-stars + (random(100) +vw) (random(50) +vh) 0 0 rgba(255,255,255,.3);
+      $current-stars: $current-stars + (random(100) +vw) (random(100) +vh) 0 0 rgba(255,255,255,.3);
       box-shadow: $current-stars;
     }
     $star-number: $star-number - 1;
@@ -61,6 +60,9 @@ h1{
   background-size: cover;
   background-attachment: fixed;
 }
+#intro{
+  padding-top: 5em;
+}
 .project{
   padding-left: 2rem;
 }
@@ -72,6 +74,17 @@ h1{
 }
 
 .navbar{
+  transition-duration: 1.5s;
+  .navborder {
+    background: linear-gradient(10deg, #a1d9b4 10%, #32988a 15%, #000e3c 70%);
+    height: 4px;
+    margin-top: -2px;
+    display: none;
+    &.active{
+      display: block;
+    }
+  }
+  
   #brand{
     color: #095a64;
     transition-duration: 1.5s;

@@ -42,6 +42,7 @@
     <div class="auroral-stars"></div>
     <!-- Narbar -->
     <nav class="navbar">
+      <div class="navborder"></div>
       <div class="container">
           <ul class="navbar-list brand-list">
             <li class="navbar-item"><a class="navbar-link" id="brand" href="#"></a></li>
@@ -107,16 +108,17 @@
         navOffsetTop = $('nav').offset().top
         $(window).on('scroll', onScroll)
       })
-      function onScroll() {
-        
+      function onScroll() {;
         if(navOffsetTop < $(window).scrollTop() && !$('nav').hasClass('fixed')) {
           $('nav').addClass('fixed')
+          $('.navborder').addClass('active');
           $('#brand').append("Alisson <span class='desktop-only'>Steffens</span>")
           $('#brand').addClass('active')
           $('body').css("padding-top", $('nav').height())
         }
         if(navOffsetTop > $(window).scrollTop() && $('nav').hasClass('fixed')) {
           $('nav').removeClass('fixed')        
+          $('.navborder').removeClass('active');
           $('#brand').html("")
           $('#brand').removeClass('active')
           $('body').css("padding-top", 0)
