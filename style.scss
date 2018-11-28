@@ -1,5 +1,6 @@
 $star-number: 30;
 $current-stars: 1;
+$break-large: 500px;
 
 section{
   display: block;
@@ -16,8 +17,7 @@ img{
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background: white;
-
+  background-attachment: fixed;
   @while $star-number > 0 {
     $current-stars: $current-stars + (random(100) +vw) (random(50) +vh) 0 (random(2) +px) rgba(255,255,255,.3) + unquote(", ");
     @if $star-number == 1 {
@@ -30,6 +30,7 @@ img{
 
 .auroral-northern {
   background: linear-gradient(10deg, #a1d9b4 10%, #32988a 15%, #000e3c 70%);
+  background-attachment: fixed;
 }
 h1{
   overflow: hidden;
@@ -63,6 +64,13 @@ h1{
 .project{
   padding-left: 2rem;
 }
+.desktop-only{
+  display: none;
+  @media screen and (min-width: $break-large) {
+    display: inline-block;
+  }
+}
+
 .navbar{
   #brand{
     color: #095a64;
@@ -74,7 +82,7 @@ h1{
     }
   }
   .brand-list{
-    width: 20%;
+    width: 50%;
   }
   .navbar-right{
     width: 100%;

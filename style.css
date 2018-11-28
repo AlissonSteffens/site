@@ -15,13 +15,14 @@ img {
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background: white;
-  -webkit-box-shadow: 159vw 27vh 0 2px rgba(255, 255, 255, 0.3), 32vw 19vh 0 1px rgba(255, 255, 255, 0.3), 30vw 15vh 0 2px rgba(255, 255, 255, 0.3), 72vw 6vh 0 2px rgba(255, 255, 255, 0.3), 74vw 1vh 0 2px rgba(255, 255, 255, 0.3), 87vw 2vh 0 1px rgba(255, 255, 255, 0.3), 79vw 20vh 0 1px rgba(255, 255, 255, 0.3), 36vw 29vh 0 1px rgba(255, 255, 255, 0.3), 13vw 25vh 0 2px rgba(255, 255, 255, 0.3), 36vw 38vh 0 2px rgba(255, 255, 255, 0.3), 17vw 49vh 0 1px rgba(255, 255, 255, 0.3), 40vw 24vh 0 1px rgba(255, 255, 255, 0.3), 21vw 41vh 0 1px rgba(255, 255, 255, 0.3), 95vw 19vh 0 2px rgba(255, 255, 255, 0.3), 62vw 13vh 0 1px rgba(255, 255, 255, 0.3), 4vw 36vh 0 1px rgba(255, 255, 255, 0.3), 78vw 25vh 0 2px rgba(255, 255, 255, 0.3), 53vw 9vh 0 1px rgba(255, 255, 255, 0.3), 79vw 14vh 0 2px rgba(255, 255, 255, 0.3), 39vw 17vh 0 1px rgba(255, 255, 255, 0.3), 51vw 3vh 0 2px rgba(255, 255, 255, 0.3), 27vw 24vh 0 1px rgba(255, 255, 255, 0.3), 78vw 6vh 0 1px rgba(255, 255, 255, 0.3), 11vw 33vh 0 1px rgba(255, 255, 255, 0.3), 31vw 21vh 0 2px rgba(255, 255, 255, 0.3), 92vw 2vh 0 1px rgba(255, 255, 255, 0.3), 86vw 29vh 0 2px rgba(255, 255, 255, 0.3), 94vw 25vh 0 2px rgba(255, 255, 255, 0.3), 82vw 34vh 0 1px rgba(255, 255, 255, 0.3), 92vw 50vh 0 1px rgba(255, 255, 255, 0.3), 27vw 32vh 0 0 rgba(255, 255, 255, 0.3);
-          box-shadow: 159vw 27vh 0 2px rgba(255, 255, 255, 0.3), 32vw 19vh 0 1px rgba(255, 255, 255, 0.3), 30vw 15vh 0 2px rgba(255, 255, 255, 0.3), 72vw 6vh 0 2px rgba(255, 255, 255, 0.3), 74vw 1vh 0 2px rgba(255, 255, 255, 0.3), 87vw 2vh 0 1px rgba(255, 255, 255, 0.3), 79vw 20vh 0 1px rgba(255, 255, 255, 0.3), 36vw 29vh 0 1px rgba(255, 255, 255, 0.3), 13vw 25vh 0 2px rgba(255, 255, 255, 0.3), 36vw 38vh 0 2px rgba(255, 255, 255, 0.3), 17vw 49vh 0 1px rgba(255, 255, 255, 0.3), 40vw 24vh 0 1px rgba(255, 255, 255, 0.3), 21vw 41vh 0 1px rgba(255, 255, 255, 0.3), 95vw 19vh 0 2px rgba(255, 255, 255, 0.3), 62vw 13vh 0 1px rgba(255, 255, 255, 0.3), 4vw 36vh 0 1px rgba(255, 255, 255, 0.3), 78vw 25vh 0 2px rgba(255, 255, 255, 0.3), 53vw 9vh 0 1px rgba(255, 255, 255, 0.3), 79vw 14vh 0 2px rgba(255, 255, 255, 0.3), 39vw 17vh 0 1px rgba(255, 255, 255, 0.3), 51vw 3vh 0 2px rgba(255, 255, 255, 0.3), 27vw 24vh 0 1px rgba(255, 255, 255, 0.3), 78vw 6vh 0 1px rgba(255, 255, 255, 0.3), 11vw 33vh 0 1px rgba(255, 255, 255, 0.3), 31vw 21vh 0 2px rgba(255, 255, 255, 0.3), 92vw 2vh 0 1px rgba(255, 255, 255, 0.3), 86vw 29vh 0 2px rgba(255, 255, 255, 0.3), 94vw 25vh 0 2px rgba(255, 255, 255, 0.3), 82vw 34vh 0 1px rgba(255, 255, 255, 0.3), 92vw 50vh 0 1px rgba(255, 255, 255, 0.3), 27vw 32vh 0 0 rgba(255, 255, 255, 0.3);
+  background-attachment: fixed;
+  -webkit-box-shadow: 147vw 29vh 0 2px rgba(255, 255, 255, 0.3), 28vw 7vh 0 2px rgba(255, 255, 255, 0.3), 50vw 6vh 0 1px rgba(255, 255, 255, 0.3), 64vw 26vh 0 1px rgba(255, 255, 255, 0.3), 25vw 14vh 0 1px rgba(255, 255, 255, 0.3), 94vw 10vh 0 1px rgba(255, 255, 255, 0.3), 56vw 46vh 0 1px rgba(255, 255, 255, 0.3), 53vw 6vh 0 1px rgba(255, 255, 255, 0.3), 51vw 6vh 0 1px rgba(255, 255, 255, 0.3), 81vw 13vh 0 1px rgba(255, 255, 255, 0.3), 19vw 34vh 0 1px rgba(255, 255, 255, 0.3), 40vw 5vh 0 2px rgba(255, 255, 255, 0.3), 74vw 9vh 0 2px rgba(255, 255, 255, 0.3), 92vw 11vh 0 2px rgba(255, 255, 255, 0.3), 11vw 13vh 0 1px rgba(255, 255, 255, 0.3), 33vw 46vh 0 2px rgba(255, 255, 255, 0.3), 13vw 20vh 0 2px rgba(255, 255, 255, 0.3), 68vw 12vh 0 1px rgba(255, 255, 255, 0.3), 36vw 3vh 0 2px rgba(255, 255, 255, 0.3), 72vw 29vh 0 2px rgba(255, 255, 255, 0.3), 80vw 34vh 0 1px rgba(255, 255, 255, 0.3), 93vw 18vh 0 1px rgba(255, 255, 255, 0.3), 46vw 35vh 0 2px rgba(255, 255, 255, 0.3), 83vw 34vh 0 1px rgba(255, 255, 255, 0.3), 22vw 39vh 0 1px rgba(255, 255, 255, 0.3), 58vw 42vh 0 1px rgba(255, 255, 255, 0.3), 31vw 38vh 0 2px rgba(255, 255, 255, 0.3), 26vw 39vh 0 1px rgba(255, 255, 255, 0.3), 18vw 25vh 0 1px rgba(255, 255, 255, 0.3), 27vw 48vh 0 2px rgba(255, 255, 255, 0.3), 27vw 30vh 0 0 rgba(255, 255, 255, 0.3);
+          box-shadow: 147vw 29vh 0 2px rgba(255, 255, 255, 0.3), 28vw 7vh 0 2px rgba(255, 255, 255, 0.3), 50vw 6vh 0 1px rgba(255, 255, 255, 0.3), 64vw 26vh 0 1px rgba(255, 255, 255, 0.3), 25vw 14vh 0 1px rgba(255, 255, 255, 0.3), 94vw 10vh 0 1px rgba(255, 255, 255, 0.3), 56vw 46vh 0 1px rgba(255, 255, 255, 0.3), 53vw 6vh 0 1px rgba(255, 255, 255, 0.3), 51vw 6vh 0 1px rgba(255, 255, 255, 0.3), 81vw 13vh 0 1px rgba(255, 255, 255, 0.3), 19vw 34vh 0 1px rgba(255, 255, 255, 0.3), 40vw 5vh 0 2px rgba(255, 255, 255, 0.3), 74vw 9vh 0 2px rgba(255, 255, 255, 0.3), 92vw 11vh 0 2px rgba(255, 255, 255, 0.3), 11vw 13vh 0 1px rgba(255, 255, 255, 0.3), 33vw 46vh 0 2px rgba(255, 255, 255, 0.3), 13vw 20vh 0 2px rgba(255, 255, 255, 0.3), 68vw 12vh 0 1px rgba(255, 255, 255, 0.3), 36vw 3vh 0 2px rgba(255, 255, 255, 0.3), 72vw 29vh 0 2px rgba(255, 255, 255, 0.3), 80vw 34vh 0 1px rgba(255, 255, 255, 0.3), 93vw 18vh 0 1px rgba(255, 255, 255, 0.3), 46vw 35vh 0 2px rgba(255, 255, 255, 0.3), 83vw 34vh 0 1px rgba(255, 255, 255, 0.3), 22vw 39vh 0 1px rgba(255, 255, 255, 0.3), 58vw 42vh 0 1px rgba(255, 255, 255, 0.3), 31vw 38vh 0 2px rgba(255, 255, 255, 0.3), 26vw 39vh 0 1px rgba(255, 255, 255, 0.3), 18vw 25vh 0 1px rgba(255, 255, 255, 0.3), 27vw 48vh 0 2px rgba(255, 255, 255, 0.3), 27vw 30vh 0 0 rgba(255, 255, 255, 0.3);
 }
 
 .auroral-northern {
   background: linear-gradient(10deg, #a1d9b4 10%, #32988a 15%, #000e3c 70%);
+  background-attachment: fixed;
 }
 
 h1 {
@@ -59,6 +60,16 @@ h1:after {
   padding-left: 2rem;
 }
 
+.desktop-only {
+  display: none;
+}
+
+@media screen and (min-width: 500px) {
+  .desktop-only {
+    display: inline-block;
+  }
+}
+
 .navbar #brand {
   color: #095a64;
   -webkit-transition-duration: 1.5s;
@@ -72,7 +83,7 @@ h1:after {
 }
 
 .navbar .brand-list {
-  width: 20%;
+  width: 50%;
 }
 
 .navbar .navbar-right {
