@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+
+$star-number: 60;
+$current-stars: 1;
+
+$primary: #000e3c;
+$secondary: #32988a;
+$aurora-white: #a1d9b4;
+$nonblack: #474747;
+html{
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  color: $nonblack;
+  font-weight: 500;
+}
+section{
+  display: block;
+  padding: 2% 15%;
+}
+.top-menu{
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+  &.fixed{
+    position: fixed;
+    display: block;
+    top: -5px;
+    z-index: 9;
+    width: 100%;
+    margin-top: 0;
+    h5{
+      display: block; 
+    }
+    nav{
+      display: block;
+    }
+  }
+  .navbar-link{
+    font-size: 2rem;
+    margin-left: 15px;
+  }
+}
+.jumbotron{
+  text-align: center;
+  padding: 10% 5%;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+h1{
+  text-align: center;
+}
+.auroral-stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-attachment: fixed;
+  @while $star-number > 0 {
+    $current-stars: $current-stars + (random(100) +vw) (random(100) +vh) 0 (random(2) +px) rgba(255,255,255,.3) + unquote(", ");
+    @if $star-number == 1 {
+      $current-stars: $current-stars + (random(100) +vw) (random(100) +vh) 0 0 rgba(255,255,255,.3);
+      box-shadow: $current-stars;
+    }
+    $star-number: $star-number - 1;
+  }
+} 
+.auroral-northern {
+  background: linear-gradient(10deg, $aurora-white 10%, $secondary 15%, $primary 70%);
+  background-attachment: fixed;
+}
+h1, h2, h3, h4{
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+h3{
+  border-left: 4px solid $primary;
+  padding-left: 2rem;
+  margin-bottom: 3rem;
+  color: $primary;
+}
+h1{
+  overflow: hidden;
+  text-align: center;
+  
+  &:before, &:after {
+    background-color: #fff;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;
+  }
+  &:before {
+    right: 2em;
+    margin-left: -10%;
+  }
+
+  &:after {
+    left: 2em;
+    margin-right: -10%;
+  }
+}
+#header{
+  color: #fff;
+  background-size: cover;
+  background-attachment: fixed;
+}
+a{
+  color: $primary;
+  &:hover{
+    color: lighten($primary, 20);
+  }
+}
+#intro{
+  padding-top: 5rem;
+}
+#eventos{
+  .evento{
+    display: inline-block;
+    min-height: 200px;
+    padding: 2rem 2rem 1rem 2rem;
+    &:hover{
+      background-color: #eee;
+      background-size: cover;
+      
+    }
+    h5{
+      padding-top: 0.9rem;
+      margin-bottom: 20px;
+      .external{
+        margin-left: 10px;
+        font-size: 0.6rem;
+      }
+    }
+    p{
+      padding-top: 0;
+      padding-bottom: 10px;
+      margin-top: 0;
+      margin-bottom: 0;
+      line-height: 1;
+    }
+  }
+}
+footer{
+  border-top: $primary solid 1px;  
+  text-align: right;
+  margin-top: 20px;
+  p{
+    padding: 50px;
+  }
+  svg{
+    color: $primary;
+  }
+}

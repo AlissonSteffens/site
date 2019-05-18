@@ -3,13 +3,15 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link rel="stylesheet" href="https://alissonsteffens.github.io/ministrap/normalize.css">
-    <link rel="stylesheet" href="https://alissonsteffens.github.io/ministrap/ministrap.css">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <!-- Metadados para motores de busca -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.0/css/lightbox.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.0/js/lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
     <title>Alisson Steffens</title>
     <meta name="application-name" content="Alisson Steffens">
     <meta name="description" content="Geek programer and cinephile">
@@ -34,99 +36,120 @@
   </head>
   <body>
     <section class="jumbotron auroral-northern" id="header">
-      
       <h1 id="title">Alisson <span class="desktop-only">Steffens</span></h1>
-      <h5 class="">🐋 Geek, programmer and cinephile. 🌸</h5>
-      
+      <h5 class="text-center">🐋 Geek, programmer and cinephile. 🌸</h5>
     </section>
     <div class="auroral-stars"></div>
-    <!-- Narbar -->
-    <nav class="navbar">
-      <div class="navborder"></div>
-      <div class="container">
-          <ul class="navbar-list brand-list">
-            <li class="navbar-item"><a class="navbar-link" id="brand" href="#"></a></li>
-          </ul>
-          <ul class="navbar-right">
-            <a class="navbar-link" href="https://github.com/AlissonSteffens"><i class="fab fa-github"></i></a>
-            <a class="navbar-link" href="https://twitter.com/AlissonSteffens"><i class="fab fa-twitter"></i></a>
-            <a class="navbar-link" href="https://www.linkedin.com/in/alisson-s-92b58a88/"><i class="fab fa-linkedin-in"></i></a>
-          </ul>
-      </div>
-    </nav>
-    
-    <div class="container">
-      
-      <section class="" id="intro">
-        <h4 class="docs-header">Introduction</h4>
-        <p>I'm a brazilian computer scientist, who loves to code, and make beautiful apps.</p>
-        <p>As hobbies I like to watch movies, play video games (mostly cooperative ones), and read to some Marvel's comic books.</p>
-        <p>My first language is Portuguese.</p>
-      </section>
-      <section class="" id="projects">
-        <h4 class="docs-header">Personal Projects</h4>
-        <div class="">
-          <div class="project">
-            <h5><a href="https://alissonsteffens.github.io/ministrap/">Ministrap</a></h3>
-            <p>Yet Another CSS Boilerplate</p>
-          </div>
-          <div class="project">
-            <h5><a href="http://univali-lite.github.io/Portugol-Studio/">Portugol Studio</a></h3>
-            <p>IDE for the Portuguese programming language Portugol</p>
-          </div>
-          <div class="project">
-            <h5><a href="http://nyachan-server.herokuapp.com/">NyaChan</a></h3>
-            <p>An opensource Image board</p>
-          </div>
-          <div class="project">
-            <h5><a href="https://alissonsteffens.github.io/Synthos/">Synthos</a></h3>
-            <p>A simple js sound synthesizer</p>
-          </div>
-          <div class="project">
-            <h5><a href="https://beholderdev.github.io/castlevania-symphony-of-the-agents/">Symphony of the Agents</a></h3>
-            <p>A Castlevania based game using JADE for AI</p>
-          </div>
-          <div class="project">
-            <h5><a href="https://github.com/AlissonSteffens/dali-bot">DaliBot</a></h3>
-            <p>A pixel canvas like discord bot</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="" id="academic">
-        <h4 class="docs-header">Academic</h4>
-        <p>I made some papers 😉. You can find my complete academic CV at <a href="http://lattes.cnpq.br/4379708414084009" target="_blank">lattes</a></p>
-      </section>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm mt-2 top-menu">
+      <h5 class="mr-md-auto font-weight-normal">Alisson Steffens</h5>
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a class="navbar-link" href="https://github.com/AlissonSteffens"><i class="fab fa-github"></i></a>
+        <a class="navbar-link" href="https://twitter.com/AlissonSteffens"><i class="fab fa-twitter"></i></a>
+        <a class="navbar-link" href="https://www.linkedin.com/in/alisson-s-92b58a88/"><i class="fab fa-linkedin-in"></i></a>
+      </nav>
     </div>
+    <section class="" id="intro">
+      <h3 class="">Introdução</h3>
+      <p>Formado em Ciência da Computação (Univali), com ênfase em educação, sistemas de computação e jogos.</p>
+      <p>Gosto de programar e criar interfaces, no meu tempo livre costumo de assistir filmes, jogar videogames (principalmente os cooperativos) e ler histórias em quadrinhos.</p>
+      <p>Atualmente sou bolsista CAPES PROSUC (Mestrando) no Laboratório de Inteligência Aplicada da Univali.</p>
+    </section>
+
+    <section  id="eventos">
+      <h3 class="">Eventos</h3>
+      <div class="row">
+        <div class="evento col-md-4 col-lg-3">
+          <a  href="https://day.scratch.mit.edu/events/9348/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          <h5 class=""><a href="./scratchday.jpg" data-lightbox="images" data-title="Scratch Day Itajaí">Scratch Day Itajaí</a></h5>
+          <p>Workshop de Scratch</p>
+        </div>
+        <div class="evento col-md-4 col-lg-3">
+          <a  href="http://www.thedevelopersconference.com.br/tdc/2019/florianopolis/tdc4kids" class="external" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          <h5 class=""><a href="./tdc2019.jpg" data-lightbox="images" data-title="TDC4Kids Florianópolis 2019">TDC4Kids Florianópolis 2019</a></h5>
+          
+          <p>Workshop maker com Arduino</p>
+        </div>
+        <div class="evento col-md-4 col-lg-3">
+          <a href="https://gestalt.link/nsd/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          <h5 class=""><a href="./nasa2.jpg" data-lightbox="images" data-title="Nasa Science Days 2018">Nasa Science Days 2018</a></h5>
+          <p>Atividade com Portugol Studio</p>
+          <p>Atividade com Makey Makey</p>
+        </div>
+        <div class="evento col-md-4 col-lg-3">
+          <a href="https://docs.google.com/viewerng/viewer?url=https://www.bcnoticias.com.br/wp-content/uploads/2018/02/1º-BC-Smart-Week-Programação.pdf" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          <h5 class=""><a href="./bcsmartweek.jpg" data-lightbox="images" data-title="BC Smart Week 2018">BC Smart Week 2018</a></h5>
+          <p>Workshop de Scratch</p>
+        </div>
+        <div class="evento col-md-4 col-lg-3">
+          <a href="http://www.thedevelopersconference.com.br/tdc/2018/florianopolis/tdc4kids" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          <h5 class=""><a href="./tdc2018.jpg" data-lightbox="images" data-title="TDC4Kids Florianópolis 2018">TDC4Kids Florianópolis 2018</a></h5>
+          <p>Workshop de Scratch</p>
+          <p>Workshop de Portugol Studio</p>
+        </div>
+        <div class="evento col-md-4 col-lg-3">
+          <a href="http://lite.acad.univali.br/site/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          <h5 class=""><a href="./site.jpg" data-lightbox="images" data-title="Seminário de Inovações Tecnológicas na Educação">Seminário de Inovações Tecnológicas na Educação</a></h5>
+          <p>Palestra sobre Portugol Studio</p>
+          <p>Workshop de Portugol Studio</p>
+        </div>
+        <div class="evento col-md-4 col-lg-3">
+          <a href="http://www.br-ie.org/pub/index.php/wie/article/view/7261" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          <h5 class=""><a href="./familyday.jpg" data-lightbox="images" data-title="Scratch Jr. Family Day Itajaí">Scratch Jr. Family Day Itajaí </a></h5>
+          <p>Workshop criação de histórias com Scratch Jr.</p>
+        </div>
+        <div class="evento col-md-4 col-lg-3">
+          <h5 class=""><a href="./tinar2.jpg" data-lightbox="images" data-title="Tem Ideia na Rede 2017">Tem Ideia na Rede 2017</a></h5>
+          <p>Feira de Pensamento Computacional</p>
+        </div>
+        <div class="evento col-md-4 col-lg-3">
+          <h5 class=""><a href="./tinar.jpg" data-lightbox="images" data-title="Tem Ideia na Rede 2016">Tem Ideia na Rede 2016</a></h5>
+          <p>Feira de Scratch</p>
+        </div>
+        <div class="evento col-md-4 col-lg-3">
+          <h5 class=""><a href="./labmaker.jpg" data-lightbox="images" data-title="LabMaker">LabMaker</a></h5>
+          <p>Workshop maker</p>
+        </div>
+      </div>    
+    </section>
+    <section class="" id="projetos">
+      <h3 class="">Projetos</h3>
+      <div class="">
+        <div class="project">
+          <h5><a href="http://univali-lite.github.io/Portugol-Studio/">Portugol Studio</a></h3>
+          <p>IDE for the Portuguese programming language Portugol</p>
+        </div>
+        <div class="project">
+          <h5><a href="http://nyachan-server.herokuapp.com/">NyaChan</a></h3>
+          <p>An opensource Image board</p>
+        </div>
+        <div class="project">
+          <h5><a href="https://alissonsteffens.github.io/Synthos/">Synthos</a></h3>
+          <p>A simple js sound synthesizer</p>
+        </div>
+        <div class="project">
+          <h5><a href="https://beholderdev.github.io/castlevania-symphony-of-the-agents/">Symphony of the Agents</a></h3>
+          <p>A Castlevania based game using JADE for AI</p>
+        </div>
+        <div class="project">
+          <h5><a href="https://github.com/AlissonSteffens/dali-bot">DaliBot</a></h3>
+          <p>A pixel canvas like discord bot</p>
+        </div>
+      </div>
+    </section>
+    <section class="" id="academic">
+      <h3>Academico</h3>
+      <p>Em relação a artigos, meu currículo fica lá no <a href="http://lattes.cnpq.br/4379708414084009" target="_blank">lattes</a></p>
+    </section>
     <footer class="container">
       <p><i class="fas fa-code"></i> with <i class="fas fa-heart"></i> by <a href="#">Alisson</a></p>
     </footer>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script>
-      var navOffsetTop
-      $(document).ready(function(){
-        navOffsetTop = $('nav').offset().top
-        $(window).on('scroll', onScroll)
-      })
-      function onScroll() {
-        let top = $(window).scrollTop()*1.5;
-        $('.auroral-stars').css("top", -top);
-        if(navOffsetTop < $(window).scrollTop() && !$('nav').hasClass('fixed')) {
-          $('nav').addClass('fixed')
-          $('.navborder').addClass('active');
-          $('#brand').append("Alisson <span class='desktop-only'>Steffens</span>")
-          $('#brand').addClass('active')
-          $('body').css("padding-top", $('nav').height())
-        }
-        if(navOffsetTop > $(window).scrollTop() && $('nav').hasClass('fixed')) {
-          $('nav').removeClass('fixed')        
-          $('.navborder').removeClass('active');
-          $('#brand').html("")
-          $('#brand').removeClass('active')
-          $('body').css("padding-top", 0)
-        }
-      }
+      
     </script>
   </body>
 </html>
