@@ -35,24 +35,28 @@
 
   </head>
   <body>
-    <section class="jumbotron auroral-northern" id="header">
-      <h1 id="title">Alisson <span class="desktop-only">Steffens</span></h1>
-      <h5 class="text-center">🐋 Geek, programmer and cinephile. 🌸</h5>
+    <div class="nav" >
+      <img src="./img/logo.svg" height="100px"/>
+    </div>
+    <section class="header" >
+      <h1>Alisson Steffens</h1>
+      <h5 class="">🐋 Geek, programmer and cinephile. 🌸</h5>
     </section>
-    <div class="auroral-stars"></div>
-    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm mt-2 top-menu">
-      <h5 class="mr-md-auto font-weight-normal">Alisson Steffens</h5>
-      <nav class="my-2 my-md-0 mr-md-3">
-        <a class="navbar-link" href="https://github.com/AlissonSteffens"><i class="fab fa-github"></i></a>
-        <a class="navbar-link" href="https://twitter.com/AlissonSteffens"><i class="fab fa-twitter"></i></a>
-        <a class="navbar-link" href="https://www.linkedin.com/in/alisson-s-92b58a88/"><i class="fab fa-linkedin-in"></i></a>
-      </nav>
+    <div class="social">
+        <a class="social-link" href="https://github.com/AlissonSteffens" target="_blank"><i class="fab fa-github"></i></a>
+        <a class="social-link" href="https://twitter.com/AlissonSteffens" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a class="social-link" href="https://www.linkedin.com/in/alisson-s-92b58a88/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
     </div>
     <section class="" id="intro">
-      <h3 class="">Introdução</h3>
-      <p>Formado em Ciência da Computação (Univali), com ênfase em educação, sistemas de computação e jogos.</p>
-      <p>Gosto de programar e criar interfaces, no meu tempo livre costumo de assistir filmes, jogar videogames (principalmente os cooperativos) e ler histórias em quadrinhos.</p>
-      <p>Atualmente sou bolsista CAPES PROSUC (Mestrando) no Laboratório de Inteligência Aplicada da Univali.</p>
+      <div class="bg-light row">
+        <div class="col-md-4">
+          <h3 class="">Introdução</h3>
+        </div>
+        <div class="col-md-8">
+          <p>Formado em Ciência da Computação (Univali), com ênfase em educação, sistemas de computação e jogos. Gosto de programar e criar interfaces, no meu tempo livre costumo de assistir filmes, jogar videogames (principalmente os cooperativos) e ler histórias em quadrinhos. Atualmente sou bolsista CAPES PROSUC (Mestrando) no Laboratório de Inteligência Aplicada da Univali.</p>
+        </div>
+        
+      </div>
     </section>
 
     <section  id="eventos">
@@ -114,23 +118,23 @@
     <section class="" id="projetos">
       <h3 class="">Projetos</h3>
       <div class="">
-        <div class="project">
+        <div class="project" id="portugol">
           <h5><a href="http://univali-lite.github.io/Portugol-Studio/">Portugol Studio</a></h3>
           <p>IDE for the Portuguese programming language Portugol</p>
         </div>
-        <div class="project">
+        <div class="project" id="nya">
           <h5><a href="http://nyachan-server.herokuapp.com/">NyaChan</a></h3>
           <p>An opensource Image board</p>
         </div>
-        <div class="project">
+        <div class="project" id="synt">
           <h5><a href="https://alissonsteffens.github.io/Synthos/">Synthos</a></h3>
           <p>A simple js sound synthesizer</p>
         </div>
-        <div class="project">
+        <div class="project" id="castle">
           <h5><a href="https://beholderdev.github.io/castlevania-symphony-of-the-agents/">Symphony of the Agents</a></h3>
           <p>A Castlevania based game using JADE for AI</p>
         </div>
-        <div class="project">
+        <div class="project" id="dali">
           <h5><a href="https://github.com/AlissonSteffens/dali-bot">DaliBot</a></h3>
           <p>A pixel canvas like discord bot</p>
         </div>
@@ -149,23 +153,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script>
-      var navOffsetTop
-      $(document).ready(function(){
-        navOffsetTop = $('.top-menu').offset().top
-        $(window).on('scroll', onScroll)
-      })
-      function onScroll() {
-        let top = $(window).scrollTop()*1.5;
-        $('.auroral-stars').css("top", -top);
-        if(navOffsetTop < $(window).scrollTop() && !$('.top-menu').hasClass('fixed')) {
-          $('.top-menu').addClass('fixed')
-          $('#intro').css("padding-top", '10rem')
-        }
-        if(navOffsetTop > $(window).scrollTop() && $('.top-menu').hasClass('fixed')) {
-          $('.top-menu').removeClass('fixed')
-          $('#intro').css("padding-top", '5rem')
-        }
-      }
+     
     </script>
   </body>
 </html>
