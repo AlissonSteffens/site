@@ -16,36 +16,44 @@ $breakpoint-tablet: 768px;
 
 html{
   font-family: 'Roboto', sans-serif;
+  margin: 0;
 }
 body{
+  margin: 0;
   color: $nonblack;
   font-weight: 500;
+  background-image: url('./img/header.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 section{
   display: block;
   padding: 2% 15%;
 }
-.nav{
-  padding: 5% 10%;
-}
-
 h1, h2, h3, h4{
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
   color: $black;
 }
-h3{
-}
 h1{
   color: #000;
 }
+.nav{
+  padding: 5% 10%;
+  padding-bottom: 1%;
+  img{
+    background: $white;
+    padding: 0.5rem;
+    border-radius: 20px;
+  }
+}
 .header{
+  
   h1{
     line-height: 1.2;
-    font-size: 52px;
+    font-size: 3.5rem;
     letter-spacing: -2px;
   }
-  
 }
 a{
   color: $primary;
@@ -54,26 +62,41 @@ a{
   }
 }
 .social{
+  transition: 0.2s;
   z-index: 10;
   position: fixed;
   right: 0; 
   background-color: $black;
   top: 30px;
   padding: 5px 10px;
-  padding-right: 20px;
+  padding-right: 10px;
   border-radius: 20px 0 0 20px;
+  &:hover{
+    padding-right: 20px;
+  }
   .social-link{
     display: block;
     font-size: 1.5rem;
     color: $white;
     &:hover{
-      color: $secondary;
+      .fa-github{
+        color: #ccc;
+      }
+      .fa-twitter{
+        color: #1da1f2;
+      }
+      .fa-linkedin-in{
+        color: #0073b1;
+      }   
     }
   }
   @media (min-width: $breakpoint-tablet) {
     top: 30px;
     padding: 10px 20px;
-    padding-right: 40px;
+    padding-right: 20px;
+    &:hover{
+      padding-right: 40px;
+    }
     .social-link{
       font-size: 2.5rem;
     }
@@ -83,7 +106,6 @@ a{
 #intro{
   padding-top: 5rem;
   .bg-light{
-    border-radius: 25px;
     background-color: $light-bg !important;
     padding: 5%;
     h3{
@@ -96,17 +118,14 @@ a{
     color: black;
   }
   .evento{
-    border-radius: 10px;
     display: inline-block;
     min-height: 200px;
-    padding: 2rem 2rem 1rem 2rem;
+    padding: 1rem 1rem 1rem 1rem;
     svg{
       display: none;
     }
-    &:hover{
-      background-color: #eee;
-      background-size: cover;
-      
+    &:hover{  
+      background-color: $light-bg;
     }
     h5{
       padding-top: 0.9rem;
@@ -131,7 +150,7 @@ a{
   background-color: $light-bg;
   margin: 1rem;
   padding: 1rem;
-  border-left: 5px solid;
+  border-left: 6px solid;
   &#portugol{
     border-color: #d6c103;
   }
@@ -150,12 +169,19 @@ a{
 }
 footer{
   border-top: $primary solid 1px;  
-  text-align: right;
+  text-align: center;
   margin-top: 20px;
+  padding: 50px;
   p{
-    padding: 50px;
+    padding: 20px;
+    .fa-code{
+      color: #2374dd;
+    }
+    .fa-heart{
+      color: #ec0b56;
+    }
   }
-  svg{
-    color: $primary;
-  }
+  img{
+    opacity: 0.6;
+  }  
 }
