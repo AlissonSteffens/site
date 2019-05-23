@@ -61,6 +61,29 @@ a{
     color: lighten($primary, 20);
   }
 }
+.rolltop{
+  transition: 0.2s;
+  z-index: 10;
+  position: fixed;
+  right: 0; 
+  bottom: 20px;
+  padding: 20px;
+  
+  border-radius: 20px 0 0 20px;
+  .icontop{
+    display: block;
+    font-size: 1.5rem;
+    color: $black;
+    opacity: 0.5;
+    &:hover{
+      opacity: 1;
+    }
+  }
+  @media (min-width: $breakpoint-tablet) {
+    bottom: 30px;
+    padding: 30px;
+  }
+}
 .social{
   transition: 0.2s;
   z-index: 10;
@@ -148,7 +171,9 @@ a{
   display: inline-block;
   background-color: $light-bg;
   margin: 1rem;
-  padding: 1rem;
+  padding: 0.75rem;
+  padding-top: 1.5rem;
+  padding-left: 1rem;
   border-left: 6px solid;
   &#portugol{
     border-color: #d6c103;
