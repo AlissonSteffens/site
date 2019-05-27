@@ -143,6 +143,7 @@ a:hover {
 
 #intro .bg-light h3 {
   color: #000;
+  padding-bottom: 1rem;
 }
 
 #eventos h3 {
