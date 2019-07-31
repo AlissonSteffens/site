@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap');
 
 $star-number: 60;
 $current-stars: 1;
 
-$primary: #000e3c;
+$primary: #000;
 $secondary: #32988a;
 $aurora-white: #a1d9b4;
 $nonblack: #474747;
 $black: #000;
-$light-bg: #f2f2f2;
+$light-bg: #eee;
 $white: #fff;
 
 $breakpoint-tablet: 768px;
+
+$border-radius: 15px;
 
 html{
   font-family: 'Roboto', sans-serif;
@@ -22,21 +23,25 @@ body{
   margin: 0;
   color: $nonblack;
   font-weight: 500;
-  background-image: url('./img/header.svg');
   background-repeat: no-repeat;
   background-size: 100%;
 }
 section{
   display: block;
   padding: 2% 15%;
+  h3{
+    margin-bottom: 3rem;
+  }
 }
 h1, h2, h3, h4{
   font-weight: bold;
-  font-family: 'Poppins', sans-serif;
   color: $black;
 }
 h1{
   color: #000;
+}
+h3{
+  font-size: 2.25rem;
 }
 .nav{
   padding: 5% 10%;
@@ -84,25 +89,24 @@ a{
   }
 }
 .social{
-  transition: 0.2s;
+  transition: 0.2s ease;
   z-index: 10;
   position: fixed;
   right: 0; 
-  background-color: $black;
+  background-color: $white;
   top: 30px;
   padding: 5px 10px;
   padding-right: 10px;
   border-radius: 20px 0 0 20px;
-  &:hover{
-    padding-right: 20px;
-  }
   .social-link{
+    transition: 0.2s ease;
     display: block;
     font-size: 1.5rem;
-    color: $white;
+    color: $black;
     &:hover{
+      transform: scale(1.3);
       .fa-github{
-        color: #ccc;
+        color: #888;
       }
       .fa-twitter{
         color: #1da1f2;
@@ -116,9 +120,6 @@ a{
     top: 30px;
     padding: 10px 20px;
     padding-right: 20px;
-    &:hover{
-      padding-right: 40px;
-    }
     .social-link{
       font-size: 2.5rem;
     }
@@ -126,13 +127,24 @@ a{
   
 }
 #intro{
+
   padding-top: 5rem;
   .bg-light{
     background-color: $light-bg !important;
-    padding: 5%;
+    // border: 2px solid $black;
+    
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 4% 3%;
     h3{
       color: $black;
       padding-bottom: 1rem;
+      
+    }
+    p{
+      color: $black;
+      border-left: 2px solid $black;
+      padding-left: 2rem;
     }
   }
 }
@@ -142,53 +154,86 @@ a{
   }
   .evento{
     display: inline-block;
-    padding: 1rem 1rem 1rem 1em;
-    svg{
-      display: none;
-    }
-    &:hover{  
-      background-color: $light-bg;
-    }
-    h5{
-      padding-top: 0.9rem;
-      margin-bottom: 20px;
-      .external{
-        margin-left: 10px;
-        font-size: 0.6rem;
+    margin: 1rem 0.5rem;
+    .badge{
+      margin: 5px;
+      padding: 5px;
+      &.badge-coordenador{
+        background-color: $primary;
+        color: $white;
+      }
+      &.badge-palestrante{
+        background-color: $secondary;
+        color: $white;
       }
     }
-    p{
-      padding-top: 0;
-      padding-bottom: 10px;
-      margin-top: 0;
-      margin-bottom: 0;
-      line-height: 1;
+    .card-img-side{
+      transition: .3s ease;
+      width: 125px;
+      background-size: cover;
+      border-radius: $border-radius  0 0 $border-radius;
+      padding: 5px;
+      text-align: right;
+      display:inline-block;
+    }
+    .card-side-body{
+      transition: .3s ease;
+      width: auto;
+      display:inline-block;
+    }
+    border-radius: $border-radius;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+    transition: .2s ease;
+    &:hover{
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+      transform: scale(1.03);
+      z-index: 9;
+      .card-img-side{
+        // padding: 5px 25px;
+      }
     }
   }
 }
 .project{
+  &#portugol{
+    border-left-color: #d6c103;
+  }
+  &#nya{
+    border-left-color: #ec0b56;
+  }
+  &#synt{
+    border-left-color: #0aebc5;
+  }
+  &#castle{
+    border-left-color: #e92f2f;
+  }
+  &#dali{
+    border-left-color: #2374dd;
+  }
   border-radius: 5px;
   display: inline-block;
   background-color: $light-bg;
-  margin: 1rem;
-  padding: 0.75rem;
-  padding-top: 1.5rem;
+  margin: 1rem 0.5rem;;
+  padding: 0.7rem;
+  padding-top: 1.3rem;
   padding-left: 1rem;
+  border: 2px solid $light-bg;
   border-left: 6px solid;
-  &#portugol{
-    border-color: #d6c103;
-  }
-  &#nya{
-    border-color: #ec0b56;
-  }
-  &#synt{
-    border-color: #0aebc5;
-  }
-  &#castle{
-    border-color: #e92f2f;
-  }
-  &#dali{
-    border-color: #2374dd;
+  transition: .2s ease;
+  &:hover{
+    background-color: $white;
+    border-left: 6px solid;
+    transform: scale(1.02);
+    z-index: 9;
+  } 
+}
+.inline-link{
+  transition: .2s ease;
+  background-color: $light-bg;
+  padding: 5px;
+  &:hover{
+    background-color: $primary;
+    color: $white;
   }
 }
 footer{
