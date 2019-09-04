@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140824797-1"></script>
@@ -10,19 +10,11 @@
 
       gtag('config', 'UA-140824797-1');
     </script>
-
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.0/css/lightbox.min.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.0/js/lightbox-plus-jquery.min.js"></script>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/e3e03f2b7c.js"></script><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all"><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
-
+    
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Alisson Steffens</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
     <meta name="application-name" content="Alisson Steffens">
     <meta name="description" content="Geek programer and cinephile">
     <meta name="author" content="Alisson Steffens">
@@ -43,106 +35,65 @@
     <meta name="twitter:title" content="Alisson Steffens" />
     <meta name="twitter:image" content="https://alissonsteffens.com/thumb.jpg" />
 
+    
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
   </head>
   <body>
-    <div class="nav" >
+    
+    <section id="header" >
       <img src="./img/logo.svg" height="150px" width="150px"/>
-    </div>
-    <section class="header" >
-      <h1>Alisson Steffens</h1>
-      <h5 class="">🐋 Geek, programmer and <a href="https://trakt.tv/users/alissonsteffens" class="inline-link" target="_blank">cinephile</a>. 🌸</h5>
+      <h1>
+        Alisson Steffens
+        <span>🐋 Geek, programmer and <a href="https://trakt.tv/users/alissonsteffens" class="link" target="_blank">cinephile</a>. 🌸</span>
+      </h1>
     </section>
-    <div class="social">
-      <a class="social-link" href="https://github.com/AlissonSteffens" target="_blank"><i class="fab fa-github"></i></a>
-      <a class="social-link" href="https://twitter.com/AlissonSteffens" target="_blank"><i class="fab fa-twitter"></i></a>
-      <a class="social-link" href="https://www.linkedin.com/in/alisson-s-92b58a88/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-    </div>
-    <div class="rolltop">
-      <a class="icontop" href="#"><i class="fas fa-chevron-up"></i></a>
-    </div>
-    <section class="" id="intro">
-      <div class="bg-light row">
-        <div class="col-md-4">
-          <h3 class="">Sobre</h3>
+
+    <section id="intro">
+      <div class="container">
+        <div class="title">
+          <h2>Sobre</h2>
         </div>
-        <div class="col-md-8">
+        <div class="text">
           <p>Formado em Ciência da Computação (Univali), com ênfase em educação, sistemas de computação e jogos. Gosto de programar e criar interfaces, no meu tempo livre costumo de assistir filmes, jogar videogames (principalmente os cooperativos) e ler histórias em quadrinhos. Atualmente sou bolsista CAPES PROSUC (Mestrando) no Laboratório de Inteligência Aplicada da Univali.</p>
         </div>
-        
       </div>
     </section>
 
-    <section  id="eventos">
-      <h3 class="">Eventos</h3>
-      <div class="row" id="lista-eventos">
-        
-      </div>    
-    </section>
-    <section class="" id="projetos">
-      <h3 class="">Projetos</h3>
-      <div class="">
-        <div class="project" id="portugol">
-          <h5><a href="http://univali-lite.github.io/Portugol-Studio/">Portugol Studio</a></h3>
-          <p>IDE for the Portuguese programming language Portugol</p>
+    <section id="projetos">
+      <h2>Projetos</h2>
+      <div class="container">
+        <div id="portugol">
+          <h3><a href="http://univali-lite.github.io/Portugol-Studio/">Portugol Studio</a></h3>
+          <p>Portuguese programming language</p>
         </div>
-        <div class="project" id="nya">
-          <h5><a href="http://nyachan-server.herokuapp.com/">NyaChan</a></h3>
+        <div id="nya">
+          <h3><a href="http://nyachan-server.herokuapp.com/">NyaChan</a></h3>
           <p>An opensource Image board</p>
         </div>
-        <div class="project" id="synt">
-          <h5><a href="https://alissonsteffens.com/Synthos/">Synthos</a></h3>
+        <div id="synt">
+          <h3><a href="https://alissonsteffens.github.io/Synthos/">Synthos</a></h3>
           <p>A simple js sound synthesizer</p>
         </div>
-        <div class="project" id="castle">
-          <h5><a href="https://beholderdev.github.io/castlevania-symphony-of-the-agents/">Symphony of the Agents</a></h3>
+        <div id="castle">
+          <h3><a href="https://beholderdev.github.io/castlevania-symphony-of-the-agents/">Symphony of the Agents</a></h3>
           <p>A Castlevania based game using JADE for AI</p>
         </div>
-        <div class="project" id="dali">
-          <h5><a href="https://github.com/AlissonSteffens/dali-bot">DaliBot</a></h3>
+        <div id="dali">
+          <h3><a href="https://github.com/AlissonSteffens/dali-bot">DaliBot</a></h3>
           <p>A pixel canvas like discord bot</p>
         </div>
       </div>
     </section>
-    <section class="" id="academic">
-      <h3>Acadêmico</h3>
-      <p>Em relação a artigos, meu currículo fica lá no <a class="inline-link" href="http://lattes.cnpq.br/4379708414084009" target="_blank">lattes</a></p>
+
+
+    <section id="academico">
+      <h2>Acadêmico</h2>
+      <p>Em relação a artigos, meu currículo fica lá no <a class="link" href="http://lattes.cnpq.br/4379708414084009" target="_blank">lattes</a></p>
     </section>
-    <footer class="container">
+
+    <footer>
       <img src="./img/logo.svg" height="100px"/>
-      <p><i class="fas fa-code"></i> with <i class="fas fa-heart"></i> by <a href="#">Alisson</a></p>
+      <p><b class="code">💎</b> with <b class="heart">❤</b> by <a href="https://alissonsteffens.com/">Alisson</a></p>
     </footer>
-
-    <div class="d-none" id="template-event">
-      
-        <a class="evento card mb-3" href="./img/logo.svg" data-lightbox="images" data-title="{title-data}">
-          
-            <div class="row no-gutters">
-              <div class="card-img-side" style="background-image: url('./img/logo.svg')">
-                <!-- {func} -->
-              </div>
-              <div class="card-side-body">
-                <div class="card-body">
-                  <h5 class="card-title">{nome} </h5>
-                  <p class="card-text">{edi}</p>
-                </div>
-              </div>
-            </div>
-          
-        </a>
-    </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
-    <script src="events.js" ></script>
-    <script>
-     $('.icontop').click(function(){
-        $("html, body").animate({ scrollTop: 0 }, 600);
-        return false;
-      });
-
-    </script>
   </body>
 </html>
