@@ -35,65 +35,115 @@
     <meta name="twitter:title" content="Alisson Steffens" />
     <meta name="twitter:image" content="https://alissonsteffens.com/thumb.jpg" />
 
-    
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://kit.fontawesome.com/e3e03f2b7c.js" crossorigin="anonymous"></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
   </head>
   <body>
-    
-    <section id="header" >
-      <img src="./img/logo.svg" height="150px" width="150px"/>
-      <h1>
-        Alisson Steffens
-        <span>🐋 Geek, programmer and <a href="https://trakt.tv/users/alissonsteffens" class="link" target="_blank">cinephile</a>. 🌸</span>
-      </h1>
-    </section>
-
-    <section id="intro">
-      <div class="container">
-        <div class="title">
-          <h2>Sobre</h2>
+    <div class="bubbles is-hidden-touch">
+      <img src="img/b1.svg" class="b1">
+      <img src="img/b2.svg" class="b2">
+      <img src="img/b3.svg" class="b3">
+    </div>
+    <section class="hero">
+      
+      <div class="hero-body">
+        
+        <div class="container">
+          <div class="columns">
+            <div class="column">
+              <div class="text-column">
+                <h1 class="title">Alisson Steffens</h1>
+                <h2 class="subtitle">🐋 Geek, programmer and <a href="https://trakt.tv/users/alissonsteffens" class="link" target="_blank">cinephile</a>. 🌸</h2>
+                <div class="social">
+                  <a class="social-link" href="https://github.com/AlissonSteffens" target="_blank"><i class="fab fa-github"></i></a>
+                  <a class="social-link" href="https://twitter.com/AlissonSteffens" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <a class="social-link" href="https://www.linkedin.com/in/alisson-s-92b58a88/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                  <a class="social-link" href="http://lattes.cnpq.br/4379708414084009" target="_blank"><i class="fas fa-paperclip"></i></a>
+                </div>
+                <p>
+                  Graduated in Computer Science (Univali), with emphasis on education, computer systems and games. I like to program 😁, in my free time I usually watch movies, play video games (especially cooperatives) and read comics.
+                </p>
+                <p>
+                  I am currently a CAPES PROSUC fellow at the Univali Applied Intelligence Laboratory.
+                </p>
+              </div>
+            </div>
+            <div class="column image-column">
+                <img src="./img/coding.svg" width="350px"/>
+            </div>
+          </div>
         </div>
-        <div class="text">
-          <p>Formado em Ciência da Computação (Univali), com ênfase em educação, sistemas de computação e jogos. Gosto de programar e criar interfaces, no meu tempo livre costumo de assistir filmes, jogar videogames (principalmente os cooperativos) e ler histórias em quadrinhos. Atualmente sou bolsista CAPES PROSUC (Mestrando) no Laboratório de Inteligência Aplicada da Univali.</p>
+      </div>
+    </section>
+    <section class="section" id="projects">
+      <div class="container">
+        <h1 class="title">Projects <span>more at <a href="https://github.com/AlissonSteffens" target="_blank">github</a></span></h1>
+        <div class="columns">
+
+          <div class="column ">
+            <a href="http://univali-lite.github.io/Portugol-Studio/">
+              <div class="project" id="portugol">
+                <figure class="image is-2by1">
+                  <img src="img/code.svg"/>
+                </figure>
+                <h3>Portugol Studio</h3>
+                <p>Portuguese programming language</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="column">
+            <a href="http://nyachan-server.herokuapp.com/">
+              <div class="project" id="nya">
+                  <figure class="image is-2by1">
+                      <img src="img/nya.svg"/>
+                    </figure>
+                <h3>NyaChan</h3>
+                <p>An opensource Image board</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="column">
+            <a href="https://github.com/AlissonSteffens/Synthos/">
+              <div class="project" id="syn">
+                <figure class="image is-2by1">
+                  <img src="img/music.svg"/>
+                </figure>
+                <h3>Synthos</h3>
+                <p>A simple js sound synthesizer</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="column">
+            <a href="https://github.com/AlissonSteffens/dali-bot">
+              <div class="project" id="dali">
+                <figure class="image is-2by1">
+                  <img src="img/bot.svg"/>
+                </figure>
+                <h3>DaliBot</h3>
+                <p>A pixel canvas like discord bot</p>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="projetos">
-      <h2>Projetos</h2>
+    <section class="section" id="projects">
       <div class="container">
-        <div id="portugol">
-          <h3><a href="http://univali-lite.github.io/Portugol-Studio/">Portugol Studio</a></h3>
-          <p>Portuguese programming language</p>
-        </div>
-        <div id="nya">
-          <h3><a href="http://nyachan-server.herokuapp.com/">NyaChan</a></h3>
-          <p>An opensource Image board</p>
-        </div>
-        <div id="synt">
-          <h3><a href="https://github.com/AlissonSteffens/Synthos/">Synthos</a></h3>
-          <p>A simple js sound synthesizer</p>
-        </div>
-        <div id="castle">
-          <h3><a href="https://beholderdev.github.io/castlevania-symphony-of-the-agents/">Symphony of the Agents</a></h3>
-          <p>A Castlevania based game using JADE for AI</p>
-        </div>
-        <div id="dali">
-          <h3><a href="https://github.com/AlissonSteffens/dali-bot">DaliBot</a></h3>
-          <p>A pixel canvas like discord bot</p>
-        </div>
+        <h1 class="title">Academic</h1>
+        <p>You should look at <a class="link" href="http://lattes.cnpq.br/4379708414084009" target="_blank">lattes</a></p>
       </div>
     </section>
 
-
-    <section id="academico">
-      <h2>Acadêmico</h2>
-      <p>Em relação a artigos, meu currículo fica lá no <a class="link" href="http://lattes.cnpq.br/4379708414084009" target="_blank">lattes</a></p>
+    <section class="section" id="projects">
+        <div class="container">
+          <p><b class="code">💎</b> with <b class="heart">❤</b> by <a href="https://alissonsteffens.com/">Alisson</a></p>
+        </div>
     </section>
-
-    <footer>
-      <img src="./img/logo.svg" height="100px"/>
-      <p><b class="code">💎</b> with <b class="heart">❤</b> by <a href="https://alissonsteffens.com/">Alisson</a></p>
-    </footer>
   </body>
 </html>
