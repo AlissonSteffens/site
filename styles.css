@@ -25,7 +25,7 @@ a:hover {
 .bubbles .b1 {
   position: absolute;
   margin-left: -10%;
-  margin-top: 150px;
+  margin-top: 125px;
 }
 
 .bubbles .b2 {
@@ -46,7 +46,7 @@ section .title span {
 
 @media screen and (min-width: 800px) {
   section.hero {
-    margin-top: 100px;
+    margin-top: 80px;
   }
 }
 
@@ -106,6 +106,19 @@ section#projects .project:hover {
           transform: scale(1.05);
 }
 
+section#projects .project .icons {
+  text-align: left;
+}
+
+section#projects .project .icons .icon {
+  margin-right: 5px;
+  color: #fff;
+}
+
+section#projects .project .icons .icon:hover {
+  color: #3b3478;
+}
+
 section#projects .project#portugol {
   background: -webkit-gradient(linear, left top, right bottom, from(#FFC200), to(#aa8302));
   background: linear-gradient(to bottom right, #FFC200, #aa8302);
@@ -116,9 +129,29 @@ section#projects .project#nya {
   background: linear-gradient(to bottom right, #c31432, #240b36);
 }
 
-section#projects .project#dali {
+section#projects .project#snake {
   background: -webkit-gradient(linear, left top, right bottom, from(#34e89e), to(#0f3443));
   background: linear-gradient(to bottom right, #34e89e, #0f3443);
+}
+
+section#projects .project#poro {
+  background: -webkit-gradient(linear, left top, right bottom, from(#3C3B3F), to(#605C3C));
+  background: linear-gradient(to bottom right, #3C3B3F, #605C3C);
+}
+
+section#projects .project#ima {
+  background: -webkit-gradient(linear, left top, right bottom, from(#4350c6), to(#1c159c));
+  background: linear-gradient(to bottom right, #4350c6, #1c159c);
+}
+
+section#projects .project#kni {
+  background: -webkit-gradient(linear, left top, right bottom, from(#333), to(#111));
+  background: linear-gradient(to bottom right, #333, #111);
+}
+
+section#projects .project#dali {
+  background: -webkit-gradient(linear, left top, right bottom, from(#f7ff00), to(#db36a4));
+  background: linear-gradient(to bottom right, #f7ff00, #db36a4);
 }
 
 footer {

@@ -31,7 +31,7 @@ a{
   .b1{
     position: absolute;
     margin-left: -10%;
-    margin-top: 150px;
+    margin-top: 125px;
   }
   .b2{
     position: absolute;
@@ -53,7 +53,7 @@ section{
   }
   &.hero{
     @media screen and (min-width: 800px) {
-      margin-top: 100px;
+      margin-top: 80px;
     }
     
     .social{
@@ -102,14 +102,38 @@ section{
         opacity: 1;
         transform: scale(1.05);
       }
+      .icons{
+        text-align: left;
+        .icon{
+          margin-right: 5px;
+          
+          color: $white;
+          &:hover{
+            color: $purple;
+          }
+          
+        }
+      }
       &#portugol{
         background: linear-gradient(to bottom right,#FFC200, #aa8302);
       }
       &#nya{
         background: linear-gradient(to bottom right, #c31432, #240b36);
       }
-      &#dali{
+      &#snake{
         background: linear-gradient(to bottom right, #34e89e, #0f3443);
+      }
+      &#poro{
+        background: linear-gradient(to bottom right, #3C3B3F, #605C3C);
+      }
+      &#ima{
+        background: linear-gradient(to bottom right, #4350c6, #1c159c);
+      }
+      &#kni{
+        background: linear-gradient(to bottom right, #333, #111);
+      }
+      &#dali{
+        background: linear-gradient(to bottom right, #f7ff00, #db36a4);
       }
     }
   }
