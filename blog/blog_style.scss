@@ -1,0 +1,38 @@
+$main_color: #f15f16;
+$border-radius: 20px;
+
+section{
+  strong{
+    color: darken($main_color,20%);
+  }
+  a{
+    color: $main_color;
+    &:hover{
+      color: darken($main_color, 20%);
+    }
+  }
+  &.hero{
+    @media screen and (min-width: 800px) {
+      margin-top: 10px;
+    }
+  }
+  &.section{
+    .answers{
+      margin-top: 2rem;
+    }
+    .box{
+      padding: 0;
+      border-radius: $border-radius;
+      h3{
+        padding: 1rem;
+        background: #ccc;
+        color: #000;
+        border-radius: $border-radius $border-radius 0 0;
+      }
+      .chart-container{
+        padding: 1rem;
+        text-align: center;
+      }
+    }
+  }
+}

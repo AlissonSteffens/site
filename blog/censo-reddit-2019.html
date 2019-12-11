@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140824797-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-140824797-1');
+    </script>
+    
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Alisson Steffens</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="application-name" content="Alisson Steffens">
+    <meta name="description" content="Geek programer and cinephile">
+    <meta name="author" content="Alisson Steffens">
+    <meta name="keywords" content="opensource, programer">
+
+    <!-- Metadados para facebook -->
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Alisson Steffens" />
+    <meta property="og:description" content="Geek programer and cinephile" />
+    <meta property="og:url" content="https://alissonsteffens.com/" />
+    <meta property="og:site_name" content="Alisson Steffens" />
+    <meta property="og:image" content="https://alissonsteffens.com/thumb.jpg" />
+    
+    <!-- Metadados para twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="Geek programer and cinephile" />
+    <meta name="twitter:title" content="Alisson Steffens" />
+    <meta name="twitter:image" content="https://alissonsteffens.com/thumb.jpg" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://kit.fontawesome.com/e3e03f2b7c.js" crossorigin="anonymous"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js" integrity="sha256-CtKylYan+AJuoH8jrMht1+1PMhMqrKnB8K5g012WN5I=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" integrity="sha256-tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c=" crossorigin="anonymous" />
+    
+    <link rel='stylesheet' type='text/css' media='screen' href='../styles.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='blog_style.css'>
+  </head>
+  <body>
+    
+    <section class="hero">
+      
+      <div class="hero-body">
+        
+        <div class="container">
+          <div class="columns">
+            <div class="column">
+              <div class="text-column">
+                <h1 class="title">Censo Reddit Brasil 2019</h1>
+                <p>
+                    Todos os anos é realizada uma pesquisa interna no <a href="https://www.reddit.com/r/brasil/">r/brasil</a> afim de melhor compreender os usuários do sub.
+                </p>
+                <p>
+                  A pesquisa do ano de 2019 contou com <strong>1200</strong> participantes, e a analise dos formulários pode ser vista a seguir.
+                </p>
+              </div>
+            </div>
+            <div class="column image-column">
+                <img src="../img/posts/chart.svg" width="350px"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <h2 class="title">Sobre o processamento de dados</h2>
+        <p>Todos os dados foram coletados de maneira anônima, a partir do <a href="https://www.reddit.com/r/brasil/comments/e53tr9/censo_do_rbrasil_2019/">formulario do Google</a> criado pelos admins do sub</p>
+        <p>Para geração dos gráficos foi utilizada a linguagem <a href="https://www.python.org/">Python</a>, com as ferramentas <a href="https://pandas.pydata.org/">pandas</a>, <a href="https://numpy.org/">numpy</a>, <a href="https://matplotlib.org/">matplotlib</a> e <a href="https://seaborn.pydata.org/">seaborn</a></p>
+
+      </div>
+    </section>
+    <section class="section">
+    <div class="container">
+        <h2 class="title">Perguntas</h2>
+        <p>Foram realizadas <strong>X</strong> Perguntas</p>
+        <div class="answers">
+            <div class="columns">
+                <div class="column">
+                    <a href="../img/posts/reddit/ordered_race.png" data-lightbox="chart" data-title="Cor e Raça">
+                        <div class="box">
+                            <h3>Cor e Raça</h3>
+                            <div class="chart-container">
+                                <img src="../img/posts/reddit/ordered_race.png" class="chart">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="../img/posts/reddit/ordered_religion.png" data-lightbox="chart" data-title="Religião">
+                        <div class="box">
+                            <h3>Religião</h3>
+                            <div class="chart-container">
+                                <img src="../img/posts/reddit/ordered_religion.png" class="chart">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="columns">
+                    <div class="column">
+                        <a href="../img/posts/reddit/ordered_love.png" data-lightbox="chart" data-title="Estado Civil">
+                            <div class="box">
+                                <h3>Estado Civil</h3>
+                                <div class="chart-container">
+                                    <img src="../img/posts/reddit/ordered_love.png" class="chart">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="../img/posts/reddit/ordered_sexual_orientation.png" data-lightbox="chart" data-title="Orinetação Sexual">
+                            <div class="box">
+                                <h3>Orinetação Sexual</h3>
+                                <div class="chart-container">
+                                    <img src="../img/posts/reddit/ordered_sexual_orientation.png" class="chart">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+        </div>
+        
+        
+        
+    </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+          <p><b class="code">💎</b> with <b class="heart">❤</b> by <a href="https://alissonsteffens.com/">Alisson</a></p>
+        </div>
+    </section>
+  </body>
+</html>
