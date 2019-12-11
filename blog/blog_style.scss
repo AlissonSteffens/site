@@ -1,6 +1,9 @@
-$main_color: #f15f16;
-$border-radius: 20px;
-
+$main_color: #d13531;
+$border-radius: 10px;
+body{
+  counter-reset: section;
+  counter-reset: subsection;
+}
 section{
   strong{
     color: darken($main_color,20%);
@@ -12,27 +15,57 @@ section{
     }
   }
   &.hero{
+    background-image: linear-gradient(to right,fade-out(#fff, 0),fade-out(#fff, .1), fade-out(#fff, .9)), url('../img/posts/tarsila.jpg');
+    background-size: cover;
+    background-attachment: fixed;
     @media screen and (min-width: 800px) {
-      margin-top: 10px;
+      padding-top: 10px;
+      margin-top: 0;
     }
   }
   &.section{
-    .answers{
-      margin-top: 2rem;
+    p{
+      font-size: 1.1rem;
+      padding-bottom: 1rem;
     }
-    .box{
-      padding: 0;
-      border-radius: $border-radius;
-      h3{
-        padding: 1rem;
-        background: #ccc;
-        color: #000;
-        border-radius: $border-radius $border-radius 0 0;
-      }
-      .chart-container{
-        padding: 1rem;
-        text-align: center;
-      }
+    padding: 50px 5%;
+    @media screen and (min-width: 800px) {
+      padding: 50px 20%;
+    }
+    h3{
+      font-size: 1.4rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+    &#demo{
+      padding-bottom: 0;
+    }
+    .chart-container{
+      padding: 2rem;
+      text-align: center;
+    }
+  }
+}
+.answers{
+  padding: 50px 5%;
+  @media screen and (min-width: 800px) {
+    padding: 50px 10%;
+  }
+  margin-top: 2rem;
+  .chart-container{
+    padding: 1rem;
+    text-align: center;
+  }
+  .box{
+    padding: 0;
+    border-radius: $border-radius;
+    h3{
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #000;
+      border-radius: $border-radius $border-radius 0 0;
     }
   }
 }
