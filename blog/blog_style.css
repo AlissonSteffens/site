@@ -16,10 +16,13 @@ section a:hover {
 }
 
 section.hero {
-  background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(rgba(255, 255, 255, 0.95)), to(rgba(255, 255, 255, 0.9))), url("../img/posts/tarsila.jpg");
-  background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.9)), url("../img/posts/tarsila.jpg");
   background-size: cover;
   background-attachment: fixed;
+}
+
+section.hero#reddit {
+  background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(rgba(255, 255, 255, 0.95)), to(rgba(255, 255, 255, 0.9))), url("../img/posts/tarsila.jpg");
+  background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.9)), url("../img/posts/tarsila.jpg");
 }
 
 @media screen and (min-width: 800px) {
@@ -53,6 +56,10 @@ section.section h3 {
 
 section.section#demo {
   padding-bottom: 0;
+}
+
+section.section#trend {
+  padding: 0 10%;
 }
 
 section.section .chart-container {

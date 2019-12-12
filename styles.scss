@@ -81,7 +81,8 @@ section{
       margin-top: 15px;
     }
   }
-  &#projects{
+  
+  &#projects, &#trend{
     .project{
       margin: 2px;
       padding: 25px;
@@ -141,12 +142,28 @@ section{
       &#dali{
         background: linear-gradient(to bottom right, #f7ff00, #db36a4);
       }
+      &#red{
+        background: linear-gradient(to bottom right,#d13531, #701b18);
+      }
+      &#scrat{
+        background: linear-gradient(to bottom right,#097de9, #8409e9);
+      }
     }
+  }
+  &#trend{
+    padding-top: 0;
+    margin-top: -2rem;
   }
 }
 
-footer{
-  text-align: right;
+#footer{
+  .container{
+    p{
+      text-align: right;
+    }
+    
+  }
+  
   padding-bottom: 50px;
   img{
     max-width: 100px;

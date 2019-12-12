@@ -80,7 +80,7 @@ section.hero p {
   margin-top: 15px;
 }
 
-section#projects .project {
+section#projects .project, section#trend .project {
   margin: 2px;
   padding: 25px;
   border-radius: 10px;
@@ -93,82 +93,100 @@ section#projects .project {
   transition: .3s ease;
 }
 
-section#projects .project figure {
+section#projects .project figure, section#trend .project figure {
   text-align: center;
 }
 
-section#projects .project h3 {
+section#projects .project h3, section#trend .project h3 {
   text-align: left;
   margin-top: 25px;
   font-size: 1.6rem;
   color: #fff;
 }
 
-section#projects .project p {
+section#projects .project p, section#trend .project p {
   text-align: left;
   color: #fff;
 }
 
-section#projects .project:hover {
+section#projects .project:hover, section#trend .project:hover {
   opacity: 1;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
 
-section#projects .project .icons {
+section#projects .project .icons, section#trend .project .icons {
   text-align: left;
 }
 
-section#projects .project .icons .icon {
+section#projects .project .icons .icon, section#trend .project .icons .icon {
   margin-right: 5px;
   color: #fff;
 }
 
-section#projects .project .icons .icon:hover {
+section#projects .project .icons .icon:hover, section#trend .project .icons .icon:hover {
   color: #3b3478;
 }
 
-section#projects .project#portugol {
+section#projects .project#portugol, section#trend .project#portugol {
   background: -webkit-gradient(linear, left top, right bottom, from(#FFC200), to(#aa8302));
   background: linear-gradient(to bottom right, #FFC200, #aa8302);
 }
 
-section#projects .project#nya {
+section#projects .project#nya, section#trend .project#nya {
   background: -webkit-gradient(linear, left top, right bottom, from(#c31432), to(#240b36));
   background: linear-gradient(to bottom right, #c31432, #240b36);
 }
 
-section#projects .project#snake {
+section#projects .project#snake, section#trend .project#snake {
   background: -webkit-gradient(linear, left top, right bottom, from(#34e89e), to(#0f3443));
   background: linear-gradient(to bottom right, #34e89e, #0f3443);
 }
 
-section#projects .project#poro {
+section#projects .project#poro, section#trend .project#poro {
   background: -webkit-gradient(linear, left top, right bottom, from(#3C3B3F), to(#605C3C));
   background: linear-gradient(to bottom right, #3C3B3F, #605C3C);
 }
 
-section#projects .project#ima {
+section#projects .project#ima, section#trend .project#ima {
   background: -webkit-gradient(linear, left top, right bottom, from(#4350c6), to(#1c159c));
   background: linear-gradient(to bottom right, #4350c6, #1c159c);
 }
 
-section#projects .project#kni {
+section#projects .project#kni, section#trend .project#kni {
   background: -webkit-gradient(linear, left top, right bottom, from(#333), to(#111));
   background: linear-gradient(to bottom right, #333, #111);
 }
 
-section#projects .project#dali {
+section#projects .project#dali, section#trend .project#dali {
   background: -webkit-gradient(linear, left top, right bottom, from(#f7ff00), to(#db36a4));
   background: linear-gradient(to bottom right, #f7ff00, #db36a4);
 }
 
-footer {
-  text-align: right;
+section#projects .project#red, section#trend .project#red {
+  background: -webkit-gradient(linear, left top, right bottom, from(#d13531), to(#701b18));
+  background: linear-gradient(to bottom right, #d13531, #701b18);
+}
+
+section#projects .project#scrat, section#trend .project#scrat {
+  background: -webkit-gradient(linear, left top, right bottom, from(#097de9), to(#8409e9));
+  background: linear-gradient(to bottom right, #097de9, #8409e9);
+}
+
+section#trend {
+  padding-top: 0;
+  margin-top: -2rem;
+}
+
+#footer {
   padding-bottom: 50px;
 }
 
-footer img {
+#footer .container p {
+  text-align: right;
+}
+
+#footer img {
   max-width: 100px;
 }
 /*# sourceMappingURL=styles.css.map */
