@@ -16,7 +16,7 @@ section{
   }
   &.hero{
     &#reddit{
-      background-image: linear-gradient(to right,fade-out(#fff, 0),fade-out(#fff, .05), fade-out(#fff, .1)), url('../img/posts/tarsila.jpg');
+      background-image: linear-gradient(to right,fade-out(#fff, 0),fade-out(#fff, .05), fade-out(#fff, .7)), url('../img/posts/tarsila.jpg');
     }
     background-size: cover;
     background-attachment: fixed;
@@ -63,6 +63,9 @@ section{
     padding: 1rem;
     text-align: center;
   }
+  
+}
+.answers, .intra-answers{
   .box{
     padding: 0;
     border-radius: $border-radius;
@@ -75,4 +78,7 @@ section{
       border-radius: $border-radius $border-radius 0 0;
     }
   }
+}
+th{
+  background-color: #eee !important;
 }

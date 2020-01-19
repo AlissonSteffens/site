@@ -59,7 +59,7 @@
                 Todos os anos é realizada uma pesquisa interna no <a href="https://www.reddit.com/r/brasil/">r/brasil</a> afim de melhor compreender os usuários do sub.
               </p>
               <p>
-                A pesquisa do ano de 2019 contou com <strong>1810</strong> participantes, que responderam cerca de <strong>100</strong> perguntas.
+                A pesquisa feita no ano de 2019 contou com <strong>1810</strong> participantes, que responderam cerca de <strong>100</strong> perguntas.
               </p>
             </div>
           </div>
@@ -77,16 +77,21 @@
         <h2 class="title">Sobre o processamento de dados</h2>
         <p>Todos os dados foram coletados de maneira anônima, a partir do <a
             href="https://www.reddit.com/r/brasil/comments/e53tr9/censo_do_rbrasil_2019/">formulario do Google</a>
-          criado pelos admins do sub</p>
+          criado pelos admins do sub.</p>
         <p>Para geração dos gráficos foi utilizada a linguagem <a href="https://www.python.org/">Python</a>, com as
           ferramentas <a href="https://pandas.pydata.org/">pandas</a>, <a href="https://numpy.org/">numpy</a>, <a
-            href="https://matplotlib.org/">matplotlib</a> e <a href="https://seaborn.pydata.org/">seaborn</a></p>
+            href="https://matplotlib.org/">matplotlib</a> e <a href="https://seaborn.pydata.org/">seaborn</a>.</p>
       </div>
     </div>
   </section>
   <section class="section" id="demo">
     <div class="container">
       <h2 class="title">1. Redditor Médio</h2>
+
+      <p>No geral, os usuários do <a href="https://www.reddit.com/r/brasil/">r/brasil</a> estão a cerca de 3 anos no reddit</p>
+      <div class="chart-container">
+        <img src="../img/posts/reddit/reddit_time.png" class="chart">
+      </div>
       <p>Algumas informações diretas que podem ser extraídas das respostas estão nesta seção inicial. Com elas é possível criar a imagem do "redditor médio".</p>
       
     </div>
@@ -221,21 +226,16 @@
         <img src="../img/posts/reddit/incomming.png" class="chart">
       </div>
       <h3>3.1. Renda por Cor/Raça</h3>
-      <p>Em relação a renda, os indígenas são os que (percentualmente), têm maior renda familiar, enquanto os pretos os que tem menor.</p>
+      <p>Em relação a renda, os indígenas são os que (percentualmente), têm maior renda familiar, enquanto os pretos possuem a menor renda.</p>
       <div class="chart-container">
         <img src="../img/posts/reddit/incomming_by_race.png" class="chart">
-      </div>
-      <h3>3.2. Renda por Religião</h3>
-      <p>Entre as religiões, os judeus e muçulmanos são os com maior renda familiar.</p>
-      <div class="chart-container">
-        <img src="../img/posts/reddit/incomming_by_religion.png" class="chart">
       </div>
     </div>
   </section>
   <section class="section">
     <div class="container">
       <h2 class="title">4. Ensino</h2>
-      <p>Os dados de ensino são ordenados por grau. Com eles é possível entender melhor o nível de formação dos redditers. Estes dados talvez auxiliem a responder a pergunta do <a href="https://www.reddit.com/r/brasil/comments/e4rbtu/pessoas_do_reddit_s%C3%A3o_cultas/">u/Math_Pacheco</a> sobre a educação da galera o <a href="https://www.reddit.com/r/brasil/">r/brasil</a>. </p>
+      <p>Os dados de ensino são ordenados por grau. Com eles é possível entender melhor o nível de formação dos redditors. Estes dados talvez auxiliem a responder a pergunta do <a href="https://www.reddit.com/r/brasil/comments/e4rbtu/pessoas_do_reddit_s%C3%A3o_cultas/">u/Math_Pacheco</a> sobre a educação da galera o <a href="https://www.reddit.com/r/brasil/">r/brasil</a>. </p>
       <p>Com o gráfico é possível perceber que o redditor médio está cursando ou já finalizou a graduação. </p>
       <div class="chart-container">
         <img src="../img/posts/reddit/degree.png" class="chart">
@@ -247,7 +247,7 @@
       </div>
 
       <h3>4.2. Grau de Formação por Religião</h3>
-      <p>Ao comparar a religião com o Grau de Formação, é possível perceber uma polarização nas religiões muçulmandas, uma maioria Pós-graduado latto sensu entre os judeus e grande percentual de mestres e doutores entre mulçumanos e de religiões afro-brasileiros.</p>
+      <p>Ao comparar a religião com o Grau de Formação, é possível perceber três comportamentos: uma polarização nas religiões muçulmanARRUMARRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRas, uma maioria Pós-graduado latto sensu entre os judeus e grande percentual de mestres e doutores entre mulçumanos e de religiões afro-brasileiros.</p>
       <div class="chart-container">
         <img src="../img/posts/reddit/degree_by_religion.png" class="chart">
       </div>
@@ -260,7 +260,7 @@
       <p>A analise política foi feita de maneira diferente, comparando as preferências com outras variáveis</p>
       
       <h3>5.1. Espectro Econômico</h3>
-      <p>Em relação ao espectro econômico, os redditors se distribuem de forma normal. Desta forma, a maior parte encontra-se próximo ao centro, com uma leve inclinada para o Intervensionismo.</p>
+      <p>Em relação ao espectro econômico, os redditors se distribuem de forma normal. Desta forma, a maior parte encontra-se próximo ao centro, com uma leve inclinação ao Intervensionismo.</p>
       <div class="chart-container">
         <img src="../img/posts/reddit/economics.png" class="chart">
       </div>
@@ -288,6 +288,179 @@
       <div class="chart-container">
         <img src="../img/posts/reddit/politics_and_economy.png" class="chart">
       </div>
+
+      <h3>5.6. Casamento de Pessoas do mesmo sexo</h3>
+      <p>seila</p>
+      <table class="table is-striped is-hoverable is-fullwidth is-narrow is-bordered">
+          <thead>
+          <tr>
+            <th></th>
+          <th>Completamente contra</th>
+          <th>Contra a maior parte da proposta</th>
+          <th>Indiferente / Sem opini&atilde;o formada</th>
+          <th>A favor, mas com ressalvas</th>
+          <th>Completamente a favor</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+          <th>Casamento na Constitui&ccedil;&atilde;o federal</th>
+          <td>33</td>
+          <td>15</td>
+          <td>110</td>
+          <td>35</td>
+          <td>1617</td>
+          </tr>
+          <tr>
+          <th>Casamento por lei</th>
+          <td>23</td>
+          <td>13</td>
+          <td>83</td>
+          <td>43</td>
+          <td>1648</td>
+          </tr>
+          <tr>
+          <th>Extin&ccedil;&atilde;o da figura do casamento</th>
+          <td>133</td>
+          <td>77</td>
+          <td>957</td>
+          <td>123</td>
+          <td>520</td>
+          </tr>
+          </tbody>
+      </table>
+
+      <h3>5.7. Aborto</h3>
+      <p>seila</p>
+      <table class="table is-striped is-hoverable is-fullwidth is-narrow is-bordered">
+          <thead>
+          <tr>
+            <th></th>
+          <th>Completamente contra</th>
+          <th>Contra a maior parte da proposta</th>
+          <th>Indiferente / Sem opini&atilde;o formada</th>
+          <th>A favor, mas com ressalvas</th>
+          <th>Completamente a favor</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+          <th>No primeiro trimestre</th>
+          <td>114</td>
+          <td>60</td>
+          <td>71</td>
+          <td>227</td>
+          <td>1338</td>
+          </tr>
+          <tr>
+          <th>Em caso de estupro</th>
+          <td>40</td>
+          <td>17</td>
+          <td>37</td>
+          <td>71</td>
+          <td>1645</td>
+          </tr>
+          <tr>
+          <th>Em caso de m&aacute; forma&ccedil;&atilde;o / Risco</th>
+          <td>26</td>
+          <td>11</td>
+          <td>40</td>
+          <td>109</td>
+          <td>1624</td>
+          </tr>
+          <tr>
+          <th>Sempre</th>
+          <td>230</td>
+          <td>187</td>
+          <td>162</td>
+          <td>445</td>
+          <td>786</td>
+          </tr>
+          </tbody>
+      </table>
+
+      <h3>5.8. Drogas</h3>
+      <p>seila</p>
+      <table class="table is-striped is-hoverable is-fullwidth is-narrow is-bordered">
+          <thead>
+          <tr>
+            <th></th>
+          <th>Completamente contra</th>
+          <th>Contra a maior parte da proposta</th>
+          <th>Indiferente / Sem opini&atilde;o formada</th>
+          <th>A favor, mas com ressalvas</th>
+          <th>Completamente a favor</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+          <th>Uso Maconha</th>
+          <td>64</td>
+          <td>33</td>
+          <td>46</td>
+          <td>261</td>
+          <td>1406</td>
+          </tr>
+          <tr>
+          <th>Cultivo e Venda Maconha</th>
+          <td>70</td>
+          <td>53</td>
+          <td>63</td>
+          <td>320</td>
+          <td>1304</td>
+          </tr>
+          <tr>
+          <th>Uso drogas</th>
+          <td>300</td>
+          <td>307</td>
+          <td>155</td>
+          <td>520</td>
+          <td>528</td>
+          </tr>
+          <tr>
+          <th>Cultivo e Venda drogas</th>
+          <td>400</td>
+          <td>370</td>
+          <td>201</td>
+          <td>495</td>
+          <td>344</td>
+          </tr>
+          </tbody>
+          </table>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="title">6. Anos anteriores</h2>
+      <p>Afim de acompanhar o avanço e mudanças na comunidade, foi feita uma comparação com os resultados do ano passado.</p>
+      
+      <h3>6.1. Espectro Econômico</h3>
+      <p>Foi possível perceber uma mudança com relação a posicionamento economico dos participantes.</p>
+      <div class="intra-answers">
+        <div class="columns">
+          <div class="column">
+            <div class="box">
+                <h3>2018</h3>
+                <div class="chart-container">
+                  <img src="../img/posts/reddit/economics_2018.png" class="chart">
+                </div>
+            </div>
+              
+          </div>
+          <div class="column">
+            <div class="box">
+                <h3>2019</h3>
+                <div class="chart-container">
+                  <img src="../img/posts/reddit/economics.png" class="chart">
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+
     </div>
   </section>
 

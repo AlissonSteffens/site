@@ -21,8 +21,8 @@ section.hero {
 }
 
 section.hero#reddit {
-  background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(rgba(255, 255, 255, 0.95)), to(rgba(255, 255, 255, 0.9))), url("../img/posts/tarsila.jpg");
-  background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.9)), url("../img/posts/tarsila.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(rgba(255, 255, 255, 0.95)), to(rgba(255, 255, 255, 0.3))), url("../img/posts/tarsila.jpg");
+  background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.3)), url("../img/posts/tarsila.jpg");
 }
 
 @media screen and (min-width: 800px) {
@@ -83,17 +83,21 @@ section.section .chart-container {
   text-align: center;
 }
 
-.answers .box {
+.answers .box, .intra-answers .box {
   padding: 0;
   border-radius: 10px;
 }
 
-.answers .box h3 {
+.answers .box h3, .intra-answers .box h3 {
   padding: 1rem;
   text-align: center;
   font-size: 1.2rem;
   font-weight: 700;
   color: #000;
   border-radius: 10px 10px 0 0;
+}
+
+th {
+  background-color: #eee !important;
 }
 /*# sourceMappingURL=blog_style.css.map */
