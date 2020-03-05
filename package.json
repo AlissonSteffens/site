@@ -1,0 +1,76 @@
+{
+  "name": "alisson",
+  "version": "3.0.5",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "test": "eslint .",
+    "precommit": "lint-staged"
+  },
+  "license": "MIT",
+  "repository": "leo/site",
+  "babel": {
+    "presets": [
+      "next/babel"
+    ],
+    "plugins": [
+      "markdown-in-js/babel"
+    ]
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "ecmaVersion": 8,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "plugins": [
+      "react"
+    ],
+    "extends": [
+      "prettier",
+      "prettier/react",
+      "plugin:react/recommended"
+    ],
+    "rules": {
+      "react/react-in-jsx-scope": 0,
+      "react/display-name": 0,
+      "react/prop-types": 0
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "yarn test",
+      "prettier --single-quote --no-semi --write",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "is-absolute-url": "2.1.0",
+    "markdown-in-js": "1.1.4",
+    "moment": "2.22.2",
+    "next": "9.0.2",
+    "nprogress": "0.2.0",
+    "prop-types": "15.6.2",
+    "react": "16.8.1",
+    "react-codepen": "0.1.0",
+    "react-dom": "16.8.1",
+    "react-ga": "2.7.0",
+    "react-icons": "3.9.0",
+    "react-syntax-highlighter": "8.0.1",
+    "react-tweet-embed": "1.1.0",
+    "to-id": "1.0.5"
+  },
+  "devDependencies": {
+    "babel-eslint": "8.2.5",
+    "eslint": "5.1.0",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-react": "7.10.0",
+    "husky": "0.14.3",
+    "lint-staged": "7.2.0",
+    "prettier": "1.13.7",
+    "xo": "0.21.1"
+  }
+}

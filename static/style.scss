@@ -1,0 +1,194 @@
+
+$breakpoint-tablet: 768px;
+
+$cinza: #eee;
+$dark-purple: #581b98;
+$purple: #9c1de7;
+$pink: #f3558e;
+$light-pink: #faee1c;
+$dark: #222;
+$white: #fff;
+
+$roundness: 10px;
+html,body{
+    background-color: $white;
+    color: $dark;
+}
+a{
+  color: $pink !important;
+  &:hover{
+    color: $light-pink !important;
+  }
+}
+
+section{
+  .image-column{
+    text-align: center;
+  }
+  h3{
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  .title{
+    span{
+      font-size: 1rem;
+    }
+  }
+  &.hero{
+    background-color: $dark-purple;
+    color: $white;
+    
+    svg {
+      display: none;
+      @media screen and (min-width: 800px) {
+        display: block;
+        margin-bottom: -5px;
+        margin-top: -15rem;
+        width: 100%;
+        height: auto;
+      }
+      @media screen and (min-width: 1000px) {
+        margin-top: -20rem;
+        margin-bottom: -5px;
+      }
+      @media screen and (min-width: 1200px) {
+        margin-top: -25rem;
+        margin-bottom: -50px;
+      }
+      
+    }
+    
+    @media screen and (min-width: 800px) {
+      padding-top: 20px;
+    }
+    
+    .social{
+      .social-link{
+        margin-right: 10px;
+        font-size: 1.5rem;
+      }
+    }
+    .title{
+      font-size: 2.5rem;
+    }
+    .subtitle{
+      font-size: 1.3rem;
+    }
+    .title, .subtitle{
+      color: $white;
+    }
+    .text-column{
+      margin: 5%;
+      padding-bottom: 50px;
+    }
+    .image-column{
+      text-align: center;
+      display: none;
+      @media screen and (min-width: 800px) {
+        display: inline-block;
+      }
+    }
+    p{
+      margin-top: 15px;
+    }
+  }
+  
+  &#projects, &#trend{
+    ul{
+      text-align: center;
+      li{
+        width: 300px;
+        display: inline-block;
+        margin: 10px;
+      }
+    }
+    .project{
+      margin: 2px;
+      padding: 25px;
+      border-radius: $roundness;
+      background: linear-gradient(to bottom right, $dark-purple, $purple);
+      color: #333;
+      text-align: center;
+      
+      figure{
+        text-align: center;
+      }
+      h3{
+        text-align: left;
+        margin-top: 25px;
+        font-size: 1.2rem;
+        color: $white;
+      }
+      p{
+        text-align: left;
+        color: $white;
+      }
+      opacity: .9;
+      transition: .3s ease;
+      &:hover{
+        opacity: 1;
+        transform: scale(1.05);
+      }
+      .icons{
+        text-align: left;
+        .icon{
+          margin-right: 5px;
+          
+          color: $white;
+          &:hover{
+            color: $purple;
+          }
+          
+        }
+      }
+      &#portugol-studio{
+        background: linear-gradient(to bottom right,#FFC200, #aa8302);
+      }
+      &#nyachan{
+        background: linear-gradient(to bottom right, #c31432, #240b36);
+      }
+      &#neat-snake{
+        background: linear-gradient(to bottom right, #34e89e, #0f3443);
+      }
+      &#porous-render{
+        background: linear-gradient(to bottom right, #3C3B3F, #605C3C);
+      }
+      &#image-processing-api{
+        background: linear-gradient(to bottom right, #4350c6, #1c159c);
+      }
+      &#knights-tour{
+        background: linear-gradient(to bottom right, #333, #111);
+      }
+      &#dali-bot{
+        background: linear-gradient(to bottom right, #f7ff00, #db36a4);
+      }
+      &#red{
+        background: linear-gradient(to bottom right,#d13531, #701b18);
+      }
+      &#scrat{
+        background: linear-gradient(to bottom right,#097de9, #8409e9);
+      }
+      &#censo-reddit{
+        background: linear-gradient(to bottom right,#404347, 	#23272a);
+      }
+    }
+  }
+  &#trend{
+    padding-top: 0;
+    margin-top: -2rem;
+  }
+}
+
+#footer{
+  .container{
+    p{
+      text-align: right;
+    }
+    
+  }
+  
+  padding-bottom: 50px;
+  img{
+    max-width: 100px;
+  }
+}
