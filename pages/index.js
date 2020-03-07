@@ -9,7 +9,7 @@ import Page from '../layouts/page'
 
 
 // Icons
-import { FaTwitter, FaGithub,FaLinkedinIn, FaCamera } from 'react-icons/fa';
+import { FaTwitter, FaGithub,FaLinkedinIn, FaCamera, FaSchool } from 'react-icons/fa';
 
 
 
@@ -29,11 +29,11 @@ export default () => (
                 <h1 className="title">Alisson Steffens</h1>
                 <h2 className="subtitle">🐋 Geek, programmer and <a href="https://trakt.tv/users/alissonsteffens" className="link" target="_blank" rel="noopener noreferrer">cinephile</a>. 🌸</h2>
                 <div className="social">
-                  <a className="social-link" href="https://github.com/AlissonSteffens" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
-                  <a className="social-link" href="https://twitter.com/AlissonSteffens" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
-                  <a className="social-link" href="https://www.linkedin.com/in/alisson-s-92b58a88/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
-                  <a className="social-link" href="https://unsplash.com/@alissonsteffens" target="_blank" rel="noopener noreferrer"><i className="fas fa-camera"></i></a>
-                  <a className="social-link" href="http://lattes.cnpq.br/4379708414084009" target="_blank" rel="noopener noreferrer"><i className="fas fa-paperclip"></i></a>
+                  <a className="social-link" href="https://github.com/AlissonSteffens" target="_blank" rel="noopener noreferrer"><FaGithub/></a>
+                  <a className="social-link" href="https://twitter.com/AlissonSteffens" target="_blank" rel="noopener noreferrer"><FaTwitter/></a>
+                  <a className="social-link" href="https://www.linkedin.com/in/alisson-s-92b58a88/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn/></a>
+                  <a className="social-link" href="https://unsplash.com/@alissonsteffens" target="_blank" rel="noopener noreferrer"><FaCamera/></a>
+                  <a className="social-link" href="http://lattes.cnpq.br/4379708414084009" target="_blank" rel="noopener noreferrer"><FaSchool/></a>
                 </div>
                 <p>Graduated in Computer Science (Univali), with emphasis on education, computer systems and games. I like to program 😁, in my free time I usually watch movies, play video games (especially cooperatives) and read comics.</p>
                 <p>I am currently a CAPES PROSUC fellow at Univali's Applied Intelligence Laboratory</p>
@@ -50,7 +50,7 @@ export default () => (
         </div>
       </div>
       <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="-300 0 950 270" >
-        <path d="M-314,267 C105,364 400,100 812,279" fill="none" stroke="white" stroke-width="120" stroke-linecap="round"/>
+        <path d="M-314,267 C105,364 400,100 812,279" fill="none" stroke="white" strokeWidth="120" strokeLinecap="round"/>
       </svg>
     </section>
     <section className="section" id="projects">

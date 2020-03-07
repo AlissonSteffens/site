@@ -38,7 +38,7 @@ section{
     background-color: $dark-purple;
     color: $white;
     
-    svg {
+    #svg {
       display: none;
       @media screen and (min-width: 800px) {
         display: block;

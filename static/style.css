@@ -29,12 +29,12 @@ section.hero {
   color: #fff;
 }
 
-section.hero svg {
+section.hero #svg {
   display: none;
 }
 
 @media screen and (min-width: 800px) {
-  section.hero svg {
+  section.hero #svg {
     display: block;
     margin-bottom: -5px;
     margin-top: -15rem;
@@ -44,14 +44,14 @@ section.hero svg {
 }
 
 @media screen and (min-width: 1000px) {
-  section.hero svg {
+  section.hero #svg {
     margin-top: -20rem;
     margin-bottom: -5px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  section.hero svg {
+  section.hero #svg {
     margin-top: -25rem;
     margin-bottom: -50px;
   }
