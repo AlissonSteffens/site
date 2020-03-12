@@ -20,7 +20,7 @@ const Embed = ({ src, width, height }) => {
     throw new Error('Please define the height and width')
   }
 
-  const padding = height / width * 100
+  const padding = (height / width) * 100
 
   const containerStyle = {
     paddingBottom: `${padding}%`
@@ -57,9 +57,9 @@ const Embed = ({ src, width, height }) => {
   )
 }
 
-const Image = ({ width, className, src, isCover, isWindow }) =>
+const Image = ({ width, className, src, isCover, isWindow }) => (
   <figure className={getClasses(isCover, isWindow)}>
-    <img width={width} src={src} className={className}/>
+    <img width={width} src={src} className={className} />
 
     {isCover && <Back to="/essays" insideCover />}
 
@@ -71,7 +71,6 @@ const Image = ({ width, className, src, isCover, isWindow }) =>
 
         figure {
           margin: 20px 0;
-          text-align: center;
         }
 
         .frame {
@@ -127,6 +126,7 @@ const Image = ({ width, className, src, isCover, isWindow }) =>
       `}
     </style>
   </figure>
+)
 
 export default Image
 export { Image, Embed }
