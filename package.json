@@ -48,6 +48,7 @@
     ]
   },
   "dependencies": {
+    "highlight.js": "^9.18.1",
     "is-absolute-url": "2.1.0",
     "markdown-in-js": "1.1.4",
     "moment": "2.22.2",
