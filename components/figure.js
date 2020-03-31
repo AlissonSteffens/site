@@ -71,6 +71,7 @@ const Image = ({ width, className, src, isCover, isWindow }) => (
 
         figure {
           margin: 20px 0;
+          text-align: center;
         }
 
         .frame {

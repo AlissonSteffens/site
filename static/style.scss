@@ -123,7 +123,7 @@ section{
         text-align: left;
         color: $white;
       }
-      opacity: .9;
+      opacity: .95;
       transition: .3s ease;
       &:hover{
         opacity: 1;
@@ -142,28 +142,31 @@ section{
         }
       }
       &#portugol-studio{
-        background: linear-gradient(to bottom right,#FFC200, #aa8302);
+        background: linear-gradient(to bottom right,#FFC200, #f9ff21);
       }
       &#nyachan{
-        background: linear-gradient(to bottom right, #c31432, #240b36);
+        background: linear-gradient(to bottom right, #492540, #c03546);
       }
       &#neat-snake{
-        background: linear-gradient(to bottom right, #34e89e, #0f3443);
+        background: linear-gradient(to bottom right, #1e6262, #2d767f);
       }
       &#porous-render{
-        background: linear-gradient(to bottom right, #3C3B3F, #605C3C);
+        background: linear-gradient(to bottom right, #713045, #430d27);
       }
       &#image-processing-api{
-        background: linear-gradient(to bottom right, #4350c6, #1c159c);
+        background: linear-gradient(to bottom right, #3d5af1 , #22d1ee);
       }
       &#knights-tour{
-        background: linear-gradient(to bottom right, #333, #111);
+        background: linear-gradient(to bottom right, #ace7ef , #a56cc1);
       }
-      &#dali-bot{
-        background: linear-gradient(to bottom right, #f7ff00, #db36a4);
+      &#cassie{
+        background: linear-gradient(to bottom right, #1f4287, #278ea5);
       }
       &#red{
         background: linear-gradient(to bottom right,#d13531, #701b18);
+      }
+      &#cotb{
+        background: linear-gradient(to bottom right,#8CC63F, #00A99D);
       }
       &#scrat{
         background: linear-gradient(to bottom right,#097de9, #8409e9);

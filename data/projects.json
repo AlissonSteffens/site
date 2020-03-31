@@ -1,11 +1,27 @@
 [
     {
-      "id": "image-processing-api",
-      "title": "Image Processing API",
-      "url": "https://github.com/AlissonSteffens/image-processing-api",
+      "id": "portugol-studio",
+      "title": "Portugol Studio",
+      "url":"http://univali-lite.github.io/Portugol-Studio/",
       "description": "Censo do r/brasil com informações referentes a 2019",
       "date": "01-02-2020"
     },
+    
+    {
+      "id": "cotb",
+      "title": "Computer on the Beach",
+      "url":"https://computeronthebeach.com.br/",
+      "description": "Censo do r/brasil com informações referentes a 2019",
+      "date": "01-02-2020"
+    },
+    {
+      "id": "cassie",
+      "title": "Cassie",
+      "url":"https://lia-univali.github.io/cassie/",
+      "description": "Censo do r/brasil com informações referentes a 2019",
+      "date": "01-02-2020"
+    },
+    
     {
       "id": "nyachan",
       "title": "NyaChan",
@@ -13,17 +29,11 @@
       "description": "Censo do r/brasil com informações referentes a 2019",
       "date": "01-02-2020"
     },
+    
     {
-      "id": "synthos",
-      "title": "Synthos",
-      "url":"https://alissonsteffens.github.io/Synthos/",
-      "description": "Censo do r/brasil com informações referentes a 2019",
-      "date": "01-02-2020"
-    },
-    {
-      "id": "dali-bot",
-      "title": "Dalli Bot",
-      "url":"https://github.com/AlissonSteffens/dali-bot",
+      "id": "image-processing-api",
+      "title": "Image Processing API",
+      "url": "https://github.com/AlissonSteffens/image-processing-api",
       "description": "Censo do r/brasil com informações referentes a 2019",
       "date": "01-02-2020"
     },
@@ -34,13 +44,7 @@
       "description": "Censo do r/brasil com informações referentes a 2019",
       "date": "01-02-2020"
     },
-    {
-      "id": "portugol-studio",
-      "title": "Portugol Studio",
-      "url":"http://univali-lite.github.io/Portugol-Studio/",
-      "description": "Censo do r/brasil com informações referentes a 2019",
-      "date": "01-02-2020"
-    },
+    
     {
       "id": "knights-tour",
       "title": "Knight's Tour",

@@ -9,6 +9,7 @@ import { Image } from '../components/figure'
 
 // Layouts
 import Page from '../layouts/page'
+import components from '../components'
 
 // Other
 import posts from '../data/essays'

@@ -118,7 +118,7 @@ section#projects .project, section#trend .project {
   background: linear-gradient(to bottom right, #581b98, #9c1de7);
   color: #333;
   text-align: center;
-  opacity: .9;
+  opacity: .95;
   -webkit-transition: .3s ease;
   transition: .3s ease;
 }
@@ -159,43 +159,48 @@ section#projects .project .icons .icon:hover, section#trend .project .icons .ico
 }
 
 section#projects .project#portugol-studio, section#trend .project#portugol-studio {
-  background: -webkit-gradient(linear, left top, right bottom, from(#FFC200), to(#aa8302));
-  background: linear-gradient(to bottom right, #FFC200, #aa8302);
+  background: -webkit-gradient(linear, left top, right bottom, from(#FFC200), to(#f9ff21));
+  background: linear-gradient(to bottom right, #FFC200, #f9ff21);
 }
 
 section#projects .project#nyachan, section#trend .project#nyachan {
-  background: -webkit-gradient(linear, left top, right bottom, from(#c31432), to(#240b36));
-  background: linear-gradient(to bottom right, #c31432, #240b36);
+  background: -webkit-gradient(linear, left top, right bottom, from(#492540), to(#c03546));
+  background: linear-gradient(to bottom right, #492540, #c03546);
 }
 
 section#projects .project#neat-snake, section#trend .project#neat-snake {
-  background: -webkit-gradient(linear, left top, right bottom, from(#34e89e), to(#0f3443));
-  background: linear-gradient(to bottom right, #34e89e, #0f3443);
+  background: -webkit-gradient(linear, left top, right bottom, from(#1e6262), to(#2d767f));
+  background: linear-gradient(to bottom right, #1e6262, #2d767f);
 }
 
 section#projects .project#porous-render, section#trend .project#porous-render {
-  background: -webkit-gradient(linear, left top, right bottom, from(#3C3B3F), to(#605C3C));
-  background: linear-gradient(to bottom right, #3C3B3F, #605C3C);
+  background: -webkit-gradient(linear, left top, right bottom, from(#713045), to(#430d27));
+  background: linear-gradient(to bottom right, #713045, #430d27);
 }
 
 section#projects .project#image-processing-api, section#trend .project#image-processing-api {
-  background: -webkit-gradient(linear, left top, right bottom, from(#4350c6), to(#1c159c));
-  background: linear-gradient(to bottom right, #4350c6, #1c159c);
+  background: -webkit-gradient(linear, left top, right bottom, from(#3d5af1), to(#22d1ee));
+  background: linear-gradient(to bottom right, #3d5af1, #22d1ee);
 }
 
 section#projects .project#knights-tour, section#trend .project#knights-tour {
-  background: -webkit-gradient(linear, left top, right bottom, from(#333), to(#111));
-  background: linear-gradient(to bottom right, #333, #111);
+  background: -webkit-gradient(linear, left top, right bottom, from(#ace7ef), to(#a56cc1));
+  background: linear-gradient(to bottom right, #ace7ef, #a56cc1);
 }
 
-section#projects .project#dali-bot, section#trend .project#dali-bot {
-  background: -webkit-gradient(linear, left top, right bottom, from(#f7ff00), to(#db36a4));
-  background: linear-gradient(to bottom right, #f7ff00, #db36a4);
+section#projects .project#cassie, section#trend .project#cassie {
+  background: -webkit-gradient(linear, left top, right bottom, from(#1f4287), to(#278ea5));
+  background: linear-gradient(to bottom right, #1f4287, #278ea5);
 }
 
 section#projects .project#red, section#trend .project#red {
   background: -webkit-gradient(linear, left top, right bottom, from(#d13531), to(#701b18));
   background: linear-gradient(to bottom right, #d13531, #701b18);
+}
+
+section#projects .project#cotb, section#trend .project#cotb {
+  background: -webkit-gradient(linear, left top, right bottom, from(#8CC63F), to(#00A99D));
+  background: linear-gradient(to bottom right, #8CC63F, #00A99D);
 }
 
 section#projects .project#scrat, section#trend .project#scrat {

@@ -180,9 +180,7 @@ export default () => (
                 </p>
               </div>
             </div>
-            <div className="column image-column">
-              <Image src="./static/dev_focus.svg" width="350" />
-            </div>
+            <div className="column image-column" />
           </div>
         </div>
       </div>
@@ -207,6 +205,10 @@ export default () => (
         text-align: left !important;
       }
     `}</style>
-    <style global jsx>{``}</style>
+    <style global jsx>{`
+      figure {
+        text-align: left !important;
+      }
+    `}</style>
   </Page>
 )
