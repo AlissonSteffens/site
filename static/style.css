@@ -25,7 +25,7 @@ section .title span {
 }
 
 section.hero {
-  background-color: #581b98;
+  background: #581b98;
   color: #fff;
 }
 

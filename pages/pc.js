@@ -5,7 +5,7 @@ import moment from 'moment'
 import Link from 'next/link'
 import Title from '../components/title'
 import Back from '../components/back'
-import { Image } from '../components/figure'
+import { Image, SimpleImage } from '../components/figure'
 import { Code, InlineCode } from '../components/code'
 
 // Layouts
@@ -39,7 +39,9 @@ O pessoal da turma 1 criou um [documento do Google Docs](https://docs.google.com
 # Unidade 1 - Resolução de Problemas
 
 
-[![Slides Unidade 1](https://img.shields.io/badge/slides-Unidade_1-f3558e.svg?style=flat&logo=microsoft-powerpoint&logoColor=white&labelColor=9c1de7)](https://drive.google.com/file/d/15_gSZ6SLpyMk23H0r2f5CltLPKxKACD0/view?usp=sharing)
+[${(
+  <SimpleImage src="https://img.shields.io/badge/slides-Unidade_1-f3558e.svg?style=flat&logo=microsoft-powerpoint&logoColor=white&labelColor=9c1de7" />
+)}](https://drive.google.com/file/d/15_gSZ6SLpyMk23H0r2f5CltLPKxKACD0/view?usp=sharing)
 
 
 Na Unidade 1, vimos o conceito de resolução de problemas, e que ela é baseada em quatro etapas: Compreensão, Desenvolvimento de Estratégia, Execução e Revisão.
@@ -49,7 +51,9 @@ Para desenvolver estratégias de solução podemos utilizar de fluxogramas. Este
 Para deixar os fluxogramas mais bonitos, podemos utilizar um programa chamado [draw.io](https://www.draw.io/)
 
 # Unidade 2 - Variáveis e Operações
-[![Slides Unidade 2](https://img.shields.io/badge/slides-Unidade_2-f3558e.svg?style=flat&logo=microsoft-powerpoint&logoColor=white&labelColor=9c1de7)](https://drive.google.com/file/d/1cglJudMVZDX6xWseA8WURONlZPCBWHIc/view?usp=sharing)
+[${(
+  <SimpleImage src="https://img.shields.io/badge/slides-Unidade_2-f3558e.svg?style=flat&logo=microsoft-powerpoint&logoColor=white&labelColor=9c1de7" />
+)}](https://drive.google.com/file/d/1cglJudMVZDX6xWseA8WURONlZPCBWHIc/view?usp=sharing)
 
 Na unidade dois transformamos fluxogramas em código e resolvemos problemas com programas. A linguagem programação utilizada foi Python.
 
