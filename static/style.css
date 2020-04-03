@@ -1,232 +1,100 @@
-html, body {
-  background-color: #fff;
-  color: #222;
+.fixed {
+  position: fixed;
+  background: -webkit-gradient(linear, left top, right bottom, from(#200228), to(#22045A));
+  background: linear-gradient(to bottom right, #200228, #22045A);
+  width: 100%;
+  height: 100vh;
+  z-index: -10;
+  margin: 0;
+  padding: 0;
 }
 
-a {
-  color: #f3558e !important;
+.hero {
+  background-attachment: fixed;
 }
 
-a:hover {
-  color: #faee1c !important;
+.hero .hero-body {
+  padding: 10px 0 100px 0;
 }
 
-section .image-column {
+.hero .title, .hero .subtitle {
   text-align: center;
-}
-
-section h3 {
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-
-section .title span {
-  font-size: 1rem;
-}
-
-section.hero {
-  background: #581b98;
   color: #fff;
 }
 
-section.hero #svg {
-  display: none;
+section {
+  padding: 1rem 1rem;
 }
 
 @media screen and (min-width: 800px) {
-  section.hero #svg {
-    display: block;
-    margin-bottom: -5px;
-    margin-top: -15rem;
-    width: 100%;
-    height: auto;
+  section {
+    padding: 1rem 3rem;
   }
 }
 
-@media screen and (min-width: 1000px) {
-  section.hero #svg {
-    margin-top: -20rem;
-    margin-bottom: -5px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  section.hero #svg {
-    margin-top: -25rem;
-    margin-bottom: -50px;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  section.hero {
-    padding-top: 20px;
-  }
-}
-
-section.hero .social .social-link {
-  margin-right: 10px;
-  font-size: 1.5rem;
-}
-
-section.hero .title {
-  font-size: 2.5rem;
-}
-
-section.hero .subtitle {
-  font-size: 1.3rem;
-}
-
-section.hero .title, section.hero .subtitle {
+section .title {
   color: #fff;
 }
 
-section.hero .text-column {
-  margin: 5%;
-  padding-bottom: 50px;
-}
-
-section.hero .image-column {
+.projects .tiltcontainer {
   text-align: center;
-  display: none;
 }
 
 @media screen and (min-width: 800px) {
-  section.hero .image-column {
-    display: inline-block;
+  .projects .tiltcontainer {
+    padding: 5px;
   }
 }
 
-section.hero p {
-  margin-top: 15px;
-}
-
-section#projects ul, section#trend ul {
-  text-align: center;
-}
-
-section#projects ul li, section#trend ul li {
-  width: 300px;
+.projects .tiltframe {
   display: inline-block;
-  margin: 10px;
 }
 
-section#projects .project, section#trend .project {
-  margin: 2px;
-  padding: 25px;
+@media screen and (min-width: 800px) {
+  .projects .tiltframe {
+    padding: 15px;
+  }
+}
+
+.projects .project {
+  padding: 20px;
   border-radius: 10px;
-  background: -webkit-gradient(linear, left top, right bottom, from(#581b98), to(#9c1de7));
-  background: linear-gradient(to bottom right, #581b98, #9c1de7);
-  color: #333;
+  background: #fff;
+  -webkit-transition: opacity .5s ease-out;
+  transition: opacity .5s ease-out;
+}
+
+.projects .project h3 {
   text-align: center;
-  opacity: .95;
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
-}
-
-section#projects .project figure, section#trend .project figure {
-  text-align: center;
-}
-
-section#projects .project h3, section#trend .project h3 {
-  text-align: left;
-  margin-top: 25px;
-  font-size: 1.2rem;
   color: #fff;
+  font-size: 1.3rem;
 }
 
-section#projects .project p, section#trend .project p {
-  text-align: left;
-  color: #fff;
+.about {
+  padding: 20px 5%;
 }
 
-section#projects .project:hover, section#trend .project:hover {
-  opacity: 1;
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+@media screen and (min-width: 800px) {
+  .about {
+    padding: 20px 15%;
+  }
 }
 
-section#projects .project .icons, section#trend .project .icons {
-  text-align: left;
+.about .about-container {
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  font-size: 1.1rem;
+  padding: 3rem;
+  color: #200228;
 }
 
-section#projects .project .icons .icon, section#trend .project .icons .icon {
-  margin-right: 5px;
-  color: #fff;
+@media screen and (min-width: 800px) {
+  .about .about-container {
+    font-size: 1.5rem;
+  }
 }
 
-section#projects .project .icons .icon:hover, section#trend .project .icons .icon:hover {
-  color: #9c1de7;
-}
-
-section#projects .project#portugol-studio, section#trend .project#portugol-studio {
-  background: -webkit-gradient(linear, left top, right bottom, from(#FFC200), to(#f9ff21));
-  background: linear-gradient(to bottom right, #FFC200, #f9ff21);
-}
-
-section#projects .project#nyachan, section#trend .project#nyachan {
-  background: -webkit-gradient(linear, left top, right bottom, from(#492540), to(#c03546));
-  background: linear-gradient(to bottom right, #492540, #c03546);
-}
-
-section#projects .project#neat-snake, section#trend .project#neat-snake {
-  background: -webkit-gradient(linear, left top, right bottom, from(#1e6262), to(#2d767f));
-  background: linear-gradient(to bottom right, #1e6262, #2d767f);
-}
-
-section#projects .project#porous-render, section#trend .project#porous-render {
-  background: -webkit-gradient(linear, left top, right bottom, from(#713045), to(#430d27));
-  background: linear-gradient(to bottom right, #713045, #430d27);
-}
-
-section#projects .project#image-processing-api, section#trend .project#image-processing-api {
-  background: -webkit-gradient(linear, left top, right bottom, from(#3d5af1), to(#22d1ee));
-  background: linear-gradient(to bottom right, #3d5af1, #22d1ee);
-}
-
-section#projects .project#knights-tour, section#trend .project#knights-tour {
-  background: -webkit-gradient(linear, left top, right bottom, from(#ace7ef), to(#a56cc1));
-  background: linear-gradient(to bottom right, #ace7ef, #a56cc1);
-}
-
-section#projects .project#cassie, section#trend .project#cassie {
-  background: -webkit-gradient(linear, left top, right bottom, from(#1f4287), to(#278ea5));
-  background: linear-gradient(to bottom right, #1f4287, #278ea5);
-}
-
-section#projects .project#red, section#trend .project#red {
-  background: -webkit-gradient(linear, left top, right bottom, from(#d13531), to(#701b18));
-  background: linear-gradient(to bottom right, #d13531, #701b18);
-}
-
-section#projects .project#cotb, section#trend .project#cotb {
-  background: -webkit-gradient(linear, left top, right bottom, from(#8CC63F), to(#00A99D));
-  background: linear-gradient(to bottom right, #8CC63F, #00A99D);
-}
-
-section#projects .project#scrat, section#trend .project#scrat {
-  background: -webkit-gradient(linear, left top, right bottom, from(#097de9), to(#8409e9));
-  background: linear-gradient(to bottom right, #097de9, #8409e9);
-}
-
-section#projects .project#censo-reddit, section#trend .project#censo-reddit {
-  background: -webkit-gradient(linear, left top, right bottom, from(#404347), to(#23272a));
-  background: linear-gradient(to bottom right, #404347, #23272a);
-}
-
-section#trend {
-  padding-top: 0;
-  margin-top: -2rem;
-}
-
-#footer {
-  padding-bottom: 50px;
-}
-
-#footer .container p {
-  text-align: right;
-}
-
-#footer img {
-  max-width: 100px;
+.about .about-container p {
+  margin-bottom: 1rem;
 }
 /*# sourceMappingURL=style.css.map */

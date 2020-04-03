@@ -6,6 +6,8 @@ import Header from '../components/header'
 import moment from 'moment'
 // Layouts
 import Page from '../layouts/page'
+import Particles from 'react-particles-js'
+import Tilt from 'react-tilt'
 
 // Icons
 import {
@@ -21,152 +23,127 @@ import projects from '../data/projects'
 export default () => (
   <Page>
     <Title />
-
+    <Particles
+      className="fixed"
+      params={{
+        particles: {
+          number: {
+            value: 250,
+            density: {
+              enable: true,
+              value_area: 1500
+            }
+          },
+          shape: {
+            type: 'circle'
+          },
+          color: {
+            value: ['#4640B3', '#9F507A', '#535D74']
+          },
+          line_linked: {
+            enable: false,
+            opacity: 0.02
+          },
+          move: {
+            direction: 'top',
+            speed: 1
+          },
+          size: {
+            value: 3,
+            anim: {
+              enable: true,
+              speed: 1,
+              size_min: 1
+            }
+          },
+          opacity: {
+            anim: {
+              enable: true,
+              speed: 1,
+              opacity_min: 0.05
+            }
+          }
+        },
+        interactivity: {
+          events: {
+            onclick: {
+              enable: true,
+              mode: 'push'
+            }
+          },
+          modes: {
+            push: {
+              particles_nb: 1
+            }
+          }
+        },
+        retina_detect: true
+      }}
+    />
     <section className="hero">
       <div className="hero-body">
         <div className="container">
-          <div className="columns">
-            <div className="column">
-              <div className="text-column">
-                <h1 className="title">Alisson Steffens</h1>
-                <h2 className="subtitle">
-                  🐋 Geek, programmer and{' '}
-                  <a
-                    href="https://trakt.tv/users/alissonsteffens"
-                    className="link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    cinephile
-                  </a>. 🌸
-                </h2>
-                <div className="social">
-                  <a
-                    className="social-link"
-                    href="https://github.com/AlissonSteffens"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaGithub />
-                  </a>
-                  <a
-                    className="social-link"
-                    href="https://twitter.com/AlissonSteffens"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaTwitter />
-                  </a>
-                  <a
-                    className="social-link"
-                    href="https://www.linkedin.com/in/alisson-s-92b58a88/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaLinkedinIn />
-                  </a>
-                  <a
-                    className="social-link"
-                    href="https://unsplash.com/@alissonsteffens"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaCamera />
-                  </a>
-                  <a
-                    className="social-link"
-                    href="http://lattes.cnpq.br/4379708414084009"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaSchool />
-                  </a>
-                </div>
-                <p>
-                  Graduated in Computer Science (Univali), with emphasis on
-                  education, computer systems and games. I like to program 😁,
-                  in my free time I usually watch movies, play video games
-                  (especially cooperatives) and read comics.
-                </p>
-                <p>
-                  I am currently a CAPES PROSUC fellow at Univali&apos;s Applied
-                  Intelligence Laboratory
-                </p>
-                <p>
-                  Also, I&apos;am starting to{' '}
-                  <Link href="./essays" prefetch>
-                    <a>blog</a>
-                  </Link>{' '}
-                  (in portuguese)
-                </p>
-              </div>
-            </div>
-            <div className="column image-column">
-              <Image src="./static/coding.svg" width="350" />
-            </div>
-          </div>
+          <Image src="./static/logo.svg" width="150" />
+          <h1 className="title">Alisson Steffens</h1>
         </div>
       </div>
-      <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="-300 0 950 270">
-        <path
-          d="M-314,267 C105,364 400,100 812,279"
-          fill="none"
-          stroke="white"
-          strokeWidth="120"
-          strokeLinecap="round"
-        />
-      </svg>
     </section>
-    <section className="section" id="projects">
-      <div className="container">
-        <h1 className="title">
-          Projects{' '}
-          <span>
-            more at{' '}
-            <a
-              href="https://github.com/AlissonSteffens"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              github
-            </a>
-          </span>
-        </h1>
-        <ul>
-          {projects.map(p => (
-            <li key={p.id}>
-              <a href={p.url} target="_blank" rel="noopener noreferrer">
-                <div className="project" id={p.id}>
-                  <figure className="image is-2by1">
-                    <Image
-                      src={'./static/projects/' + p.id + '.svg'}
-                      width="100"
-                    />
-                  </figure>
-                  <h3>{p.title}</h3>
-                </div>
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </section>
-
-    <section className="section" id="academic">
-      <div className="container">
-        <h1 className="title">Academic</h1>
+    <section className="about">
+      <div className="about-container">
         <p>
-          You should look at{' '}
-          <a
-            className="link"
-            href="http://lattes.cnpq.br/4379708414084009"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            lattes
-          </a>
+          Graduated in Computer Science (Univali), with emphasis on education,
+          computer systems and games. I like to program 😁, in my free time I
+          usually watch movies, play video games (especially cooperatives) and
+          read comics.
         </p>
+        <p>
+          I am currently a CAPES PROSUC fellow at Univali&apos;s Applied
+          Intelligence Laboratory
+        </p>
+        <p>Also, I am starting to blog (in portuguese)</p>
       </div>
+    </section>
+    <section className="projects">
+      <h2 className="title">Projects</h2>
+      <div className="tiltcontainer">
+        {projects.map(p => (
+          <div className="tiltframe" key={p.id}>
+            <a href={p.url} target="_blank" rel="noopener noreferrer">
+              <Tilt
+                className="Tilt"
+                options={{ max: 25, glare: true, maxGlare: 0.5 }}
+                style={{ height: 250, width: 300 }}
+              >
+                <div className="Tilt-inner">
+                  <div
+                    className="project"
+                    id={p.id}
+                    style={{
+                      background:
+                        'linear-gradient(to bottom right,' +
+                        p.color1 +
+                        ', ' +
+                        p.color2 +
+                        ');'
+                    }}
+                  >
+                    <figure className="image is-2by1">
+                      <Image
+                        src={'./static/projects/' + p.id + '.svg'}
+                        width="100"
+                      />
+                    </figure>
+                    <h3>{p.title}</h3>
+                  </div>
+                </div>
+              </Tilt>
+            </a>
+          </div>
+        ))}
+      </div>
+    </section>
+    <section className="academics">
+      <h2 className="title">Academic</h2>
     </section>
 
     <style jsx>{``}</style>
