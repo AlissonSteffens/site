@@ -1,0 +1,81 @@
+[
+  {
+    "id": "tdcsp-2019",
+    "type": "big",
+    "title": "TDC SP 2019",
+    "url":"https://thedevconf.com/tdc/2019/saopaulo/tdc4kids",
+    "description": "Computação Desplugada",
+    "date": "27-04-2019",
+    "color2": "#FFC200"
+  }
+  ,
+  {
+    "id": "scratchday",
+    "type": "big",
+    "title": "ScratchDay Itajaí",
+    "url":"https://day.scratch.mit.edu/events/9348/",
+    "description": "Workshop de Scratch",
+    "date": "17-05-2019",
+    "color2": "#FFC200"
+  }
+  ,    
+  {
+    "id": "tdcflp-2019",
+    "type": "big",
+    "title": "TDC Flp 2019",
+    "url":"http://www.thedevelopersconference.com.br/tdc/2019/florianopolis/tdc4kids",
+    "description": "Workshop maker com Arduino",
+    "date": "27-04-2019",
+    "color2": "#FFC200"
+  }
+  ,
+  {
+    "id": "nasa",
+    "type": "big",
+    "title": "Nasa Science Days",
+    "url":"https://gestalt.link/nsd/",
+    "description": "Portugol Studioe Makey Makey",
+    "date": "4-03-2018",
+    "color2": "#FFC200"
+  }
+  ,
+  {
+    "id": "smart",
+    "type": "big",
+    "title": "BC Smart Week",
+    "url":"https://docs.google.com/viewerng/viewer?url=https://www.bcnoticias.com.br/wp-content/uploads/2018/02/1º-BC-Smart-Week-Programação.pdf",
+    "description": "Workshop de Scratch",
+    "date": "20-02-2018",
+    "color2": "#FFC200"
+  }
+  ,
+  {
+    "id": "tdcflp-2018",
+    "type": "big",
+    "title": "TDC Flp 2018",
+    "url":"http://www.thedevelopersconference.com.br/tdc/2018/florianopolis/tdc4kids",
+    "description": "Workshop de Scratch",
+    "date": "20-02-2018",
+    "color2": "#FFC200"
+  }
+  ,
+  {
+    "id": "site",
+    "type": "big",
+    "title": "SITE",
+    "url":"http://lite.acad.univali.br/site/",
+    "description": "Workshop de Scratch",
+    "date": "20-02-2018",
+    "color2": "#FFC200"
+  }
+  ,
+  {
+    "id": "scratch",
+    "type": "big",
+    "title": "Scratch Jr.",
+    "url":"http://www.br-ie.org/pub/index.php/wie/article/view/7261",
+    "description": "Workshop de Scratch",
+    "date": "20-02-2018",
+    "color2": "#FFC200"
+  }
+] 

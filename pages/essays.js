@@ -10,7 +10,7 @@ import { Image } from '../components/figure'
 // Layouts
 import Page from '../layouts/page'
 import components from '../components'
-
+import Tilt from 'react-tilt'
 // Other
 import posts from '../data/essays'
 
@@ -34,66 +34,63 @@ export default () => (
   <Page>
     <Title />
 
-    <section className="hero">
-      <div className="hero-body">
-        <div className="container">
-          <div className="columns">
-            <div className="column">
-              <div className="text-column">
-                <h1 className="title">Alisson&apos;s Blog</h1>
-                <p>
-                  Aqui eu posto algumas páginas com coisas escritas por mim. A
-                  maioria do que eu escrevo é acadêmico, então estes aparecerão
-                  como links para os artigos. As postagens (não acadêmicas), são
-                  páginas neste site.
-                </p>
-              </div>
-            </div>
-            <div className="column image-column">
-              <Image src="./static/write.svg" width="350" />
-            </div>
-          </div>
-        </div>
+    <section className="section" id="hero">
+      <div className="container">
+        <h1 className="title">Blog</h1>
+        <h2 className="subtitle" />
+        <p>
+          Aqui eu posto algumas páginas com coisas escritas por mim. A maioria
+          do que eu escrevo é acadêmico, então estes aparecerão como links para
+          os artigos. As postagens (não acadêmicas), são páginas neste site.
+        </p>
       </div>
-      <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="-300 0 950 270">
-        <path
-          d="M-314,267 C105,364 400,100 812,279"
-          fill="none"
-          stroke="white"
-          strokeWidth="120"
-          strokeLinecap="round"
-        />
-      </svg>
       <Back />
     </section>
 
-    <section className="section" id="projects">
+    <section className="section" id="posts">
       <div className="container">
-        <ul>
+        <div className="tiltcontainer">
           {preparePosts().map(p => (
-            <li key={p.id}>
-              <Link href={p.url} prefetch>
-                <a>
-                  <div className="project" id={p.id}>
-                    <figure className="image is-16by9">
-                      <Image
-                        src={
-                          './static/essays/' +
-                          parseDate(p.date).format('YYYY') +
-                          '/' +
-                          p.id +
-                          '/icon.svg'
-                        }
-                        width="150"
-                      />
-                    </figure>
-                    <h3>{p.title}</h3>
+            <div className="tiltframe" key={p.id}>
+              <a href={p.url}>
+                <Tilt
+                  className="Tilt"
+                  options={{ max: 25, glare: true, maxGlare: 0.5 }}
+                  style={{ height: 250, width: 300 }}
+                >
+                  <div className="Tilt-inner">
+                    <div
+                      className="post"
+                      id={p.id}
+                      style={{
+                        background:
+                          'linear-gradient(to bottom right,' +
+                          p.color1 +
+                          ', ' +
+                          p.color2 +
+                          ')'
+                      }}
+                    >
+                      <figure className="image is-2by1">
+                        <Image
+                          src={
+                            './static/essays/' +
+                            parseDate(p.date).format('YYYY') +
+                            '/' +
+                            p.id +
+                            '/icon.svg'
+                          }
+                          width="100"
+                        />
+                      </figure>
+                      <h3>{p.title}</h3>
+                    </div>
                   </div>
-                </a>
-              </Link>
-            </li>
+                </Tilt>
+              </a>
+            </div>
           ))}
-        </ul>
+        </div>
       </div>
     </section>
 

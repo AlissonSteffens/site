@@ -1,232 +1,120 @@
-html, body {
-  background-color: #fff;
-  color: #222;
-}
-
 a {
   color: #f3558e !important;
 }
 
 a:hover {
-  color: #faee1c !important;
+  color: #581b98 !important;
 }
 
-section .image-column {
-  text-align: center;
-}
-
-section h3 {
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-
-section .title span {
-  font-size: 1rem;
-}
-
-section.hero {
-  background: #581b98;
-  color: #fff;
-}
-
-section.hero #svg {
-  display: none;
+.section {
+  padding: 1rem 1rem;
 }
 
 @media screen and (min-width: 800px) {
-  section.hero #svg {
-    display: block;
-    margin-bottom: -5px;
-    margin-top: -15rem;
-    width: 100%;
-    height: auto;
+  .section {
+    padding: 1rem 7rem;
   }
 }
 
-@media screen and (min-width: 1000px) {
-  section.hero #svg {
-    margin-top: -20rem;
-    margin-bottom: -5px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  section.hero #svg {
-    margin-top: -25rem;
-    margin-bottom: -50px;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  section.hero {
-    padding-top: 20px;
-  }
-}
-
-section.hero .social .social-link {
+.social .social-link {
   margin-right: 10px;
   font-size: 1.5rem;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
 }
 
-section.hero .title {
-  font-size: 2.5rem;
-}
-
-section.hero .subtitle {
-  font-size: 1.3rem;
-}
-
-section.hero .title, section.hero .subtitle {
-  color: #fff;
-}
-
-section.hero .text-column {
-  margin: 5%;
-  padding-bottom: 50px;
-}
-
-section.hero .image-column {
-  text-align: center;
-  display: none;
-}
-
-@media screen and (min-width: 800px) {
-  section.hero .image-column {
-    display: inline-block;
-  }
-}
-
-section.hero p {
-  margin-top: 15px;
-}
-
-section#projects ul, section#trend ul {
-  text-align: center;
-}
-
-section#projects ul li, section#trend ul li {
-  width: 300px;
+#talks .talks .talk-frame {
   display: inline-block;
-  margin: 10px;
+  margin: 1rem;
 }
 
-section#projects .project, section#trend .project {
-  margin: 2px;
-  padding: 25px;
+#talks .talks .talk-frame .talk {
   border-radius: 10px;
-  background: -webkit-gradient(linear, left top, right bottom, from(#581b98), to(#9c1de7));
-  background: linear-gradient(to bottom right, #581b98, #9c1de7);
-  color: #333;
-  text-align: center;
-  opacity: .95;
+  background-size: cover;
+  background-position: center;
   -webkit-transition: .3s ease;
   transition: .3s ease;
 }
 
-section#projects .project figure, section#trend .project figure {
+#talks .talks .talk-frame .talk:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#talks .talks .talk-frame .talk:hover h3 {
+  -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(1px);
+}
+
+#talks .talks .talk-frame .talk h3 {
+  border-radius: 10px;
+  -webkit-backdrop-filter: blur(0px);
+          backdrop-filter: blur(0px);
+  padding: 1rem 2rem;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+#projects .tiltcontainer, #posts .tiltcontainer {
   text-align: center;
 }
 
-section#projects .project h3, section#trend .project h3 {
-  text-align: left;
-  margin-top: 25px;
+@media screen and (min-width: 800px) {
+  #projects .tiltcontainer, #posts .tiltcontainer {
+    padding: 5px;
+  }
+}
+
+#projects .tiltframe, #posts .tiltframe {
+  display: inline-block;
+}
+
+@media screen and (min-width: 800px) {
+  #projects .tiltframe, #posts .tiltframe {
+    padding-top: 20px;
+    padding: 20px;
+  }
+}
+
+#projects .project, #posts .project {
+  padding: 20px;
+  border-radius: 10px;
+  background: #fff;
+  -webkit-transition: opacity .5s ease-out;
+  transition: opacity .5s ease-out;
+}
+
+#projects .project h3, #posts .project h3 {
   font-size: 1.2rem;
-  color: #fff;
+  color: #fff !important;
 }
 
-section#projects .project p, section#trend .project p {
-  text-align: left;
-  color: #fff;
+#projects .post, #posts .post {
+  background-color: #581b98;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-transition: opacity .5s ease-out;
+  transition: opacity .5s ease-out;
 }
 
-section#projects .project:hover, section#trend .project:hover {
-  opacity: 1;
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+#projects .post h3, #posts .post h3 {
+  font-size: 1.3rem;
+  color: #fff !important;
 }
 
-section#projects .project .icons, section#trend .project .icons {
-  text-align: left;
+#hero {
+  padding-top: 3rem;
 }
 
-section#projects .project .icons .icon, section#trend .project .icons .icon {
-  margin-right: 5px;
-  color: #fff;
+#hero .title {
+  font-size: 2.5rem;
 }
 
-section#projects .project .icons .icon:hover, section#trend .project .icons .icon:hover {
-  color: #9c1de7;
+#hero .subtitle {
+  font-size: 1rem;
 }
 
-section#projects .project#portugol-studio, section#trend .project#portugol-studio {
-  background: -webkit-gradient(linear, left top, right bottom, from(#FFC200), to(#f9ff21));
-  background: linear-gradient(to bottom right, #FFC200, #f9ff21);
-}
-
-section#projects .project#nyachan, section#trend .project#nyachan {
-  background: -webkit-gradient(linear, left top, right bottom, from(#492540), to(#c03546));
-  background: linear-gradient(to bottom right, #492540, #c03546);
-}
-
-section#projects .project#neat-snake, section#trend .project#neat-snake {
-  background: -webkit-gradient(linear, left top, right bottom, from(#1e6262), to(#2d767f));
-  background: linear-gradient(to bottom right, #1e6262, #2d767f);
-}
-
-section#projects .project#porous-render, section#trend .project#porous-render {
-  background: -webkit-gradient(linear, left top, right bottom, from(#713045), to(#430d27));
-  background: linear-gradient(to bottom right, #713045, #430d27);
-}
-
-section#projects .project#image-processing-api, section#trend .project#image-processing-api {
-  background: -webkit-gradient(linear, left top, right bottom, from(#3d5af1), to(#22d1ee));
-  background: linear-gradient(to bottom right, #3d5af1, #22d1ee);
-}
-
-section#projects .project#knights-tour, section#trend .project#knights-tour {
-  background: -webkit-gradient(linear, left top, right bottom, from(#ace7ef), to(#a56cc1));
-  background: linear-gradient(to bottom right, #ace7ef, #a56cc1);
-}
-
-section#projects .project#cassie, section#trend .project#cassie {
-  background: -webkit-gradient(linear, left top, right bottom, from(#1f4287), to(#278ea5));
-  background: linear-gradient(to bottom right, #1f4287, #278ea5);
-}
-
-section#projects .project#red, section#trend .project#red {
-  background: -webkit-gradient(linear, left top, right bottom, from(#d13531), to(#701b18));
-  background: linear-gradient(to bottom right, #d13531, #701b18);
-}
-
-section#projects .project#cotb, section#trend .project#cotb {
-  background: -webkit-gradient(linear, left top, right bottom, from(#8CC63F), to(#00A99D));
-  background: linear-gradient(to bottom right, #8CC63F, #00A99D);
-}
-
-section#projects .project#scrat, section#trend .project#scrat {
-  background: -webkit-gradient(linear, left top, right bottom, from(#097de9), to(#8409e9));
-  background: linear-gradient(to bottom right, #097de9, #8409e9);
-}
-
-section#projects .project#censo-reddit, section#trend .project#censo-reddit {
-  background: -webkit-gradient(linear, left top, right bottom, from(#404347), to(#23272a));
-  background: linear-gradient(to bottom right, #404347, #23272a);
-}
-
-section#trend {
-  padding-top: 0;
-  margin-top: -2rem;
-}
-
-#footer {
-  padding-bottom: 50px;
-}
-
-#footer .container p {
-  text-align: right;
-}
-
-#footer img {
-  max-width: 100px;
+#hero p {
+  margin: 1rem 0;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,197 +1,108 @@
-
-$breakpoint-tablet: 768px;
-
-$cinza: #eee;
-$dark-purple: #581b98;
-$purple: #9c1de7;
+$azul: #200228;
+$azulclaro: #22045A;
 $pink: #f3558e;
-$light-pink: #faee1c;
-$dark: #222;
-$white: #fff;
-
+$purple: #581b98;
+$branco: #fff;
 $roundness: 10px;
-html,body{
-    background-color: $white;
-    color: $dark;
-}
+$preto: #000;
+
 a{
   color: $pink !important;
   &:hover{
-    color: $light-pink !important;
+    color: $purple !important;
   }
 }
+.section{
+  padding: 1rem 1rem;
+  @media screen and (min-width: 800px) {
+    padding: 1rem 7rem;
+  }
+}
+.social{
+  .social-link{
+    margin-right: 10px;
+    font-size: 1.5rem;
+    transition: .2s ease;
+    &:hover{
+    }
+  }
+}
+#talks{
+  .talks{
+    .talk-frame{
+      display: inline-block;
+      margin: 1rem;
+      
+      .talk{
+        border-radius: $roundness;
+        
+        background-size: cover;
+        background-position: center;
 
-section{
-  .image-column{
-    text-align: center;
-  }
-  h3{
-    font-size: 1.3rem;
-    font-weight: bold;
-  }
-  .title{
-    span{
-      font-size: 1rem;
-    }
-  }
-  &.hero{
-    background: $dark-purple;
-    color: $white;
-    
-    #svg {
-      display: none;
-      @media screen and (min-width: 800px) {
-        display: block;
-        margin-bottom: -5px;
-        margin-top: -15rem;
-        width: 100%;
-        height: auto;
-      }
-      @media screen and (min-width: 1000px) {
-        margin-top: -20rem;
-        margin-bottom: -5px;
-      }
-      @media screen and (min-width: 1200px) {
-        margin-top: -25rem;
-        margin-bottom: -50px;
-      }
-      
-    }
-    
-    @media screen and (min-width: 800px) {
-      padding-top: 20px;
-    }
-    
-    .social{
-      .social-link{
-        margin-right: 10px;
-        font-size: 1.5rem;
-      }
-    }
-    .title{
-      font-size: 2.5rem;
-    }
-    .subtitle{
-      font-size: 1.3rem;
-    }
-    .title, .subtitle{
-      color: $white;
-    }
-    .text-column{
-      margin: 5%;
-      padding-bottom: 50px;
-    }
-    .image-column{
-      text-align: center;
-      display: none;
-      @media screen and (min-width: 800px) {
-        display: inline-block;
-      }
-    }
-    p{
-      margin-top: 15px;
-    }
-  }
-  
-  &#projects, &#trend{
-    ul{
-      text-align: center;
-      li{
-        width: 300px;
-        display: inline-block;
-        margin: 10px;
-      }
-    }
-    .project{
-      margin: 2px;
-      padding: 25px;
-      border-radius: $roundness;
-      background: linear-gradient(to bottom right, $dark-purple, $purple);
-      color: #333;
-      text-align: center;
-      
-      figure{
-        text-align: center;
-      }
-      h3{
-        text-align: left;
-        margin-top: 25px;
-        font-size: 1.2rem;
-        color: $white;
-      }
-      p{
-        text-align: left;
-        color: $white;
-      }
-      opacity: .95;
-      transition: .3s ease;
-      &:hover{
-        opacity: 1;
-        transform: scale(1.05);
-      }
-      .icons{
-        text-align: left;
-        .icon{
-          margin-right: 5px;
-          
-          color: $white;
-          &:hover{
-            color: $purple;
+        transition: .3s ease;
+        &:hover{
+          transform: scale(1.1);
+          h3{
+            backdrop-filter: blur(1px);
           }
-          
+        }
+        h3{
+          border-radius: $roundness;
+          backdrop-filter: blur(0px);
+          padding: 1rem 2rem;
+          color: $branco;
+          font-size: 1.5rem;
         }
       }
-      &#portugol-studio{
-        background: linear-gradient(to bottom right,#FFC200, #f9ff21);
-      }
-      &#nyachan{
-        background: linear-gradient(to bottom right, #492540, #c03546);
-      }
-      &#neat-snake{
-        background: linear-gradient(to bottom right, #1e6262, #2d767f);
-      }
-      &#porous-render{
-        background: linear-gradient(to bottom right, #713045, #430d27);
-      }
-      &#image-processing-api{
-        background: linear-gradient(to bottom right, #3d5af1 , #22d1ee);
-      }
-      &#knights-tour{
-        background: linear-gradient(to bottom right, #ace7ef , #a56cc1);
-      }
-      &#cassie{
-        background: linear-gradient(to bottom right, #1f4287, #278ea5);
-      }
-      &#red{
-        background: linear-gradient(to bottom right,#d13531, #701b18);
-      }
-      &#cotb{
-        background: linear-gradient(to bottom right,#8CC63F, #00A99D);
-      }
-      &#scrat{
-        background: linear-gradient(to bottom right,#097de9, #8409e9);
-      }
-      &#censo-reddit{
-        background: linear-gradient(to bottom right,#404347, 	#23272a);
-      }
-    }
-  }
-  &#trend{
-    padding-top: 0;
-    margin-top: -2rem;
-  }
-}
-
-#footer{
-  .container{
-    p{
-      text-align: right;
     }
     
   }
-  
-  padding-bottom: 50px;
-  img{
-    max-width: 100px;
+}
+#projects, #posts{
+  .tiltcontainer{
+    @media screen and (min-width: 800px) {
+      padding: 5px;
+    }
+
+    text-align: center;
+  }
+  .tiltframe{
+    display: inline-block;
+    @media screen and (min-width: 800px) {
+      padding-top: 20px;
+      padding: 20px;
+    }
+  }
+  .project{
+    padding: 20px;
+    border-radius: $roundness;
+    background: $branco;
+    transition: opacity .5s ease-out;
+    h3{
+      font-size: 1.2rem;
+      color: $branco !important;
+    }
+  }
+  .post{
+    background-color: $purple;
+    padding: 20px;
+    border-radius: $roundness;
+    transition: opacity .5s ease-out;
+    h3{
+      font-size: 1.3rem;
+      color: $branco !important;
+    }
+  }
+}
+#hero{
+  padding-top: 3rem;
+  .title{
+    font-size: 2.5rem;
+  }
+  .subtitle{
+    font-size: 1rem;
+  }
+  p{
+    margin: 1rem 0;
   }
 }

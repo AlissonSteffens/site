@@ -157,46 +157,28 @@ if(numero != 10):
 export default () => (
   <Page>
     <Title />
-
-    <section className="hero">
-      <div className="hero-body">
-        <div className="container">
-          <div className="columns">
-            <div className="column">
-              <div className="text-column">
-                <h1 className="title">Pensamento Computacional</h1>
-                <p>
-                  O pensamento computacional é uma distinta capacidade criativa,
-                  crítica e estratégica de usar os fundamentos da computação nas
-                  mais diversas áreas de conhecimento com a finalidade de
-                  resolver problemas de uma maneira individual ou colaborativa.
-                </p>
-                <p>
-                  Esta pégina destina-se ao compartilhamento de informações
-                  sobre o Itinerário de Pensamento Computacional do{' '}
-                  <a
-                    href="https://salesianoitajai.g12.br/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Colégio Salesiano Itajaí
-                  </a>.
-                </p>
-              </div>
-            </div>
-            <div className="column image-column" />
-          </div>
-        </div>
+    <section className="section" id="hero">
+      <div className="container">
+        <h1 className="title">Pensamento Computacional</h1>
+        <h2 className="subtitle" />
+        <p>
+          O pensamento computacional é uma distinta capacidade criativa, crítica
+          e estratégica de usar os fundamentos da computação nas mais diversas
+          áreas de conhecimento com a finalidade de resolver problemas de uma
+          maneira individual ou colaborativa.
+        </p>
+        <p>
+          Esta pégina destina-se ao compartilhamento de informações sobre o
+          Itinerário de Pensamento Computacional do{' '}
+          <a
+            href="https://salesianoitajai.g12.br/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Colégio Salesiano Itajaí
+          </a>.
+        </p>
       </div>
-      <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="-300 0 950 270">
-        <path
-          d="M-314,267 C105,364 400,100 812,279"
-          fill="none"
-          stroke="white"
-          strokeWidth="120"
-          strokeLinecap="round"
-        />
-      </svg>
       <Back />
     </section>
 

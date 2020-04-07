@@ -1,8 +1,10 @@
 // Layouts
 import Page from './page'
+import Title from '../components/title'
 
 export default ({ children }) => (
   <Page>
+    <Title />
     <article>{children}</article>
 
     <style jsx>

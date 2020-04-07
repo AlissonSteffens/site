@@ -1,62 +1,86 @@
 [
     {
       "id": "portugol-studio",
+      "type": "big",
       "title": "Portugol Studio",
       "url":"http://univali-lite.github.io/Portugol-Studio/",
       "description": "Censo do r/brasil com informações referentes a 2019",
-      "date": "01-02-2020"
+      "date": "01-02-2020",
+      "color2": "#FFC200",
+      "color1": "#f9ff21"
     },
-    
+
     {
       "id": "cotb",
+      "type": "big",
       "title": "Computer on the Beach",
       "url":"https://computeronthebeach.com.br/",
       "description": "Censo do r/brasil com informações referentes a 2019",
-      "date": "01-02-2020"
+      "date": "01-02-2020",
+      "color1": "#8CC63F",
+      "color2": "#00A99D"
     },
     {
       "id": "cassie",
+      "type": "big",
       "title": "Cassie",
       "url":"https://lia-univali.github.io/cassie/",
       "description": "Censo do r/brasil com informações referentes a 2019",
-      "date": "01-02-2020"
+      "date": "01-02-2020",
+      "color1": "#278ea5",
+      "color2": "#1f4287"
     },
-    
+
     {
       "id": "nyachan",
+      "type": "big",
       "title": "NyaChan",
       "url":"http://nyachan-server.herokuapp.com/",
       "description": "Censo do r/brasil com informações referentes a 2019",
-      "date": "01-02-2020"
+      "date": "01-02-2020",
+      "color1": "#c03546",
+      "color2": "#492540"
     },
-    
+
     {
       "id": "image-processing-api",
+      "type": "big",
       "title": "Image Processing API",
       "url": "https://github.com/AlissonSteffens/image-processing-api",
       "description": "Censo do r/brasil com informações referentes a 2019",
-      "date": "01-02-2020"
+      "date": "01-02-2020",
+      "color2": "#3d5af1",
+      "color1": "#22d1ee"
     },
     {
       "id": "porous-render",
+      "type": "big",
       "title": "Porous Render",
       "url":"https://github.com/AlissonSteffens/porous-material-voxel-render",
       "description": "Censo do r/brasil com informações referentes a 2019",
-      "date": "01-02-2020"
+      "date": "01-02-2020",
+      "color1": "#713045",
+      "color2": "#430d27"
     },
-    
+
     {
       "id": "knights-tour",
+      "type": "big",
       "title": "Knight's Tour",
       "url":"https://github.com/BeholderDEV/unity-knights-tour",
       "description": "Censo do r/brasil com informações referentes a 2019",
-      "date": "01-02-2020"
+      "date": "01-02-2020",
+      "color1": "#f3558e",
+      "color2": "#9c1de7"
     },
     {
       "id": "neat-snake",
+      "type": "big",
       "title": "Neat Snake",
       "url":"https://github.com/lia-univali/neat-snake",
       "description": "Censo do r/brasil com informações referentes a 2019",
-      "date": "01-02-2020"
+      "date": "01-02-2020",
+      "color1": "#17b978",
+      "color2": "#086972"
     }
-  ]
+  ] 
