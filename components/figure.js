@@ -1,5 +1,6 @@
 // Components
 import Back from './back'
+import ReactMediumImg from 'react-medium-zoom'
 
 const getClasses = (isCover, isWindow) => {
   const list = []
@@ -56,6 +57,70 @@ const Embed = ({ src, width, height }) => {
     </aside>
   )
 }
+
+const MediumImage = ({ width, className, src, isCover, isWindow }) => (
+  <figure className={getClasses(isCover, isWindow)}>
+    <ReactMediumImg src={src} width={width} className={className} />
+
+    {isCover && <Back to="/essays" insideCover />}
+
+    <style jsx>
+      {`
+        img {
+          max-width: 100%;
+        }
+
+        figure {
+          margin: 10px 0;
+          text-align: center;
+        }
+
+        .frame {
+          margin: 10px 0;
+        }
+
+        .frame img {
+          border-radius: 8px;
+          border: 1px solid #b9b9b9;
+          box-shadow: 0px 0px 30px 1px rgba(170, 170, 170, 1);
+        }
+
+        .cover {
+          margin: -45px -30px 30px -30px;
+          position: relative;
+        }
+
+        .cover img {
+          max-width: none;
+          width: 100%;
+          object-fit: cover;
+        }
+
+        @media (min-width: 680px) {
+          .cover img {
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+          }
+        }
+
+        @media (min-width: 768px) {
+          .cover {
+            margin: 0 0 40px 0;
+            width: 100%;
+            border-radius: 6px;
+            overflow: hidden;
+            font-size: 0;
+            line-height: 0;
+          }
+
+          .cover img {
+            border-radius: 0;
+          }
+        }
+      `}
+    </style>
+  </figure>
+)
 
 const Image = ({ width, className, src, isCover, isWindow }) => (
   <figure className={getClasses(isCover, isWindow)}>
@@ -201,4 +266,4 @@ const SimpleImage = ({ width, className, src, isCover, isWindow }) => (
 )
 
 export default Image
-export { Image, SimpleImage, Embed }
+export { Image, SimpleImage, MediumImage, Embed }

@@ -56,7 +56,7 @@ export default () => (
                 <Tilt
                   className="Tilt"
                   options={{ max: 25, glare: true, maxGlare: 0.5 }}
-                  style={{ height: 250, width: 300 }}
+                  style={{ height: 200, width: 250 }}
                 >
                   <div className="Tilt-inner">
                     <div

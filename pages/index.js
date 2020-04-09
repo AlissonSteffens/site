@@ -1,7 +1,7 @@
 // Components
 import Link from 'next/link'
 import Title from '../components/title'
-import { Image } from '../components/figure'
+import { Image, MediumImage } from '../components/figure'
 import Header from '../components/header'
 import moment from 'moment'
 // Layouts
@@ -19,6 +19,7 @@ import {
 
 import projects from '../data/projects'
 import talks from '../data/talks'
+import pictures from '../data/pictures'
 
 export default () => (
   <Page>
@@ -108,7 +109,12 @@ export default () => (
               <a href={p.url} target="_blank" rel="noopener noreferrer">
                 <Tilt
                   className="Tilt"
-                  options={{ max: 25, glare: true, maxGlare: 0.5 }}
+                  options={{
+                    reverse: true,
+                    max: 25,
+                    glare: true,
+                    maxGlare: 0.5
+                  }}
                   style={{ height: 200, width: 250 }}
                 >
                   <div className="Tilt-inner">
@@ -169,6 +175,19 @@ export default () => (
         </div>
       </div>
     </section>
+
+    {/* <section className="section" id="pictures">
+      <div className="container">
+        <h2 className="title">Pictures</h2>
+        <div className="pictures">
+          {pictures.map(p => (
+            <div className="picture-frame" key={p.id}>
+              <MediumImage src={p.src} width={'250px'} className={'picture'}></MediumImage>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section> */}
 
     <section className="section" id="academic">
       <div className="container">
