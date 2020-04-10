@@ -14,7 +14,7 @@ export default asPost({
 })(markdown(components)`
 # Desbravando o Arduino com tecnologias de programação mais amigáveis
 
-Este docuemnto foi desenvolvido para a TDC Florianópolis 2019. Neste evento eu tive a oportunidade de realizar este workshop com 30 crianças. A intenção de disponibilizar aqui o planejamento, é permitir que a mesma metodologia seja utilizada em outros eventos e aplicada por outras pessoas.
+Este documento foi desenvolvido para a TDC Florianópolis 2019. Neste evento eu tive a oportunidade de realizar este workshop com 30 crianças. A intenção de disponibilizar aqui o planejamento, é permitir que a mesma metodologia seja utilizada em outros eventos e aplicada por outras pessoas.
 ![](/static/talks/tdcflp-2019.jpg)
 
 ## Materiais

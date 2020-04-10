@@ -14,7 +14,7 @@ export default asPost({
 })(markdown(components)`
 # Computação Desplugada em Jogos de Tabuleiro
 
-Este docuemnto foi desenvolvido para a TDC São Paulo 2019. Neste evento eu tive a oportunidade de realizar este workshop com 45 crianças. A intenção de disponibilizar aqui o planejamento, é permitir que a mesma metodologia seja utilizada em outros eventos e aplicada por outras pessoas.
+Este documento foi desenvolvido para a TDC São Paulo 2019. Neste evento eu tive a oportunidade de realizar este workshop com 45 crianças. A intenção de disponibilizar aqui o planejamento, é permitir que a mesma metodologia seja utilizada em outros eventos e aplicada por outras pessoas.
 
 ![](/static/talks/tdcsp-2019.jpg)
 
