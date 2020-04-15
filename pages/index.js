@@ -4,6 +4,7 @@ import Title from '../components/title'
 import { Image, MediumImage } from '../components/figure'
 import Header from '../components/header'
 import moment from 'moment'
+import components from '../components'
 // Layouts
 import Page from '../layouts/page'
 import Tilt from 'react-tilt'

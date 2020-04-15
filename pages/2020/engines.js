@@ -7,6 +7,7 @@ import { Ref, FootNotes, Note } from '../../components/footnotes'
 import components from '../../components'
 import json from 'highlight.js/lib/languages/json'
 import bash from 'highlight.js/lib/languages/bash'
+import { Image, MediumImage } from '../../components/figure'
 
 export default asPost({
   id: 'engines',
@@ -47,7 +48,8 @@ A Unity é o único motor de jogos entre os grandes que não foi baseada em nenh
 
 Ok, agora sabendo mais ou menos como surgiram os motores de jogos famosos, vamos para os problemas.
 
-![](/static/essays/2020/engines/anthem.jpg)
+${<MediumImage src="/static/essays/2020/engines/anthem.jpg" />}
+
 # Anthem
 
 Todo mundo sabe que o jogo Anthem foi um dos grandes desastres da indústria dos games. O que nem todos sabem é que isso não foi culpa só da falta de vontade da EA.
@@ -65,7 +67,8 @@ A escolha pela Frostbite acabou fazendo com que o Anthem morresse antes mesmo de
 
 Mas a EA não é a única empresa que tem uma engine própria e apanha por isso. A blizzard passou recentemente por uma situação parecida.
 
-![](/static/essays/2020/engines/warcraft.jpg)
+${<MediumImage src="/static/essays/2020/engines/warcraft.jpg" />}
+
 # Warcraft 3: Reforged
 
 A Blizzard é uma empresa que gosta de ter controle de seus jogos. Por isso quase todos os seus jógos contam com um Motor próprio, feito especialmente para ele. No caso da Blizzard, isso costuma dar certo (COmo o exemplo do Overwatch).
@@ -81,7 +84,8 @@ Se a Blizzard tivesse utilizado a engine de StarCraft 2, ou um outro motor comer
 Mas nem todos os casos de jogos mortos pela engine acontecem no seu lançamento. Alguns vão apenas envelhecendo, como é o caso do filho do Warcraft 3, o LoL.
 
 
-![](/static/essays/2020/engines/lol.jpg)
+${<MediumImage src="/static/essays/2020/engines/lol.jpg" />}
+
 # League of Legends
 
 O LoL é um jogo baseado no MOD de Warcraft 3 chamado DoTA. Ele foi lançado em 2009, e depois de mais de 10 anos, a sua engine está começando a ser um problema.
@@ -102,7 +106,8 @@ Valorant entretanto é feito na Unreal Engine e o Legends of Runeterra na Unity.
 
 Mas nem tudo está perdido para as engines proprietárias. A única empresa grande que aparenta ainda estar focada em manter a sua engine própria funcionando é a Valve.
 
-![](/static/essays/2020/engines/valve.jpg)
+${<MediumImage src="/static/essays/2020/engines/valve.jpg" />}
+
 # A Valve
 
 Em contra partida com a movimentação das outras empresas, a Valve continua utlizando sua Source. Recentemente lançou dois jogos o Half-Life: Alix e o Dota Underlords. Estes jogos mostram que a Valve está correndo atrás e a Source já é capaz de portar jogos para celular e Realizada Virtual.

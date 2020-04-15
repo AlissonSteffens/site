@@ -29,7 +29,7 @@ export default ({ id, hasCover }) => {
 
   return (
     <aside>
-      <Back to="/" outsideCover={hasCover} />
+      <Back />
 
       {hasCover && <Image src={coverURL} width="350" />}
       <Title value={post.title} />
@@ -53,7 +53,10 @@ export default ({ id, hasCover }) => {
       {hasCover && (
         <Head>
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:image" content={'https://leo.im' + coverURL} />
+          <meta
+            name="twitter:image"
+            content={'https://alissonsteffens.com' + coverURL}
+          />
         </Head>
       )}
 
