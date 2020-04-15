@@ -29,14 +29,14 @@ export default ({ id, hasCover }) => {
 
   return (
     <aside>
-      <Back />
-
-      {hasCover && <Image src={coverURL} width="350" />}
       <Title
         title={post.title}
         description={post.description}
         coverURL={coverURL}
       />
+      <Back />
+
+      {hasCover && <Image src={coverURL} width="350" />}
 
       <h1 className={headingClass}>{post.title}</h1>
       <span>{date.format('MMMM Do YYYY')}</span>
