@@ -16,6 +16,7 @@ export default asPost({
 Nós estamos vivendo uma das épocas mais importantes para os Motores de Jogos no entretenimento, e eu vou explicar o porquê.
 
 Motores de jogos são um dos grandes responsáveis pelo surgimento e morte de jogos. Um grande exemplo disso é o Anthem.
+
 Hoje eu vou explicar como um motor de jogos pode matar o Anthem antes mesmo do lançamento do jogo, e como outro está matando o League os Legends.
 
 # Os Motores de Jogos
@@ -24,11 +25,12 @@ Antes de tudo, acho válido explicar o que é um motor de jogo (game engine) e d
 
 Basicamente tudo começou com o DOOM. Antes dele todos os jogos eram feitos em um blocão de código que era responsável pela animação, movimentação, física e toda a lógica do jogo.
 
-Cada vez que uma empresa ou pessoa ia fazer um jogo, ela tinha que começar do zero. e implementar todas as partes dele. Nesta época fazer um jogo era um processo muito caro e demorado. Dificilmente uma pessoa sozinha seria capaz de fazer.
+Cada vez que uma empresa ou pessoa ia fazer um jogo, ela tinha que começar do zero, e implementar todas as partes dele. Nesta época fazer um jogo era um processo muito caro e demorado. Dificilmente uma pessoa sozinha seria capaz de fazer.
 
 Quando a galera da IdSoftware começou a fazer o DOOM, eles pensaram em dividir as funções do jogo que poderiam mais tarde ser reutilizadas. separaram a renderização da física e da lógica do jogo. Com isso, eles conseguiram após o DOOM fazer o Wolfenstein reutilizando grande parte do código. A esse conjunto de códigos reutilizaveis, a IdSoftware chamou de IdTech.
 
 ## IdTech
+
 A IdTech é uma engine ainda muito utilizada. Ela foi sendo atualizada e deu origem a outros jogos (como Rage, Quake e Call of Duty), e outras engines como a Source.
 
 ## Source Engine
@@ -39,11 +41,13 @@ Após o sucesso do DOOM, outras empresas começaram a tentar fazer seus próprio
 Assim como a IdSoftware, a Epic também fez o jogo de maneira modular, e lançou sua propria engine chamada de Unreal.
 
 ## Unreal Engine
+
 A Unreal é atualmente uma das engines mais utilizadas, e foi responsável por jogos enormes como Gears e Fortnite.
 
 Na contramão dos motores apresentados até agora, foi criada a Unity.
 
 ## Unity
+
 A Unity é o único motor de jogos entre os grandes que não foi baseada em nenhum jogo. Ela foi criada apenas pra ser um motor de jogos. Ultimamente tem ganhado bastante força, principalmente depois do HearthStone, mas isso vai ser falado mais pra frente.
 
 Ok, agora sabendo mais ou menos como surgiram os motores de jogos famosos, vamos para os problemas.
@@ -57,6 +61,7 @@ Todo mundo sabe que o jogo Anthem foi um dos grandes desastres da indústria dos
 A Eletronic Arts não utiliza nenhum dos motores citados ali em cima. Eles utlizam um chamado Frostbite.
 
 ## Frostbite
+
 A Frostbite foi criada pela DICE para o jogo Battlefield: Bad Company. Desde então ela foi utilizada pela EA para Need for Speed, Dragon Age, Star Wars Battlefront, FIFA, Plants vs Zombies (?) e o famoso Anthem.
 
 O problema é que a engine não foi feita pra ser tão genérica assim. Ela foi feita pra rodar Battlefield. Como ela é fechada e apenas a própria galera da EA tem acesso, é claro que ela também tem muita gambiarra e pouca documentação (além de todos os problemas que uma engine aberta já teria).
