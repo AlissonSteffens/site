@@ -32,7 +32,7 @@ Quando a galera da IdSoftware começou a fazer o DOOM, eles pensaram em dividir 
 A IdTech é uma engine ainda muito utilizada. Ela foi sendo atualizada e deu origem a outros jogos (como Rage, Quake e Call of Duty), e outras engines como a Source.
 
 ## Source Engine
-A source é uma engine desenvolvida pela Valve (a galera da Steam) e ela é baseada na IdTech. Com ela foram feitos Counter Strike, HalfLife, TeamFortres e DoTa.
+A source é uma engine desenvolvida pela Valve (a galera da Steam) e ela é baseada na IdTech. Com ela foram feitos Counter Strike, HalfLife, TeamFortres e DoTA.
 
 
 Após o sucesso do DOOM, outras empresas começaram a tentar fazer seus próprios motores. Um exemplo foi a Epic Games que criou o Unreal Tournament. O jogo é no estilo de quake, e foi feito para competir com o Quake III arena.
@@ -41,7 +41,7 @@ Assim como a IdSoftware, a Epic também fez o jogo de maneira modular, e lançou
 ## Unreal Engine
 A Unreal é atualmente uma das engines mais utilizadas, e foi responsável por jogos enormes como Gears e Fortnite.
 
-Na contramão dos motores apresnetados até agora, foi criada a Unity.
+Na contramão dos motores apresentados até agora, foi criada a Unity.
 
 ## Unity
 A Unity é o único motor de jogos entre os grandes que não foi baseada em nenhum jogo. Ela foi criada apenas pra ser um motor de jogos. Ultimamente tem ganhado bastante força, principalmente depois do HearthStone, mas isso vai ser falado mais pra frente.
@@ -65,7 +65,7 @@ Com os desenvolvedores desesperados para conseguir fazer o jogo e lançar em tem
 
 A escolha pela Frostbite acabou fazendo com que o Anthem morresse antes mesmo de ser lançado.
 
-Mas a EA não é a única empresa que tem uma engine própria e apanha por isso. A blizzard passou recentemente por uma situação parecida.
+Mas a EA não é a única empresa que tem uma engine própria e apanha por isso. A Blizzard passou recentemente por uma situação parecida.
 
 ${<MediumImage src="/static/essays/2020/engines/warcraft.jpg" />}
 
@@ -73,11 +73,11 @@ ${<MediumImage src="/static/essays/2020/engines/warcraft.jpg" />}
 
 A Blizzard é uma empresa que gosta de ter controle de seus jogos. Por isso quase todos os seus jógos contam com um Motor próprio, feito especialmente para ele. No caso da Blizzard, isso costuma dar certo (Como o exemplo do Overwatch).
 
-A engine desenvolvida para o Warcraft 3, é muito importante, pois foi graças aos mods que ela permitia, que surgiram DoTA e League of Legends. Mas isso foi há 20 anos. Utiliza-la agora para o Reforged foi um erro.
+A engine desenvolvida para o Warcraft 3 é muito importante, pois foi graças aos mods que ela permitia, que surgiram DoTA e League of Legends. Mas isso foi há 20 anos. Utiliza-la agora para o Reforged foi um erro.
 
 Quando a Capcom fez o remake de Resident Evil 2, muitos ficaram incomodados com o fato de terem migrado para a Engine do 7, mas quando o jogo saiu todos perceberam que foi a melhor escolha a ser tomada.
 
-Por mais que todos tenhamos boas memórias do Warcraft 3 original, o motor dele já muito ultrapassado, e impediu que os desenvolvedores fizessem do Reforge um jogo excelente. Como resultado, o jogo foi o pior avaliado da hitória da Blizzard, e um dos piores do Metacritc.
+Por mais que todos tenhamos boas memórias do Warcraft 3 original, o motor dele já é muito ultrapassado, e impediu que os desenvolvedores fizessem do Reforge um jogo excelente. Como resultado, o jogo foi o pior avaliado da hitória da Blizzard, e um dos piores do Metacritc.
 
 Se a Blizzard tivesse utilizado a engine de StarCraft 2, ou um outro motor comercial, os resultados poderiam ter sido MUITO mais positivos.
 
@@ -110,7 +110,7 @@ ${<MediumImage src="/static/essays/2020/engines/valve.jpg" />}
 
 # A Valve
 
-Em contra partida com a movimentação das outras empresas, a Valve continua utlizando sua Source. Recentemente lançou dois jogos o Half-Life: Alix e o Dota Underlords. Estes jogos mostram que a Valve está correndo atrás e a Source já é capaz de portar jogos para celular e Realidade Virtual.
+Em contra partida com a movimentação das outras empresas, a Valve continua utlizando sua Source. Recentemente lançou dois jogos o Half-Life: Alix e o DoTA Underlords. Estes jogos mostram que a Valve está correndo atrás e a Source já é capaz de portar jogos para celular e Realidade Virtual.
 
 Isso tudo entratando não é de graça. Os lançamentos de jogos da Valve demoram muito, pois ela sempre tem que criar as funcionalidades para cado jogo. E enquanto foca nisso, está deixando a sua plataforma Steam ser derrubada pela Epic (do Unreal). A Epic está aproveitando que quase todos os desenvolvedores utilizam sua engine para fazer parcerias e contratos de exclusividade, o que têm feito muitos jogadores migrarem pra nova plataforma.
 
