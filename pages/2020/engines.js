@@ -54,7 +54,7 @@ ${<MediumImage src="/static/essays/2020/engines/anthem.jpg" />}
 
 Todo mundo sabe que o jogo Anthem foi um dos grandes desastres da indústria dos games. O que nem todos sabem é que isso não foi culpa só da falta de vontade da EA.
 
-A Eletronic Arts não utilia nenhum dos motores citados ali em cima. Eles utlizam um chamado Frostbite.
+A Eletronic Arts não utiliza nenhum dos motores citados ali em cima. Eles utlizam um chamado Frostbite.
 
 ## Frostbite
 A Frostbite foi criada pela DICE para o jogo Battlefield: Bad Company. Desde então ela foi utilizada pela EA para Need for Speed, Dragon Age, Star Wars Battlefront, FIFA, Plants vs Zombies (?) e o famoso Anthem.
@@ -71,13 +71,13 @@ ${<MediumImage src="/static/essays/2020/engines/warcraft.jpg" />}
 
 # Warcraft 3: Reforged
 
-A Blizzard é uma empresa que gosta de ter controle de seus jogos. Por isso quase todos os seus jógos contam com um Motor próprio, feito especialmente para ele. No caso da Blizzard, isso costuma dar certo (COmo o exemplo do Overwatch).
+A Blizzard é uma empresa que gosta de ter controle de seus jogos. Por isso quase todos os seus jógos contam com um Motor próprio, feito especialmente para ele. No caso da Blizzard, isso costuma dar certo (Como o exemplo do Overwatch).
 
-A engine desenvolvida para o Warcraft 3, é muito importante, pois foi graças aos mods que ela permitia, que surgiram DoTA e League of Legends. Mas isso foi a 20 anos. Utiliza-la agora para o Reforged foi um erro.
+A engine desenvolvida para o Warcraft 3, é muito importante, pois foi graças aos mods que ela permitia, que surgiram DoTA e League of Legends. Mas isso foi há 20 anos. Utiliza-la agora para o Reforged foi um erro.
 
 Quando a Capcom fez o remake de Resident Evil 2, muitos ficaram incomodados com o fato de terem migrado para a Engine do 7, mas quando o jogo saiu todos perceberam que foi a melhor escolha a ser tomada.
 
-Por mais que todos tenhamos boas memórias do Warcraft 3 original, o motor dele já muito ultrapassado, e segurou muito o que os desenvolvedores da Blizzard puderam fazer. Como resultado, o jogo foi o pior avaliado da hitória da Blizzard, e um dos piores do Metacritc.
+Por mais que todos tenhamos boas memórias do Warcraft 3 original, o motor dele já muito ultrapassado, e impediu que os desenvolvedores fizessem do Reforge um jogo excelente. Como resultado, o jogo foi o pior avaliado da hitória da Blizzard, e um dos piores do Metacritc.
 
 Se a Blizzard tivesse utilizado a engine de StarCraft 2, ou um outro motor comercial, os resultados poderiam ter sido MUITO mais positivos.
 
@@ -112,7 +112,7 @@ ${<MediumImage src="/static/essays/2020/engines/valve.jpg" />}
 
 Em contra partida com a movimentação das outras empresas, a Valve continua utlizando sua Source. Recentemente lançou dois jogos o Half-Life: Alix e o Dota Underlords. Estes jogos mostram que a Valve está correndo atrás e a Source já é capaz de portar jogos para celular e Realidade Virtual.
 
-Isso tudo entratando não é de graça. Os lançamentos de jogos da Valve demoram muito, pois ela sempre tem que criar as funcionalidades que quer. E enquanto foca nisso, está deixando a sua plataforma Steam ser derrubada pela Epic (do Unreal). A Epic está aproveitando que quase todos os desenvolvedores utilizam sua engine para fazer parcerias e contratos de exclusividade, o que têm feito muitos jogadores migrarem pra nova plataforma.
+Isso tudo entratando não é de graça. Os lançamentos de jogos da Valve demoram muito, pois ela sempre tem que criar as funcionalidades para cado jogo. E enquanto foca nisso, está deixando a sua plataforma Steam ser derrubada pela Epic (do Unreal). A Epic está aproveitando que quase todos os desenvolvedores utilizam sua engine para fazer parcerias e contratos de exclusividade, o que têm feito muitos jogadores migrarem pra nova plataforma.
 
 # O futuro dos Motores de Jogos
 
@@ -120,8 +120,8 @@ A Blizzard e a Riot desistiram de criar motores próprios e começaram a utiliza
 
 A Valve mantém o suporte e foco na Source, mas só o tempo vai dizer se esta escolha valeu a pena ou não.
 
-Os motores de jogos comerciais vão ser cada vez mais utilizados, uma possível aposta da Valve para um futuro próximo seria tentar posicionar a Source e transforma-la em uma concorrente forte contra a Unity e a Unreal, mas não sei se a valve tem tempo ou dinheiro pra isso.
+Os motores de jogos comerciais vão ser cada vez mais utilizados, uma possível aposta da Valve para um futuro próximo seria tentar posicionar a Source e transformá-la em uma concorrente forte contra a Unity e a Unreal, mas não sei se a valve tem tempo ou dinheiro pra isso.
 
-Enquanto isso cabe aos desenvolvedores indies (e pelos exeplos mostrados aqui, as grandes empresas também), escolherem bem seus motores de jogos antes de iniciar um projeto. Pois esta escolha pode ser crucial na caacidae de um jogo de dar certo ou não.
+Enquanto isso cabe aos desenvolvedores indies (e pelos exemplos mostrados aqui, as grandes empresas também), escolherem bem seus motores de jogos antes de iniciar um projeto. Pois esta escolha pode ser crucial na capacidade de um jogo de dar certo ou não.
 
 `)

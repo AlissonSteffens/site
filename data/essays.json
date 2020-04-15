@@ -14,13 +14,13 @@
   {
     "id": "workshop-arduino",
     "title": "Arduino 4Kids",
-    "description": "",
+    "description": "Workshop de Arduino realizado na TDC4Kids",
     "date": "27-04-2019"
   },
   {
     "id": "workshop-desplugado",
     "title": "Computação 4Kids",
-    "description": "",
+    "description": "Workshop de Computação Desplugada realizado na TDC4Kids",
     "date": "20-06-2019"
   }
 ]
