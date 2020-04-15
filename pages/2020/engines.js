@@ -27,7 +27,7 @@ Basicamente tudo começou com o DOOM. Antes dele todos os jogos eram feitos em u
 
 Cada vez que uma empresa ou pessoa ia fazer um jogo, ela tinha que começar do zero, e implementar todas as partes dele. Nesta época fazer um jogo era um processo muito caro e demorado. Dificilmente uma pessoa sozinha seria capaz de fazer.
 
-Quando a galera da IdSoftware começou a fazer o DOOM, eles pensaram em dividir as funções do jogo que poderiam mais tarde ser reutilizadas. separaram a renderização da física e da lógica do jogo. Com isso, eles conseguiram após o DOOM fazer o Wolfenstein reutilizando grande parte do código. A esse conjunto de códigos reutilizaveis, a IdSoftware chamou de IdTech.
+Quando a galera da IdSoftware começou a fazer o DOOM, eles pensaram em dividir as funções do jogo que poderiam mais tarde ser reutilizadas. Separaram a renderização da física e da lógica do jogo. Com isso, eles conseguiram após o DOOM fazer o Wolfenstein reutilizando grande parte do código. A esse conjunto de códigos reutilizaveis, a IdSoftware chamou de IdTech.
 
 ## IdTech
 
