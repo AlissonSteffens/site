@@ -110,7 +110,7 @@ ${<MediumImage src="/static/essays/2020/engines/valve.jpg" />}
 
 # A Valve
 
-Em contra partida com a movimentação das outras empresas, a Valve continua utlizando sua Source. Recentemente lançou dois jogos o Half-Life: Alix e o Dota Underlords. Estes jogos mostram que a Valve está correndo atrás e a Source já é capaz de portar jogos para celular e Realizada Virtual.
+Em contra partida com a movimentação das outras empresas, a Valve continua utlizando sua Source. Recentemente lançou dois jogos o Half-Life: Alix e o Dota Underlords. Estes jogos mostram que a Valve está correndo atrás e a Source já é capaz de portar jogos para celular e Realidade Virtual.
 
 Isso tudo entratando não é de graça. Os lançamentos de jogos da Valve demoram muito, pois ela sempre tem que criar as funcionalidades que quer. E enquanto foca nisso, está deixando a sua plataforma Steam ser derrubada pela Epic (do Unreal). A Epic está aproveitando que quase todos os desenvolvedores utilizam sua engine para fazer parcerias e contratos de exclusividade, o que têm feito muitos jogadores migrarem pra nova plataforma.
 
