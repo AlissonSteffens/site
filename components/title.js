@@ -19,12 +19,12 @@ export default class Title extends Component {
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
-        <title>{this.props.title || 'Alisson Steffens'}</title>
+        <title>{this.props.maintitle || 'Alisson Steffens'}</title>
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="application-name"
-          content={this.props.title || 'Alisson Steffens'}
+          content={this.props.maintitle || 'Alisson Steffens'}
         />
         <meta
           name="description"
@@ -35,7 +35,10 @@ export default class Title extends Component {
 
         <meta property="og:locale" content="pt_BR" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Alisson Steffens" />
+        <meta
+          property="og:title"
+          content={this.props.maintitle || 'Alisson Steffens'}
+        />
         <meta
           property="og:description"
           content={this.props.description || 'Geek programer and cinephile'}
@@ -57,7 +60,7 @@ export default class Title extends Component {
         />
         <meta
           name="twitter:title"
-          content={this.props.title || 'Alisson Steffens'}
+          content={this.props.maintitle || 'Alisson Steffens'}
         />
         <meta
           name="twitter:image"

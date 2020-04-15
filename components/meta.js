@@ -30,7 +30,7 @@ export default ({ id, hasCover }) => {
   return (
     <aside>
       <Title
-        title={post.title}
+        maintitle={post.title}
         description={post.description}
         coverURL={coverURL}
       />
