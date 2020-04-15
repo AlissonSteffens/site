@@ -34,11 +34,11 @@ Quando a galera da IdSoftware começou a fazer o DOOM, eles pensaram em dividir 
 A IdTech é uma engine ainda muito utilizada. Ela foi sendo atualizada e deu origem a outros jogos (como Rage, Quake e Call of Duty), e outras engines como a Source.
 
 ## Source Engine
-A source é uma engine desenvolvida pela Valve (a galera da Steam) e ela é baseada na IdTech. Com ela foram feitos Counter Strike, HalfLife, TeamFortres e DoTA.
+A source é uma engine desenvolvida pela Valve (a galera da Steam) e ela é baseada na IdTech. Com ela foram feitos Counter Strike, HalfLife, TeamFortres e Dota.
 
 
 Após o sucesso do DOOM, outras empresas começaram a tentar fazer seus próprios motores. Um exemplo foi a Epic Games que criou o Unreal Tournament. O jogo é no estilo de quake, e foi feito para competir com o Quake III arena.
-Assim como a IdSoftware, a Epic também fez o jogo de maneira modular, e lançou sua propria engine chamada de Unreal.
+Assim como a IdSoftware, a Epic também fez o jogo de maneira modular, e lançou sua própria engine chamada de Unreal.
 
 ## Unreal Engine
 
@@ -78,7 +78,7 @@ ${<MediumImage src="/static/essays/2020/engines/warcraft.jpg" />}
 
 A Blizzard é uma empresa que gosta de ter controle de seus jogos. Por isso quase todos os seus jógos contam com um Motor próprio, feito especialmente para ele. No caso da Blizzard, isso costuma dar certo (Como o exemplo do Overwatch).
 
-A engine desenvolvida para o Warcraft 3 é muito importante, pois foi graças aos mods que ela permitia, que surgiram DoTA e League of Legends. Mas isso foi há 20 anos. Utiliza-la agora para o Reforged foi um erro.
+A engine desenvolvida para o Warcraft 3 é muito importante, pois foi graças aos mods que ela permitia, que surgiram Dota e League of Legends. Mas isso foi há 20 anos. Utiliza-la agora para o Reforged foi um erro.
 
 Quando a Capcom fez o remake de Resident Evil 2, muitos ficaram incomodados com o fato de terem migrado para a Engine do 7, mas quando o jogo saiu todos perceberam que foi a melhor escolha a ser tomada.
 
@@ -93,7 +93,7 @@ ${<MediumImage src="/static/essays/2020/engines/lol.jpg" />}
 
 # League of Legends
 
-O LoL é um jogo baseado no MOD de Warcraft 3 chamado DoTA. Ele foi lançado em 2009, e depois de mais de 10 anos, a sua engine está começando a ser um problema.
+O LoL é um jogo baseado no MOD de Warcraft 3 chamado Dota. Ele foi lançado em 2009, e depois de mais de 10 anos, a sua engine está começando a ser um problema.
 
 A Riot continua alimentando a mesmo motor próprio desde o lançamento do jogo, mas a verdade é que ele está começando a patinar. Mesmo sem ter gráficos absurdos, as últimas atualizações do jogos estão utilizando cada vez mais hardware, e isso era esperado. 
 
@@ -115,7 +115,7 @@ ${<MediumImage src="/static/essays/2020/engines/valve.jpg" />}
 
 # A Valve
 
-Em contra partida com a movimentação das outras empresas, a Valve continua utlizando sua Source. Recentemente lançou dois jogos o Half-Life: Alix e o DoTA Underlords. Estes jogos mostram que a Valve está correndo atrás e a Source já é capaz de portar jogos para celular e Realidade Virtual.
+Em contra partida com a movimentação das outras empresas, a Valve continua utlizando sua Source. Recentemente lançou dois jogos o Half-Life: Alix e o Dota Underlords. Estes jogos mostram que a Valve está correndo atrás e a Source já é capaz de portar jogos para celular e Realidade Virtual.
 
 Isso tudo entratando não é de graça. Os lançamentos de jogos da Valve demoram muito, pois ela sempre tem que criar as funcionalidades para cado jogo. E enquanto foca nisso, está deixando a sua plataforma Steam ser derrubada pela Epic (do Unreal). A Epic está aproveitando que quase todos os desenvolvedores utilizam sua engine para fazer parcerias e contratos de exclusividade, o que têm feito muitos jogadores migrarem pra nova plataforma.
 
