@@ -32,33 +32,14 @@ export default ({ id, hasCover }) => {
       <Back />
 
       {hasCover && <Image src={coverURL} width="350" />}
-      <Title value={post.title} />
+      <Title
+        title={post.title}
+        description={post.description}
+        coverURL={coverURL}
+      />
 
       <h1 className={headingClass}>{post.title}</h1>
       <span>{date.format('MMMM Do YYYY')}</span>
-
-      {post.title && (
-        <Head>
-          <meta name="twitter:title" content={post.title} />
-        </Head>
-      )}
-
-      {post.description && (
-        <Head>
-          <meta name="twitter:description" content={post.description} />
-          <meta name="description" content={post.description} />
-        </Head>
-      )}
-
-      {hasCover && (
-        <Head>
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta
-            name="twitter:image"
-            content={'https://alissonsteffens.com' + coverURL}
-          />
-        </Head>
-      )}
 
       <style jsx>
         {`

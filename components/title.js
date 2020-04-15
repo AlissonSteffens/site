@@ -19,11 +19,17 @@ export default class Title extends Component {
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
-        <title>Alisson Steffens</title>
+        <title>{this.props.title || 'Alisson Steffens'}</title>
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="application-name" content="Alisson Steffens" />
-        <meta name="description" content="Geek programer and cinephile" />
+        <meta
+          name="application-name"
+          content={this.props.title || 'Alisson Steffens'}
+        />
+        <meta
+          name="description"
+          content={this.props.description || 'Geek programer and cinephile'}
+        />
         <meta name="author" content="Alisson Steffens" />
         <meta name="keywords" content="opensource, programer" />
 
@@ -32,24 +38,33 @@ export default class Title extends Component {
         <meta property="og:title" content="Alisson Steffens" />
         <meta
           property="og:description"
-          content="Geek programer and cinephile"
+          content={this.props.description || 'Geek programer and cinephile'}
         />
         <meta property="og:url" content="https://alissonsteffens.com/" />
         <meta property="og:site_name" content="Alisson Steffens" />
         <meta
           property="og:image"
-          content="https://alissonsteffens.com/thumb.jpg"
+          content={
+            'https://alissonsteffens.com' + this.props.coverURL ||
+            'https://alissonsteffens.com/thumb.jpg'
+          }
         />
 
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:description"
-          content="Geek programer and cinephile"
+          content={this.props.description || 'Geek programer and cinephile'}
         />
-        <meta name="twitter:title" content="Alisson Steffens" />
+        <meta
+          name="twitter:title"
+          content={this.props.title || 'Alisson Steffens'}
+        />
         <meta
           name="twitter:image"
-          content="https://alissonsteffens.com/thumb.jpg"
+          content={
+            'https://alissonsteffens.com' + this.props.coverURL ||
+            'https://alissonsteffens.com/thumb.jpg'
+          }
         />
 
         <link
