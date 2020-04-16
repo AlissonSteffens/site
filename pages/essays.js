@@ -5,7 +5,7 @@ import moment from 'moment'
 import Link from 'next/link'
 import Title from '../components/title'
 import Back from '../components/back'
-import { Image } from '../components/figure'
+import { Image, SimpleImage } from '../components/figure'
 
 // Layouts
 import Page from '../layouts/page'
@@ -48,11 +48,37 @@ export default () => (
     </section>
 
     <section className="section" id="posts">
-      <div className="container">
+      <div className="tiltcontainer">
         {preparePosts().map(p => (
-          <div className="post" id={p.id} key={p.id}>
-            <a href={p.url}>
-              <h3>{p.title}</h3>
+          <div className="tiltframe" key={p.id}>
+            <a href={p.url} target="_blank" rel="noopener noreferrer">
+              <Tilt
+                className="Tilt"
+                options={{
+                  reverse: true,
+                  max: 25,
+                  glare: true,
+                  maxGlare: 0.5
+                }}
+                style={{ height: 300, width: 250 }}
+              >
+                <div className="Tilt-inner">
+                  <div className="post" id={p.id}>
+                    <figure className="image is-2by1">
+                      <Image
+                        src={
+                          './static/essays/' +
+                          parseDate(p.date).format('YYYY') +
+                          '/' +
+                          p.id +
+                          '/icon.svg'
+                        }
+                      />
+                    </figure>
+                    <h3>{p.title}</h3>
+                  </div>
+                </div>
+              </Tilt>
             </a>
           </div>
         ))}

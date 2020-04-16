@@ -23,6 +23,31 @@ a:hover {
   transition: .2s ease;
 }
 
+.social.inpost {
+  position: fixed;
+  background-color: #fff;
+}
+
+@media (max-width: 835px) {
+  .social.inpost {
+    left: 2rem;
+    top: 2.5rem;
+  }
+  .social.inpost .social-link {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 835px) {
+  .social.inpost {
+    right: 2rem;
+    top: 8rem;
+  }
+  .social.inpost .social-link {
+    display: block;
+  }
+}
+
 #pictures .pictures .picture-frame {
   display: inline-block;
   margin: 1rem;
@@ -64,33 +89,51 @@ a:hover {
   font-size: 1.5rem;
 }
 
-#posts .post {
-  display: block;
+#posts .post-container .post {
+  margin: 0;
+  display: inline-block;
   padding: 1rem;
 }
 
-#projects .tiltcontainer {
+#posts .post-container .post .box {
+  padding: 20px;
+}
+
+#posts .post-container .post .box .img {
+  display: inline-block;
+  width: 50px;
+}
+
+#posts .post-container .post .box .text {
+  display: inline-block;
+}
+
+#posts .post-container .post h3 {
+  font-size: 1.4rem;
+}
+
+#projects .tiltcontainer, #posts .tiltcontainer {
   text-align: center;
 }
 
 @media screen and (min-width: 800px) {
-  #projects .tiltcontainer {
+  #projects .tiltcontainer, #posts .tiltcontainer {
     padding: 5px;
   }
 }
 
-#projects .tiltframe {
+#projects .tiltframe, #posts .tiltframe {
   display: inline-block;
 }
 
 @media screen and (min-width: 800px) {
-  #projects .tiltframe {
+  #projects .tiltframe, #posts .tiltframe {
     padding-top: 20px;
     padding: 20px;
   }
 }
 
-#projects .project {
+#projects .post, #posts .post {
   padding: 20px;
   border-radius: 10px;
   background: #fff;
@@ -100,12 +143,32 @@ a:hover {
           box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
-#projects .project:hover {
+#projects .post:hover, #posts .post:hover {
+  -webkit-box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+#projects .post h3, #posts .post h3 {
+  font-size: 1.2rem;
+  color: #000 !important;
+}
+
+#projects .project, #posts .project {
+  padding: 20px;
+  border-radius: 10px;
+  background: #fff;
+  -webkit-transition: opacity .5s ease-out;
+  transition: opacity .5s ease-out;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+#projects .project:hover, #posts .project:hover {
   -webkit-box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.2);
 }
 
-#projects .project h3 {
+#projects .project h3, #posts .project h3 {
   font-size: 1.2rem;
   color: #fff !important;
 }

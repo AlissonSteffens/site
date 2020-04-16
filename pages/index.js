@@ -21,6 +21,24 @@ import {
 import projects from '../data/projects'
 import talks from '../data/talks'
 import pictures from '../data/pictures'
+// Other
+import posts from '../data/essays'
+
+const parseDate = date => moment(date, 'DD-MM-YYYY')
+
+// Assign a URL to each post and
+// sort them by date (most recent one first)
+const preparePosts = () =>
+  posts
+    .map(post =>
+      Object.assign(
+        {
+          url: `/${parseDate(post.date).year()}/${post.id}`
+        },
+        post
+      )
+    )
+    .sort((a, b) => parseDate(b.date).diff(parseDate(a.date)))
 
 export default () => (
   <Page>
@@ -101,6 +119,48 @@ export default () => (
         </p>
       </div>
     </section>
+
+    <section className="section" id="posts">
+      <div className="container">
+        <h2 className="title">Blog</h2>
+        <div className="tiltcontainer">
+          {preparePosts().map(p => (
+            <div className="tiltframe" key={p.id}>
+              <a href={p.url} target="_blank" rel="noopener noreferrer">
+                <Tilt
+                  className="Tilt"
+                  options={{
+                    reverse: true,
+                    max: 10,
+                    glare: true,
+                    maxGlare: 0.5
+                  }}
+                  style={{ height: 300, width: 250 }}
+                >
+                  <div className="Tilt-inner">
+                    <div className="post" id={p.id}>
+                      <figure className="image is-2by1">
+                        <Image
+                          src={
+                            './static/essays/' +
+                            parseDate(p.date).format('YYYY') +
+                            '/' +
+                            p.id +
+                            '/icon.svg'
+                          }
+                        />
+                      </figure>
+                      <h3>{p.title}</h3>
+                    </div>
+                  </div>
+                </Tilt>
+              </a>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
     <section className="section" id="projects">
       <div className="container">
         <h2 className="title">Projects</h2>
@@ -112,7 +172,7 @@ export default () => (
                   className="Tilt"
                   options={{
                     reverse: true,
-                    max: 25,
+                    max: 15,
                     glare: true,
                     maxGlare: 0.5
                   }}

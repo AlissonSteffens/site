@@ -19,12 +19,34 @@ a{
   }
 }
 .social{
+  
   .social-link{
     margin-right: 10px;
     font-size: 1.5rem;
     transition: .2s ease;
     &:hover{
     }
+  }
+  &.inpost{
+    position: fixed;
+    @media (max-width: 835px) {
+      left: 2rem;
+      top: 2.5rem;
+      .social-link{
+        display: inline-block;
+      }
+    }
+    
+    background-color: $branco;
+    @media (min-width: 835px) {
+      right: 2rem;
+      top: 8rem;
+      .social-link{
+        display: block;
+      }
+    }
+    
+    
   }
 }
 #pictures{
@@ -76,12 +98,30 @@ a{
 }
 
 #posts{
-  .post{
-    display: block;
-    padding: 1rem;
+  .post-container{
+   
+    .post{
+      margin: 0;
+      display: inline-block;
+      padding: 1rem;
+      .box{
+        padding: 20px;
+        .img{
+          display: inline-block;
+          width: 50px;
+        }
+        .text{
+          display: inline-block;
+        }
+      }
+      h3{
+        font-size: 1.4rem;
+      }
+    }
   }
+ 
 }
-#projects{
+#projects, #posts{
   .tiltcontainer{
     @media screen and (min-width: 800px) {
       padding: 5px;
@@ -96,6 +136,20 @@ a{
       padding: 20px;
     }
     
+  }
+  .post{
+    padding: 20px;
+    border-radius: $roundness;
+    background: $branco;
+    transition: opacity .5s ease-out;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    &:hover{
+      box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+    }
+    h3{
+      font-size: 1.2rem;
+      color: $preto !important;
+    }
   }
   .project{
     padding: 20px;

@@ -24,7 +24,7 @@ export default ({ id, hasCover }) => {
   let coverURL
 
   if (hasCover) {
-    coverURL = `/static/essays/${date.format('YYYY')}/${id}/icon.svg`
+    coverURL = `/static/essays/${date.format('YYYY')}/${id}/icon.png`
   }
 
   return (

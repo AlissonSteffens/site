@@ -1,17 +1,19 @@
 // Components
 import Link from 'next/link'
-
+import { FaArrowLeft } from 'react-icons/fa'
 export default ({ to, outsideCover, insideCover }) => {
   const classes = []
 
   return (
     <div>
-      <a href={to || '/'}>↩︎</a>
+      <a href={to || '/'}>
+        <FaArrowLeft />
+      </a>
 
       <style jsx>
         {`
           div {
-            position: absolute;
+            position: fixed;
             right: 30px;
             top: 40px;
             height: 37px;
