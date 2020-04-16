@@ -74,7 +74,14 @@ a{
     
   }
 }
-#projects, #posts{
+
+#posts{
+  .post{
+    display: block;
+    padding: 1rem;
+  }
+}
+#projects{
   .tiltcontainer{
     @media screen and (min-width: 800px) {
       padding: 5px;
@@ -104,16 +111,7 @@ a{
       color: $branco !important;
     }
   }
-  .post{
-    background-color: $purple;
-    padding: 20px;
-    border-radius: $roundness;
-    transition: opacity .5s ease-out;
-    h3{
-      font-size: 1.3rem;
-      color: $branco !important;
-    }
-  }
+  
 }
 #hero{
   padding-top: 3rem;

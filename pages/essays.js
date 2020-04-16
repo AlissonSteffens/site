@@ -49,48 +49,13 @@ export default () => (
 
     <section className="section" id="posts">
       <div className="container">
-        <div className="tiltcontainer">
-          {preparePosts().map(p => (
-            <div className="tiltframe" key={p.id}>
-              <a href={p.url}>
-                <Tilt
-                  className="Tilt"
-                  options={{ max: 25, glare: true, maxGlare: 0.5 }}
-                  style={{ height: 300, width: 250 }}
-                >
-                  <div className="Tilt-inner">
-                    <div
-                      className="post"
-                      id={p.id}
-                      style={{
-                        background:
-                          'linear-gradient(to bottom right,' +
-                          p.color1 +
-                          ', ' +
-                          p.color2 +
-                          ')'
-                      }}
-                    >
-                      <figure className="image is-2by1">
-                        <Image
-                          src={
-                            './static/essays/' +
-                            parseDate(p.date).format('YYYY') +
-                            '/' +
-                            p.id +
-                            '/icon.svg'
-                          }
-                          width="100"
-                        />
-                      </figure>
-                      <h3>{p.title}</h3>
-                    </div>
-                  </div>
-                </Tilt>
-              </a>
-            </div>
-          ))}
-        </div>
+        {preparePosts().map(p => (
+          <div className="post" id={p.id} key={p.id}>
+            <a href={p.url}>
+              <h3>{p.title}</h3>
+            </a>
+          </div>
+        ))}
       </div>
     </section>
 

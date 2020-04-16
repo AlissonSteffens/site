@@ -13,7 +13,7 @@ export default asPost({
   id: 'engines',
   hasCover: true
 })(markdown(components)`
-Nós estamos vivendo uma das épocas mais importantes para os Motores de Jogos no entretenimento, e eu vou explicar o porquê.
+Nós estamos vivendo uma das épocas mais importantes para os Motores de Jogos no entretenimento. Anthem e Warcraft 3: Reforged já sofreram as consequências, e talvez League of Legends seja o próximo.
 
 Motores de jogos são um dos grandes responsáveis pelo surgimento e morte de jogos. Um grande exemplo disso é o Anthem.
 
