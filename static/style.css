@@ -25,16 +25,23 @@ a:hover {
 
 .social.inpost {
   position: fixed;
-  background-color: #fff;
 }
 
 @media (max-width: 835px) {
   .social.inpost {
     left: 2rem;
-    top: 2.5rem;
+    top: 2rem;
+    background-color: #fff;
+    padding: 7px 2px 2px 7px;
+    margin-bottom: 0;
+    border-radius: 10px;
   }
   .social.inpost .social-link {
     display: inline-block;
+  }
+  .social.inpost a {
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 }
 

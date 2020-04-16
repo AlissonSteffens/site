@@ -31,13 +31,21 @@ a{
     position: fixed;
     @media (max-width: 835px) {
       left: 2rem;
-      top: 2.5rem;
+      top: 2rem;
       .social-link{
         display: inline-block;
       }
+      a{
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+      background-color: $branco;
+      padding: 7px 2px 2px 7px ;
+      margin-bottom: 0;
+      border-radius: $roundness;
     }
     
-    background-color: $branco;
+    
     @media (min-width: 835px) {
       right: 2rem;
       top: 8rem;
