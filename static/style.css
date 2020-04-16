@@ -29,6 +29,7 @@ a:hover {
 
 @media (max-width: 835px) {
   .social.inpost {
+    display: none;
     left: 2rem;
     top: 2rem;
     background-color: #fff;

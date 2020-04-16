@@ -30,6 +30,7 @@ a{
   &.inpost{
     position: fixed;
     @media (max-width: 835px) {
+      display: none;
       left: 2rem;
       top: 2rem;
       .social-link{
