@@ -126,7 +126,7 @@ export default () => (
         <div className="tiltcontainer">
           {preparePosts().map(p => (
             <div className="tiltframe" key={p.id}>
-              <a href={p.url} target="_blank" rel="noopener noreferrer">
+              <a href={p.url}>
                 <Tilt
                   className="Tilt"
                   options={{
