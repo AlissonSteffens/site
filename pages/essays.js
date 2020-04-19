@@ -48,40 +48,34 @@ export default () => (
     </section>
 
     <section className="section" id="posts">
-      <div className="tiltcontainer">
-        {preparePosts().map(p => (
-          <div className="tiltframe" key={p.id}>
-            <a href={p.url} target="_blank" rel="noopener noreferrer">
-              <Tilt
-                className="Tilt"
-                options={{
-                  reverse: true,
-                  max: 25,
-                  glare: true,
-                  maxGlare: 0.5
-                }}
-                style={{ height: 300, width: 250 }}
-              >
-                <div className="Tilt-inner">
-                  <div className="post" id={p.id}>
-                    <figure className="image is-2by1">
-                      <Image
-                        src={
-                          './static/essays/' +
-                          parseDate(p.date).format('YYYY') +
-                          '/' +
-                          p.id +
-                          '/icon.svg'
-                        }
-                      />
-                    </figure>
+      <div className="container">
+        <h2 className="title">Blog</h2>
+        <div className="postcontainer">
+          {preparePosts().map(p => (
+            <Link href={p.url} prefetch key={p.id}>
+              <div className="card" id={p.id}>
+                <div className="card-image">
+                  <SimpleImage
+                    src={
+                      './static/essays/' +
+                      parseDate(p.date).format('YYYY') +
+                      '/' +
+                      p.id +
+                      '/cover.png'
+                    }
+                    width={300}
+                  />
+                </div>
+                <div className="card-content">
+                  <div className="content">
                     <h3>{p.title}</h3>
+                    <p>{p.description}</p>
                   </div>
                 </div>
-              </Tilt>
-            </a>
-          </div>
-        ))}
+              </div>
+            </Link>
+          ))}
+        </div>
       </div>
     </section>
 
