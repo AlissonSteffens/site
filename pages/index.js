@@ -5,6 +5,7 @@ import { Image, MediumImage, SimpleImage } from '../components/figure'
 import Header from '../components/header'
 import moment from 'moment'
 import components from '../components'
+
 // Layouts
 import Page from '../layouts/page'
 import Tilt from 'react-tilt'
@@ -149,38 +150,6 @@ export default () => (
         </div>
       </div>
     </section>
-
-    {/* <section className="section" id="posts">
-      <div className="container">
-        <h2 className="title">Blog</h2>
-        <div className="postcontainer">
-          {preparePosts().map(p => (
-            <div className="postframe" key={p.id}>
-              <a href={p.url}>
-                
-                    <div className="post" id={p.id}>
-                        <SimpleImage
-                          src={
-                            './static/essays/' +
-                            parseDate(p.date).format('YYYY') +
-                            '/' +
-                            p.id +
-                            '/cover.png'
-                            
-                          }
-                          width={300}
-                        />
-                      <div className="text">
-                        <h3>{p.title}</h3>
-                      </div>
-                      
-                    </div>
-              </a>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section> */}
 
     <section className="section" id="projects">
       <div className="container">

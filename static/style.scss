@@ -115,6 +115,8 @@ a{
   .postcontainer{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     .card{
       border-radius: $roundness;
       height: 280px;

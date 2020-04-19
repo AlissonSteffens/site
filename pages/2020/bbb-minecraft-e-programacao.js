@@ -14,12 +14,11 @@ export default asPost({
   id: 'bbb-minecraft-e-programacao',
   hasCover: true
 })(markdown(components)`
-
 Recentemente me perguntaram quais as vantagens de aprender programação.
 
 Existem várias respostas prontas e aceitas para esta pergunta. Poderia falar sobre a necessidade de programadores no mercado de trabalho ou sobre o que o futuro no reserva, mas para mim as vantagens de programar podem ser explicadas com uma analogia só.
 
-> Saber programar é como entender de redstone no Minecraft.
+>Saber programar é como entender de redstone no Minecraft.
 
 O jogo Minecraft já tem mais de 10 anos, e é o jogo mais vendido da história. Nele você pode utilizar redstone para automatizar coisas.
 
@@ -37,7 +36,6 @@ O que não se pode negar, entretanto é que quem sabe utilizar redstone no Minec
 Foi por isso que comecei a aprender programação.
 
 ## Mas o que isso tem a ver com BBB?
-
 2020 é o ano do BBB. Uma edição nunca foi tão comentada, e nunca teve tantos votos quanto esta. O paredão entre Prior, Manu e Mari atingiu 1,5 BILHÕES de votos. E a população continua votando muito.
 
 No BBB cada telespectador tem seus favoritos e seus odiados. E movimentos a fim de gerar grandes quantidades de votos nos odiados são comuns. Inclusive entre celebridades, como o [Cid]( https://twitter.com/naosalvo) que fez uma live votando 1000 vezes no Daniel. 
@@ -54,7 +52,6 @@ $("._2FQp0pTz1KSUdFKaO754EC").click(function(){
     $(".header-editoria--link").html(contador++)
 })`}</Code>
 )}
-
 
 Este script, porém, não guardava estado. Isso quer dizer que caso o usuário fechasse a aba do navegador, ao voltar teria que inserir o script novamente, e o contador estaria zerado. Então a pessoa ainda tem que ficar marcando quantos votos deu em cada seção.
 
