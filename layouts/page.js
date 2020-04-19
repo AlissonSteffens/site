@@ -45,16 +45,17 @@ const viewSource = event => {
     return
   }
 
-  document.location = 'https://github.com/AlissonSteffens/AlissonSteffens.github.io'
+  document.location =
+    'https://github.com/AlissonSteffens/AlissonSteffens.github.io'
   event.preventDefault()
 }
 
-export default ({ children }) =>
+export default ({ children }) => (
   <main onDoubleClick={viewSource}>
     <Head>
       <link
         rel="mask-icon"
-        href="http://leo.im/static/lightning.svg"
+        href="http://alissonsteffens.com/static/lightning.svg"
         color="#000000"
       />
       <link rel="apple-touch-icon" href="/static/touch-icon.png" />
@@ -77,9 +78,6 @@ export default ({ children }) =>
     <style jsx global>
       {`
         body {
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
           margin: 0;
           -webkit-font-smoothing: antialiased;
         }
@@ -88,8 +86,6 @@ export default ({ children }) =>
         body {
           height: 100%;
         }
-
-        
 
         main {
         }
@@ -115,11 +111,10 @@ export default ({ children }) =>
           width: 100px;
           height: 100%;
           box-shadow: 0 0 10px #4492ff, 0 0 5px #4492ff;
-          opacity: 1.0;
+          opacity: 1;
           transform: rotate(3deg) translate(0px, -4px);
         }
-
-        
       `}
     </style>
   </main>
+)

@@ -1,14 +1,13 @@
 // Components
 import Link from 'next/link'
 import Title from '../components/title'
-import { Image, MediumImage } from '../components/figure'
+import { Image, MediumImage, SimpleImage } from '../components/figure'
 import Header from '../components/header'
 import moment from 'moment'
 import components from '../components'
 // Layouts
 import Page from '../layouts/page'
 import Tilt from 'react-tilt'
-
 // Icons
 import {
   FaTwitter,
@@ -119,47 +118,69 @@ export default () => (
         </p>
       </div>
     </section>
-
     <section className="section" id="posts">
       <div className="container">
         <h2 className="title">Blog</h2>
-        <div className="tiltcontainer">
+        <div className="postcontainer">
           {preparePosts().map(p => (
-            <div className="tiltframe" key={p.id}>
+            <Link href={p.url} prefetch key={p.id}>
+              <div className="card" id={p.id}>
+                <div className="card-image">
+                  <SimpleImage
+                    src={
+                      './static/essays/' +
+                      parseDate(p.date).format('YYYY') +
+                      '/' +
+                      p.id +
+                      '/cover.png'
+                    }
+                    width={300}
+                  />
+                </div>
+                <div className="card-content">
+                  <div className="content">
+                    <h3>{p.title}</h3>
+                    <p>{p.description}</p>
+                  </div>
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    {/* <section className="section" id="posts">
+      <div className="container">
+        <h2 className="title">Blog</h2>
+        <div className="postcontainer">
+          {preparePosts().map(p => (
+            <div className="postframe" key={p.id}>
               <a href={p.url}>
-                <Tilt
-                  className="Tilt"
-                  options={{
-                    reverse: true,
-                    max: 10,
-                    glare: true,
-                    maxGlare: 0.5
-                  }}
-                  style={{ height: 300, width: 250 }}
-                >
-                  <div className="Tilt-inner">
+                
                     <div className="post" id={p.id}>
-                      <figure className="image is-2by1">
-                        <Image
+                        <SimpleImage
                           src={
                             './static/essays/' +
                             parseDate(p.date).format('YYYY') +
                             '/' +
                             p.id +
-                            '/icon.svg'
+                            '/cover.png'
+                            
                           }
+                          width={300}
                         />
-                      </figure>
-                      <h3>{p.title}</h3>
+                      <div className="text">
+                        <h3>{p.title}</h3>
+                      </div>
+                      
                     </div>
-                  </div>
-                </Tilt>
               </a>
             </div>
           ))}
         </div>
       </div>
-    </section>
+    </section> */}
 
     <section className="section" id="projects">
       <div className="container">

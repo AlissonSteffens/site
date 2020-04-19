@@ -34,10 +34,11 @@ Quando a galera da IdSoftware começou a fazer o DOOM, eles pensaram em dividir 
 A IdTech é uma engine ainda muito utilizada. Ela foi sendo atualizada e deu origem a outros jogos (como Rage, Quake e Call of Duty), e outras engines como a Source.
 
 ## Source Engine
+
 A source é uma engine desenvolvida pela Valve (a galera da Steam) e ela é baseada na IdTech. Com ela foram feitos Counter Strike, HalfLife, TeamFortres e Dota.
 
-
 Após o sucesso do DOOM, outras empresas começaram a tentar fazer seus próprios motores. Um exemplo foi a Epic Games que criou o Unreal Tournament. O jogo é no estilo de quake, e foi feito para competir com o Quake III arena.
+
 Assim como a IdSoftware, a Epic também fez o jogo de maneira modular, e lançou sua própria engine chamada de Unreal.
 
 ## Unreal Engine

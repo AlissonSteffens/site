@@ -8,7 +8,7 @@ import posts from '../data/essays'
 // Components
 import Title from './title'
 import Back from './back'
-import { Image } from './figure'
+import { Image, MediumImage } from './figure'
 
 // Make date easily readable
 const parseDate = date => moment(date, 'DD-MM-YYYY')
@@ -24,7 +24,7 @@ export default ({ id, hasCover }) => {
   let coverURL
 
   if (hasCover) {
-    coverURL = `/static/essays/${date.format('YYYY')}/${id}/icon.png`
+    coverURL = `/static/essays/${date.format('YYYY')}/${id}/cover.png`
   }
 
   return (
@@ -36,9 +36,10 @@ export default ({ id, hasCover }) => {
       />
       <Back />
 
-      {hasCover && <Image src={coverURL} width="350" />}
+      {hasCover && <MediumImage src={coverURL} />}
 
       <h1 className={headingClass}>{post.title}</h1>
+      <h2>{post.description}</h2>
       <span>{date.format('MMMM Do YYYY')}</span>
 
       <style jsx>
