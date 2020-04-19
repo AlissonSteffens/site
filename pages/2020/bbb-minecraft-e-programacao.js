@@ -16,7 +16,7 @@ export default asPost({
 })(markdown(components)`
 Recentemente me perguntaram quais as vantagens de aprender programação.
 
-Existem várias respostas prontas e aceitas para esta pergunta. Poderia falar sobre a necessidade de programadores no mercado de trabalho ou sobre o que o futuro no reserva, mas para mim as vantagens de programar podem ser explicadas com uma analogia só.
+Existem várias respostas prontas e aceitas para esta pergunta. Poderia falar sobre a necessidade de programadores no mercado de trabalho ou sobre o que o futuro nos reserva, mas para mim as vantagens de programar podem ser explicadas com uma analogia só.
 
 >Saber programar é como entender de redstone no Minecraft.
 
@@ -28,15 +28,14 @@ ${(
     width={200}
   />
 )}
-
 O legal da redstone é que ela pode ser usada para coisas tão simples quanto abrir uma porta. Até projetos gigantescos, que exigem circuitos extremamente complexos.
 
-O que não se pode negar, entretanto é que quem sabe utilizar redstone no Minecraft consegue ter um jogo bem mais tranquilo. Não tendo que se preocupar com Níveis ou Itens, já que tudo isso pode ser automatizado. 
+O que não se pode negar, entretanto, é que quem sabe utilizar redstone no Minecraft consegue ter um jogo bem mais tranquilo. Não tendo que se preocupar com Níveis ou Itens, já que tudo isso pode ser automatizado. 
 
 Foi por isso que comecei a aprender programação.
 
 ## Mas o que isso tem a ver com BBB?
-2020 é o ano do BBB. Uma edição nunca foi tão comentada, e nunca teve tantos votos quanto esta. O paredão entre Prior, Manu e Mari atingiu 1,5 BILHÕES de votos. E a população continua votando muito.
+2020 é o melhor ano do BBB. Uma edição nunca foi tão comentada, e nunca teve tantos votos quanto esta. O paredão entre Prior, Manu e Mari atingiu 1,5 BILHÕES de votos. E a população continua votando muito.
 
 No BBB cada telespectador tem seus favoritos e seus odiados. E movimentos a fim de gerar grandes quantidades de votos nos odiados são comuns. Inclusive entre celebridades, como o [Cid]( https://twitter.com/naosalvo) que fez uma live votando 1000 vezes no Daniel. 
 
