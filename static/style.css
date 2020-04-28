@@ -102,6 +102,18 @@ a:hover {
   font-size: 1.5rem;
 }
 
+#posts .title small {
+  font-size: 1rem;
+}
+
+#posts .title small a {
+  color: #888 !important;
+}
+
+#posts .title small a:hover {
+  color: #f3558e !important;
+}
+
 #posts .postcontainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -135,42 +147,31 @@ a:hover {
   font-size: 1.2rem;
 }
 
+#posts .postcontainer .card .card-image {
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+
+#posts .postcontainer .card .card-image img {
+  max-width: 100%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
 #posts .postcontainer .card:hover {
   -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
-  -webkit-transform: scale(1.08);
-          transform: scale(1.08);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#posts .postcontainer .card:hover .card-image img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 #posts .postcontainer .card img {
   border-radius: 10px 10px 0 0;
-}
-
-#posts .postframe {
-  display: inline-block;
-  width: 300px;
-  max-width: 300px;
-  margin: 10px;
-}
-
-#posts .postframe .post {
-  border-radius: 10px;
-  background: #fff;
-  -webkit-transition: opacity .5s ease-out;
-  transition: opacity .5s ease-out;
-  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-}
-
-#posts .postframe .post:hover {
-  -webkit-box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
-}
-
-#posts .postframe .post h3 {
-  font-size: 1.2rem;
-  color: #000 !important;
-  padding: 20px;
 }
 
 #projects .tiltcontainer {

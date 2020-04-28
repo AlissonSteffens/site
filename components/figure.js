@@ -232,6 +232,9 @@ const SimpleImage = ({ width, className, src, isCover, isWindow }) => (
         img {
           max-width: 100%;
         }
+        figure {
+          padding: 0;
+        }
       `}
     </style>
   </figure>

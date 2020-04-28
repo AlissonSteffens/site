@@ -15,7 +15,8 @@ import {
   FaGithub,
   FaLinkedinIn,
   FaCamera,
-  FaSchool
+  FaSchool,
+  FaPlus
 } from 'react-icons/fa'
 
 import projects from '../data/projects'
@@ -110,18 +111,22 @@ export default () => (
           I am currently a CAPES PROSUC fellow at Univali&apos;s Applied
           Intelligence Laboratory
         </p>
-        <p>
-          Also, I&apos;am starting to{' '}
-          <Link href="./essays" prefetch>
-            <a>blog</a>
-          </Link>{' '}
-          (in portuguese)
-        </p>
       </div>
     </section>
+
     <section className="section" id="posts">
       <div className="container">
-        <h2 className="title">Blog</h2>
+        <h2 className="title">
+          Blog{' '}
+          <small>
+            <Link href="./essays" prefetch>
+              <a>
+                {' '}
+                <FaPlus /> more
+              </a>
+            </Link>
+          </small>
+        </h2>
         <div className="postcontainer">
           {preparePosts().map(p => (
             <Link href={p.url} prefetch key={p.id}>

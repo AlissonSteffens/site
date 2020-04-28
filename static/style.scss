@@ -111,6 +111,17 @@ a{
 }
 
 #posts{
+  .title{
+    small{
+      font-size: 1rem;
+      a{
+        color: #888 !important;
+        &:hover{
+          color: $pink !important;
+        }
+      }
+    }
+  }
   .postcontainer{
     display: flex;
     flex-wrap: wrap;
@@ -130,40 +141,31 @@ a{
           font-size: 1.2rem;
         }
       }
+      .card-image{
+        overflow: hidden;
+        border-radius: $roundness $roundness 0 0;
+        img{
+          max-width: 100%;
+          transition: all 0.3s;
+        }
+      }
+
       &:hover{
         box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
-        transform: scale(1.08);
+        transform: scale(1.05);
+        .card-image{
+          img{
+            transform: scale(1.2);
+          }
+        }
       }
       img{
         border-radius: $roundness $roundness 0 0;
       }
     }
   }
-  
-  .postframe{
-    display: inline-block;
-    width: 300px;
-    max-width: 300px;
-    margin: 10px;
-    
-    .post{
-      border-radius: $roundness;
-      background: $branco;
-      transition: opacity .5s ease-out;
-      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-      &:hover{
-        box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
-      }
-
-      h3{
-        font-size: 1.2rem;
-        color: $preto !important;
-        padding: 20px;
-      }
-    }
-  }
-  
 }
+
 #projects{
   .tiltcontainer{
     @media screen and (min-width: 800px) {
