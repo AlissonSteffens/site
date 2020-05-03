@@ -1,7 +1,7 @@
 $azul: #200228;
 $azulclaro: #22045A;
-$pink: #f3558e;
-$purple: #581b98;
+$pink: #FF5395;
+$purple: #791467;
 $branco: #fff;
 $roundness: 10px;
 $preto: #000;
@@ -17,6 +17,8 @@ a{
   }
 }
 .section{
+  .container{
+  }
   padding: 1rem 1rem;
   @media screen and (min-width: 800px) {
     padding: 1rem 7rem;
@@ -123,6 +125,7 @@ a{
     }
   }
   .postcontainer{
+    cursor: pointer !important;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -134,8 +137,9 @@ a{
       margin: 20px;
       transition: .3s ease-out;
       box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-
+      
       .card-content{
+        margin-top: -8px;
         padding-top: 0.5rem;
         h3{
           font-size: 1.2rem;
@@ -148,15 +152,29 @@ a{
           max-width: 100%;
           transition: all 0.3s;
         }
+        &:after {
+          content: url('/static/project_effect.png');
+          position: relative;
+          margin-top: -60px;
+          top: -50px;
+          max-height: 0px;
+          width: 250px;
+
+        }
+        max-height: 125px;
+        background-color: #f3558e;
       }
 
       &:hover{
         box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
-        transform: scale(1.05);
+        // transform: scale(1.05);
         .card-image{
           img{
             transform: scale(1.2);
           }
+          &:after {
+          }
+
         }
       }
       img{
@@ -184,9 +202,12 @@ a{
   }
   
   .project{
+
     padding: 20px;
     border-radius: $roundness;
     background: $branco;
+    background-size: contain;
+    background-attachment: fixed;
     transition: opacity .5s ease-out;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
     &:hover{
@@ -199,19 +220,67 @@ a{
   }
   
 }
+.is-fullheight{
+  min-height: 90vh !important;
+}
 #hero{
-  padding-top: 3rem;
-  @media (min-width: 835px) {
-    padding-top: 5rem;
+  @media screen and (min-width: 800px) {
+    background-image: url('/static/bg.svg');
   }
+  .is-fixed{
+    position: fixed;
+    
+    width: 100%;
+    .navbar-brand{
+      .navbar-item{
+        background-color: $branco;
+      }
+    }
+    .navbar-item{
+      a{
+        color: $preto !important !important;
+        &:hover{
+          color: $pink;
+        }
+      }
+      .tooltiptext {
+        visibility: hidden;
+        background-color: rgba(0, 0, 0, 0.3);
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 10px;
+        position: absolute;
+        z-index: 1;
+        margin-top: 40px;
+      }
+      &:hover{
+        .tooltiptext {
+          visibility: visible;
+        }
+      }
+    }
+    
+    
+    z-index: 999 !important;
+  }
+  background-size: contain;
+  background-position-x: right;
+  background-position-y: top;
+  background-repeat: no-repeat;
   .title{
     font-size: 5rem;
   }
   .subtitle{
     font-size: 1.5rem;
+    
   }
   p{
     margin: 1rem 0;
     font-size: 1.2rem;
+    line-height: 2rem;
+    @media screen and (min-width: 800px) {
+      max-width: 55%;
+    }
   }
 }

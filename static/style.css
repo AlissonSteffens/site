@@ -4,11 +4,11 @@ body {
 }
 
 a {
-  color: #f3558e !important;
+  color: #FF5395 !important;
 }
 
 a:hover {
-  color: #581b98 !important;
+  color: #791467 !important;
 }
 
 .section {
@@ -111,10 +111,11 @@ a:hover {
 }
 
 #posts .title small a:hover {
-  color: #f3558e !important;
+  color: #FF5395 !important;
 }
 
 #posts .postcontainer {
+  cursor: pointer !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -140,6 +141,7 @@ a:hover {
 }
 
 #posts .postcontainer .card .card-content {
+  margin-top: -8px;
   padding-top: 0.5rem;
 }
 
@@ -150,6 +152,8 @@ a:hover {
 #posts .postcontainer .card .card-image {
   overflow: hidden;
   border-radius: 10px 10px 0 0;
+  max-height: 125px;
+  background-color: #f3558e;
 }
 
 #posts .postcontainer .card .card-image img {
@@ -158,11 +162,18 @@ a:hover {
   transition: all 0.3s;
 }
 
+#posts .postcontainer .card .card-image:after {
+  content: url("/static/project_effect.png");
+  position: relative;
+  margin-top: -60px;
+  top: -50px;
+  max-height: 0px;
+  width: 250px;
+}
+
 #posts .postcontainer .card:hover {
   -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
 }
 
 #posts .postcontainer .card:hover .card-image img {
@@ -199,6 +210,8 @@ a:hover {
   padding: 20px;
   border-radius: 10px;
   background: #fff;
+  background-size: contain;
+  background-attachment: fixed;
   -webkit-transition: opacity .5s ease-out;
   transition: opacity .5s ease-out;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
@@ -215,14 +228,55 @@ a:hover {
   color: #fff !important;
 }
 
-#hero {
-  padding-top: 3rem;
+.is-fullheight {
+  min-height: 90vh !important;
 }
 
-@media (min-width: 835px) {
+#hero {
+  background-size: contain;
+  background-position-x: right;
+  background-position-y: top;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 800px) {
   #hero {
-    padding-top: 5rem;
+    background-image: url("/static/bg.svg");
   }
+}
+
+#hero .is-fixed {
+  position: fixed;
+  width: 100%;
+  z-index: 999 !important;
+}
+
+#hero .is-fixed .navbar-brand .navbar-item {
+  background-color: #fff;
+}
+
+#hero .is-fixed .navbar-item a {
+  color: #000 !important !important;
+}
+
+#hero .is-fixed .navbar-item a:hover {
+  color: #FF5395;
+}
+
+#hero .is-fixed .navbar-item .tooltiptext {
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 1;
+  margin-top: 40px;
+}
+
+#hero .is-fixed .navbar-item:hover .tooltiptext {
+  visibility: visible;
 }
 
 #hero .title {
@@ -236,5 +290,12 @@ a:hover {
 #hero p {
   margin: 1rem 0;
   font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+@media screen and (min-width: 800px) {
+  #hero p {
+    max-width: 55%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

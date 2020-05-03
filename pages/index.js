@@ -5,6 +5,7 @@ import { Image, MediumImage, SimpleImage } from '../components/figure'
 import Header from '../components/header'
 import moment from 'moment'
 import components from '../components'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 // Layouts
 import Page from '../layouts/page'
@@ -16,7 +17,11 @@ import {
   FaLinkedinIn,
   FaCamera,
   FaSchool,
-  FaPlus
+  FaPlus,
+  FaBook,
+  FaGraduationCap,
+  FaThLarge,
+  FaUser
 } from 'react-icons/fa'
 
 import projects from '../data/projects'
@@ -45,72 +50,74 @@ export default () => (
   <Page>
     <Title />
 
-    <section className="section" id="hero">
-      <div className="container">
-        <h1 className="title">Alisson Steffens</h1>
-        <h2 className="subtitle">
-          🐋 Geek, programmer and{' '}
-          <a
-            href="https://trakt.tv/users/alissonsteffens"
-            className="link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            cinephile
-          </a>. 🌸
-        </h2>
-        <div className="social">
-          <a
-            className="social-link"
-            href="https://github.com/AlissonSteffens"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaGithub />
-          </a>
-          <a
-            className="social-link"
-            href="https://twitter.com/AlissonSteffens"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaTwitter />
-          </a>
-          <a
-            className="social-link"
-            href="https://www.linkedin.com/in/alisson-s-92b58a88/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaLinkedinIn />
-          </a>
-          <a
-            className="social-link"
-            href="https://unsplash.com/@alissonsteffens"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaCamera />
-          </a>
-          <a
-            className="social-link"
-            href="http://lattes.cnpq.br/4379708414084009"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaSchool />
-          </a>
+    <section className="hero is-fullheight" id="hero">
+      <div className="hero-body">
+        <div className="container">
+          <h1 className="title">Alisson Steffens</h1>
+          <h2 className="subtitle">
+            🐋 Geek, programmer and{' '}
+            <a
+              href="https://trakt.tv/users/alissonsteffens"
+              className="link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              cinephile
+            </a>. 🌸
+          </h2>
+          <div className="social">
+            <a
+              className="social-link"
+              href="https://github.com/AlissonSteffens"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub />
+            </a>
+            <a
+              className="social-link"
+              href="https://twitter.com/AlissonSteffens"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaTwitter />
+            </a>
+            <a
+              className="social-link"
+              href="https://www.linkedin.com/in/alisson-s-92b58a88/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedinIn />
+            </a>
+            <a
+              className="social-link"
+              href="https://unsplash.com/@alissonsteffens"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaCamera />
+            </a>
+            <a
+              className="social-link"
+              href="http://lattes.cnpq.br/4379708414084009"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaSchool />
+            </a>
+          </div>
+          <p>
+            Graduated in Computer Science (Univali), with emphasis on education,
+            computer systems and games. I like to program 😁, in my free time I
+            usually watch movies, play video games (especially cooperatives) and
+            read comics.
+          </p>
+          <p>
+            I am currently a CAPES PROSUC fellow at Univali&apos;s Applied
+            Intelligence Laboratory
+          </p>
         </div>
-        <p>
-          Graduated in Computer Science (Univali), with emphasis on education,
-          computer systems and games. I like to program 😁, in my free time I
-          usually watch movies, play video games (especially cooperatives) and
-          read comics.
-        </p>
-        <p>
-          I am currently a CAPES PROSUC fellow at Univali&apos;s Applied
-          Intelligence Laboratory
-        </p>
       </div>
     </section>
 
