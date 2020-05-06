@@ -13,6 +13,7 @@ export default ({ children }) => (
           margin: 0 auto;
           word-wrap: break-word;
           hyphens: auto;
+          margin-bottom: 100px;
         }
         @media (min-width: 835px) {
           max-width: 80%;

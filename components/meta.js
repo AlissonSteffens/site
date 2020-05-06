@@ -36,7 +36,7 @@ export default ({ id, hasCover }) => {
       />
       <Back />
 
-      {hasCover && <MediumImage src={coverURL} />}
+      {hasCover && <MediumImage src={coverURL} className="cover" />}
 
       <h1 className={headingClass}>{post.title}</h1>
       <h2>{post.description}</h2>

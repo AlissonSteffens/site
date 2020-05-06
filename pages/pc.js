@@ -40,7 +40,7 @@ O pessoal da turma 1 criou um [documento do Google Docs](https://docs.google.com
 
 
 [${(
-  <SimpleImage src="https://img.shields.io/badge/slides-Unidade_1-f3558e.svg?style=flat&logo=microsoft-powerpoint&logoColor=white&labelColor=9c1de7" />
+  <SimpleImage src="https://img.shields.io/badge/slides-Unidade_1-95a5a6.svg?style=flat-square&logo=microsoft-powerpoint&logoColor=white&labelColor=e74c3c" />
 )}](https://drive.google.com/file/d/15_gSZ6SLpyMk23H0r2f5CltLPKxKACD0/view?usp=sharing)
 
 
@@ -52,106 +52,31 @@ Para deixar os fluxogramas mais bonitos, podemos utilizar um programa chamado [d
 
 # Unidade 2 - Variáveis e Operações
 [${(
-  <SimpleImage src="https://img.shields.io/badge/slides-Unidade_2-f3558e.svg?style=flat&logo=microsoft-powerpoint&logoColor=white&labelColor=9c1de7" />
+  <SimpleImage src="https://img.shields.io/badge/slides-Unidade_2-95a5a6.svg?style=flat-square&logo=microsoft-powerpoint&logoColor=white&labelColor=e74c3c" />
 )}](https://drive.google.com/file/d/1cglJudMVZDX6xWseA8WURONlZPCBWHIc/view?usp=sharing)
+
+[${(
+  <SimpleImage src="https://img.shields.io/badge/notebook-Leitura Escrita e Desvio-2c3e50.svg?style=flat-square&logo=python&logoColor=white&labelColor=f39c12" />
+)}](https://colab.research.google.com/drive/19N_NSL4HKb1ZjMIswBqeY2sapkiuB6Bu?usp=sharing)
 
 Na unidade dois transformamos fluxogramas em código e resolvemos problemas com programas. A linguagem programação utilizada foi Python.
 
-A progrmaçaão em python pode ser feita de maneira local (processando os programas em seu computador) com a utilização do [Anaconda](https://www.anaconda.com/), ou online com o [Google Colab](https://colab.research.google.com/).
+A programação em python pode ser feita de maneira local (processando os programas em seu computador) com a utilização do [Anaconda](https://www.anaconda.com/), ou online com o [Google Colab](https://colab.research.google.com/).
 
-## Escrever
+# Unidade Extra - Bibliocas
+[${(
+  <SimpleImage src="https://img.shields.io/badge/notebook-Pandas-2c3e50.svg?style=flat-square&logo=python&logoColor=white&labelColor=f39c12" />
+)}](https://colab.research.google.com/drive/1VGHuVyaNtdux6CPwZMLLA23_u0AFg51s?usp=sharing)
 
-A maneira mais fácil de demonstrar algo utlizando Python, é escrevendo uma mensagem no console. Para isso, podemos utilizar a função *print()*
+[${(
+  <SimpleImage src="https://img.shields.io/badge/notebook-Matplotlib-2c3e50.svg?style=flat-square&logo=python&logoColor=white&labelColor=f39c12" />
+)}](https://colab.research.google.com/drive/1Nc1zf4Vaie820uVxxxSmTjBq78AYkOxh?usp=sharing)
 
-${<Code language="python" syntax={python}>{`print("Olá Mundo")`}</Code>}
+[${(
+  <SimpleImage src="https://img.shields.io/badge/notebook-Plotly-2c3e50.svg?style=flat-square&logo=python&logoColor=white&labelColor=f39c12" />
+)}](https://colab.research.google.com/drive/1pUahKyytQUdRmBbrKtPpZxUHoLmyHLSs?usp=sharing)
 
-## Ler
-
-Outra função importante é a *input*, com ela podemos receber informações do usuário
-${(
-  <Code
-    language="python"
-    syntax={python}
-  >{`nomedapessoa = input("Digite seu nome: ")
-print("Meu nome é", nomedapessoa)`}</Code>
-)}
-
-> O input sempre retorna um valor do tipo String, caso queira um numero, é necessário converter
-
-A conversão pode ser para inteiro (int) ou real (float)
-${(
-  <Code language="python" syntax={python}>{`x = input("Digite um número: ")
-x = int(x)
-x = x/3
-print("O valor de x/3 é", x)`}</Code>
-)}
-
-## Desvio Condicional
-
-Além de String (texto) e Números, há um terceiro tipo de variável chamado Lógico (ou booleano)
-
-Ele pode ter apenas dois valores: True e False.
-
-${(
-  <Code language="python" syntax={python}>{`hojevaichover = True
-print(hojevaichover)`}</Code>
-)}
-
-Uma variável do tipo lógico pode ser utilizada como teste lógico de um desvio condicional.
-
-${(
-  <Code language="python" syntax={python}>{`if (hojevaichover):
-  print("Vai chover")
-else:
-  print("Não vai chover")`}</Code>
-)}
-
-Estas variáveis podem receber valores de qualquer inequação
-
-${(
-  <Code language="python" syntax={python}>{`dezehmenorquevinte = 10 < 20
-if(dezehmenorquevinte):
-  print("É menor")`}</Code>
-)}
-
-Estes testes podem ser postos diretamente na condição do desvio
-
-${(
-  <Code language="python" syntax={python}>{`if(10 < 20 ):
-  print("é menor")`}</Code>
-)}
-
-### Testando Condições
-
-Utilizando todo o que vimos até agora podemos fazer:
-
-${(
-  <Code
-    language="python"
-    syntax={python}
-  >{`numero = int(input("Digite um número inteiro"))
-if (numero < 10):
-  print("Número informado é menor que 10")
-else:
-  print("Número informado não é menor que 10")`}</Code>
-)}
-
-É possivel realizar mais de um teste lógico utilizando as palavras chave *and* e *or*
-${(
-  <Code language="python" syntax={python}>{`if(numero < 10 and numero > 5):
-print("número entre 5 e 10")`}</Code>
-)}
-
-Por fim, é possível verificar também se um número é igual ou diferente
-${(
-  <Code language="python" syntax={python}>{`if(numero == 7):
-  print("é sete")
-if(numero != 10):
-  print("não é dez"))`}</Code>
-)}
-
-
-
+O que faz o Python forte são suas bibliotecas. Com elas podemos fazer Data Science, Gráficos, Jogos etc. Esta Unidade é voltada às principais bibliotecas do Python.
 `
 
 export default () => (
