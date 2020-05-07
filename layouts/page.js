@@ -81,7 +81,6 @@ export default ({ children }) => (
           margin: 0;
           -webkit-font-smoothing: antialiased;
         }
-
         html,
         body {
           height: 100%;

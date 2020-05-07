@@ -40,7 +40,7 @@ a:hover {
     background-color: #fff;
     padding: 7px 2px 2px 7px;
     margin-bottom: 0;
-    border-radius: 10px;
+    border-radius: 15px;
   }
   .social.inpost .social-link {
     display: inline-block;
@@ -53,7 +53,7 @@ a:hover {
 
 @media (min-width: 835px) {
   .social.inpost {
-    right: 2rem;
+    right: 2.2rem;
     top: 8rem;
   }
   .social.inpost .social-link {
@@ -67,7 +67,7 @@ a:hover {
 }
 
 #pictures .pictures .picture-frame .picture {
-  border-radius: 10px;
+  border-radius: 15px;
   -webkit-transition: .3s ease;
   transition: .3s ease;
 }
@@ -83,7 +83,7 @@ a:hover {
 }
 
 #talks .talks .talk-frame .talk {
-  border-radius: 10px;
+  border-radius: 15px;
   background-size: cover;
   background-position: center;
   -webkit-transition: .3s ease;
@@ -96,7 +96,7 @@ a:hover {
 }
 
 #talks .talks .talk-frame .talk h3 {
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 1rem 2rem;
   color: #fff;
   font-size: 1.5rem;
@@ -130,7 +130,7 @@ a:hover {
 }
 
 #posts .postcontainer .card {
-  border-radius: 10px;
+  border-radius: 15px;
   height: 280px;
   width: 250px;
   margin: 20px;
@@ -151,7 +151,7 @@ a:hover {
 
 #posts .postcontainer .card .card-image {
   overflow: hidden;
-  border-radius: 10px 10px 0 0;
+  border-radius: 15px 15px 0 0;
   max-height: 125px;
   background-color: #f3558e;
 }
@@ -182,7 +182,7 @@ a:hover {
 }
 
 #posts .postcontainer .card img {
-  border-radius: 10px 10px 0 0;
+  border-radius: 15px 15px 0 0;
 }
 
 #projects .tiltcontainer {
@@ -208,7 +208,7 @@ a:hover {
 
 #projects .project {
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 15px;
   background: #fff;
   background-size: contain;
   background-attachment: fixed;
@@ -233,6 +233,7 @@ a:hover {
 }
 
 #hero {
+  background-color: #fff;
   background-size: contain;
   background-position-x: right;
   background-position-y: top;
@@ -300,6 +301,17 @@ a:hover {
 }
 
 .cover {
-  border-radius: 10px;
+  border-radius: 15px;
+}
+
+@media (min-width: 835px) {
+  aside .meta-title {
+    background: url("/static/post-title-effect.png");
+    background-repeat: no-repeat;
+    margin-left: -100px;
+    padding-left: 100px;
+    padding-top: 100px;
+    margin-top: -40px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

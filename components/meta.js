@@ -37,15 +37,17 @@ export default ({ id, hasCover }) => {
       <Back />
 
       {hasCover && <MediumImage src={coverURL} className="cover" />}
-
-      <h1 className={headingClass}>{post.title}</h1>
-      <h2>{post.description}</h2>
-      <span>{date.format('MMMM Do YYYY')}</span>
+      <div className="meta-title">
+        <span>{date.format('MMMM Do YYYY')}</span>
+        <h1 className={headingClass}>{post.title}</h1>
+        <h2>{post.description}</h2>
+        <hr />
+      </div>
 
       <style jsx>
         {`
           h1 {
-            font-weight: 500;
+            font-weight: 600;
             margin: 0 0 8px 0;
             font-size: 24px;
             padding-right: 55px;
@@ -54,6 +56,9 @@ export default ({ id, hasCover }) => {
 
           h1.has-cover {
             padding-right: 0;
+          }
+          h2 {
+            color: #7c7c7c;
           }
 
           span {
@@ -68,8 +73,11 @@ export default ({ id, hasCover }) => {
 
           @media (min-width: 992px) {
             h1 {
-              font-size: 28px;
+              font-size: 2.5rem;
               margin-bottom: 7px;
+            }
+            h2 {
+              font-size: 1.5rem;
             }
 
             span {

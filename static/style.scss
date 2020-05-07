@@ -3,7 +3,7 @@ $azulclaro: #22045A;
 $pink: #FF5395;
 $purple: #791467;
 $branco: #fff;
-$roundness: 10px;
+$roundness: 15px;
 $preto: #000;
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
@@ -54,7 +54,7 @@ a{
     
     
     @media (min-width: 835px) {
-      right: 2rem;
+      right: 2.2rem;
       top: 8rem;
       .social-link{
         display: block;
@@ -224,6 +224,7 @@ a{
   min-height: 90vh !important;
 }
 #hero{
+  background-color: $branco;
   @media screen and (min-width: 800px) {
     background-image: url('/static/bg.svg');
   }
@@ -282,8 +283,21 @@ a{
     @media screen and (min-width: 800px) {
       max-width: 55%;
     }
+    
   }
 }
 .cover{
   border-radius: $roundness;
+}
+aside{
+  .meta-title{
+    @media (min-width: 835px) {
+      background: url('/static/post-title-effect.png');
+      background-repeat: no-repeat;
+      margin-left: -100px;
+      padding-left: 100px;
+      padding-top: 100px;
+      margin-top: -40px;
+    }
+  }
 }
