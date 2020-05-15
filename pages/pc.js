@@ -76,7 +76,13 @@ O que faz o Python forte são suas bibliotecas. Com elas podemos fazer Data Scie
 
 export default () => (
   <Page>
-    <Title />
+    <Title
+      maintitle={'Pensamento Computacional'}
+      description={
+        'Esta pégina destina-se ao compartilhamento de informações sobre o Itinerário de Pensamento Computacional do Colégio Salesiano Itajaí.'
+      }
+      coverURL={'/static/pc.png'}
+    />
     <section className="section" id="hero">
       <div className="container">
         <h1 className="title">Pensamento Computacional</h1>

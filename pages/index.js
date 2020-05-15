@@ -203,7 +203,7 @@ export default () => (
       </div>
     </section>
 
-    <section className="section" id="talks">
+    {/* <section className="section" id="talks">
       <div className="container">
         <h2 className="title">Talks</h2>
         <div className="talks">
@@ -233,7 +233,7 @@ export default () => (
           ))}
         </div>
       </div>
-    </section>
+    </section> */}
 
     {/* <section className="section" id="pictures">
       <div className="container">
