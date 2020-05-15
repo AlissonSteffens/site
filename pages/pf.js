@@ -11,7 +11,11 @@ import components from '../components'
 
 export default () => (
   <Page>
-    <Title />
+    <Title
+      maintitle={'PF Que Dizer'}
+      description={'programa que descobre o que o presidente quis dizer com PF'}
+      coverURL={'/static/pf.png'}
+    />
     <section className="hero is-fullheight">
       <div className="hero-body">
         <div className="container">
@@ -23,11 +27,20 @@ export default () => (
           <button className="button click-me">Tentar Novamente</button>
         </div>
       </div>
+      <div className="hero-foot">
+        <div className="container">
+          <p>
+            Programa pra ajudar o Presidente a encontrar um bom significado para
+            PF
+          </p>
+        </div>
+      </div>
     </section>
 
     <script src="/static/js/pf.js" />
     <style jsx>{`
-      .hero-body {
+      .hero-body,
+      .hero-foot {
         text-align: center;
       }
       .title {
