@@ -45,8 +45,8 @@ const viewSource = event => {
     return
   }
 
-  document.location =
-    'https://github.com/AlissonSteffens/AlissonSteffens.github.io'
+  // document.location =
+  //   'https://github.com/AlissonSteffens/AlissonSteffens.github.io'
   event.preventDefault()
 }
 

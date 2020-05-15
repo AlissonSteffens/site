@@ -77,29 +77,81 @@ a:hover {
           transform: scale(1.1);
 }
 
+#talks .talks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 #talks .talks .talk-frame {
-  display: inline-block;
   margin: 1rem;
 }
 
 #talks .talks .talk-frame .talk {
   border-radius: 15px;
-  background-size: cover;
-  background-position: center;
   -webkit-transition: .3s ease;
   transition: .3s ease;
+  padding: 10px;
+  width: 250px;
+  min-width: 250px;
+  max-width: 250px;
+  height: 100px;
+  min-height: 100px;
+  max-height: 100px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
-#talks .talks .talk-frame .talk:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+#talks .talks .talk-frame .talk .head {
+  width: 100%;
+  padding-bottom: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-#talks .talks .talk-frame .talk h3 {
-  border-radius: 15px;
-  padding: 1rem 2rem;
-  color: #fff;
-  font-size: 1.5rem;
+#talks .talks .talk-frame .talk .head .img, #talks .talks .talk-frame .talk .head .text {
+  margin: 0 5px;
+}
+
+#talks .talks .talk-frame .talk .head .img {
+  width: 30px;
+  height: 40px;
+}
+
+#talks .talks .talk-frame .talk .head .img figure {
+  margin: 0;
+  padding: 0;
+  margin-top: 4px;
+}
+
+#talks .talks .talk-frame .talk .head .img img {
+  border-radius: 5px;
+}
+
+#talks .talks .talk-frame .talk .head .text {
+  width: 180px;
+  padding: 5px;
+}
+
+#talks .talks .talk-frame .talk p {
+  padding: 5px;
 }
 
 #posts .title small {

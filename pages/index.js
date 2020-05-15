@@ -2,10 +2,8 @@
 import Link from 'next/link'
 import Title from '../components/title'
 import { Image, MediumImage, SimpleImage } from '../components/figure'
-import Header from '../components/header'
 import moment from 'moment'
 import components from '../components'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 // Layouts
 import Page from '../layouts/page'
@@ -17,16 +15,11 @@ import {
   FaLinkedinIn,
   FaCamera,
   FaSchool,
-  FaPlus,
-  FaBook,
-  FaGraduationCap,
-  FaThLarge,
-  FaUser
+  FaPlus
 } from 'react-icons/fa'
 
 import projects from '../data/projects'
 import talks from '../data/talks'
-import pictures from '../data/pictures'
 // Other
 import posts from '../data/essays'
 
@@ -55,7 +48,7 @@ export default () => (
         <div className="container">
           <h1 className="title">Alisson Steffens</h1>
           <h2 className="subtitle">
-            🐋 Geek, programmer and{' '}
+            🐋 Geek, developer and{' '}
             <a
               href="https://trakt.tv/users/alissonsteffens"
               className="link"
@@ -216,23 +209,26 @@ export default () => (
         <div className="talks">
           {talks.map(p => (
             <div className="talk-frame" key={p.id}>
-              <a href={p.url} target="_blank" rel="noopener noreferrer">
-                <div
-                  className="talk"
-                  id={p.id}
-                  style={{
-                    background:
-                      'linear-gradient(to bottom right,#581b98aa, #f3558eaa), url(' +
-                      './static/talks/' +
-                      p.id +
-                      '.jpg' +
-                      ')',
-                    backgroundSize: 'cover'
-                  }}
-                >
-                  <h3>{p.title}</h3>
+              <div className="talk" id={p.id}>
+                <div className="head">
+                  <div className="img">
+                    <MediumImage src={'./static/talks/' + p.id + '.jpg'} />
+                  </div>
+                  <div className="text">
+                    <h3>
+                      <a href={p.url} target="_blank" rel="noopener noreferrer">
+                        {p.title}
+                      </a>
+                    </h3>
+                  </div>
                 </div>
-              </a>
+
+                <p>
+                  {p.description.length <= 25
+                    ? p.description
+                    : p.description.substring(0, 23) + '...'}
+                </p>
+              </div>
             </div>
           ))}
         </div>

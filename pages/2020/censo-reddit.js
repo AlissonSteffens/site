@@ -1,12 +1,7 @@
 import markdown from 'markdown-in-js'
 import asPost from '../../layouts/post'
-import { Code, InlineCode } from '../../components/code'
-import Link from '../../components/link'
-import P from '../../components/paragraph'
 import { Ref, FootNotes, Note } from '../../components/footnotes'
 import components from '../../components'
-import json from 'highlight.js/lib/languages/json'
-import bash from 'highlight.js/lib/languages/bash'
 
 export default asPost({
   id: 'censo-reddit',

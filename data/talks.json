@@ -4,7 +4,7 @@
     "type": "big",
     "title": "TDC SP 2019",
     "url":"https://thedevconf.com/tdc/2019/saopaulo/tdc4kids",
-    "description": "Computação Desplugada",
+    "description": "Computação Desplugada em Jogos de Tabuleiro",
     "date": "27-04-2019",
     "color2": "#FFC200"
   }
@@ -24,7 +24,7 @@
     "type": "big",
     "title": "TDC Flp 2019",
     "url":"http://www.thedevelopersconference.com.br/tdc/2019/florianopolis/tdc4kids",
-    "description": "Workshop maker com Arduino",
+    "description": "Desbravando o Arduino com tecnologias de programação mais amigáveis",
     "date": "27-04-2019",
     "color2": "#FFC200"
   }

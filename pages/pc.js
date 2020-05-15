@@ -1,8 +1,4 @@
-// Helpers
-import moment from 'moment'
-
 // Components
-import Link from 'next/link'
 import Title from '../components/title'
 import Back from '../components/back'
 import { Image, SimpleImage } from '../components/figure'
@@ -12,7 +8,6 @@ import { Code, InlineCode } from '../components/code'
 import Page from '../layouts/page'
 import markdown from 'markdown-in-js'
 import components from '../components'
-import python from 'highlight.js/lib/languages/python'
 
 const text = markdown(components)`
 # Sobre o Itinerário

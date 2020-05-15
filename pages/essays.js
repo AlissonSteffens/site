@@ -9,8 +9,6 @@ import { Image, SimpleImage } from '../components/figure'
 
 // Layouts
 import Page from '../layouts/page'
-import components from '../components'
-import Tilt from 'react-tilt'
 // Other
 import posts from '../data/essays'
 
