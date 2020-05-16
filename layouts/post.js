@@ -44,6 +44,6 @@ export default options => content => () => (
       </a>
     </div>
     {content}
-    <Disqus {...options} />
+    {/* <Disqus {...options} /> */}
   </Essay>
 )
