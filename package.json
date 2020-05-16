@@ -48,6 +48,7 @@
     ]
   },
   "dependencies": {
+    "disqus-react": "1.0.8",
     "highlight.js": "^9.18.1",
     "is-absolute-url": "2.1.0",
     "markdown-in-js": "1.1.4",

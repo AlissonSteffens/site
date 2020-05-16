@@ -3,7 +3,7 @@ import Essay from '../layouts/essay'
 
 // Components
 import Meta from '../components/meta'
-
+import Disqus from '../components/disqus'
 // Icons
 import {
   FaTwitter,
@@ -16,6 +16,7 @@ import {
 export default options => content => () => (
   <Essay>
     <Meta {...options} />
+
     <div className="social inpost">
       <a
         className="social-link"
@@ -43,5 +44,6 @@ export default options => content => () => (
       </a>
     </div>
     {content}
+    <Disqus {...options} />
   </Essay>
 )
