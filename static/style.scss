@@ -17,8 +17,7 @@ a{
   }
 }
 .section{
-  .container{
-  }
+
   padding: 1rem 1rem;
   @media screen and (min-width: 800px) {
     padding: 1rem 7rem;
@@ -30,8 +29,7 @@ a{
     margin-right: 10px;
     font-size: 1.5rem;
     transition: .2s ease;
-    &:hover{
-    }
+
   }
   &.inpost{
     position: fixed;
@@ -198,9 +196,6 @@ a{
           img{
             transform: scale(1.2);
           }
-          &:after {
-          }
-
         }
       }
       img{
