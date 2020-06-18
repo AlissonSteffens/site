@@ -138,7 +138,7 @@ export default () => (
                       parseDate(p.date).format('YYYY') +
                       '/' +
                       p.id +
-                      '/thumb.jpg'
+                      '/thumb.webp'
                     }
                     width={300}
                   />
