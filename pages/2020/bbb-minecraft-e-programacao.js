@@ -4,7 +4,7 @@ import { Code, InlineCode } from '../../components/code'
 import { Ref, FootNotes, Note } from '../../components/footnotes'
 import components from '../../components'
 import { Image, MediumImage } from '../../components/figure'
-import javascript from 'react-syntax-highlighter/dist/esm/languages/hljs/javascript'
+import {javascript} from 'react-syntax-highlighter/dist/esm/languages/hljs'
 
 export default asPost({
   id: 'bbb-minecraft-e-programacao',
