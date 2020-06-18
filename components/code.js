@@ -1,11 +1,8 @@
 // Components
-import SyntaxHighlighter, {
-  registerLanguage
-} from 'react-syntax-highlighter/dist/light'
-
+import { Light as SyntaxHighlighter } from 'react-syntax-highlighter';
 // Helpers
 import { Component } from 'react'
-import { github } from 'react-syntax-highlighter/styles/hljs'
+import { github } from 'react-syntax-highlighter/dist/cjs/styles/hljs'
 
 const styles = {
   margin: '30px 0',
@@ -29,7 +26,7 @@ class Code extends Component {
       throw new Error('Please define the `language` and `syntax`')
     }
 
-    registerLanguage(props.language, props.syntax)
+    SyntaxHighlighter.registerLanguage(props.language, props.syntax)
   }
 
   render() {
