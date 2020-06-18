@@ -138,7 +138,7 @@ export default () => (
                       parseDate(p.date).format('YYYY') +
                       '/' +
                       p.id +
-                      '/cover.png'
+                      '/thumb.jpg'
                     }
                     width={300}
                   />
