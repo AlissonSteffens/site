@@ -35,7 +35,7 @@ O pessoal da turma 1 criou um [documento do Google Docs](https://docs.google.com
 
 
 [${(
-  <SimpleImage src="https://img.shields.io/badge/slides-Unidade_1-95a5a6.svg?style=flat-square&logo=microsoft-powerpoint&logoColor=white&labelColor=e74c3c" />
+  <SimpleImage src="https://img.shields.io/badge/Unidade_1-2c3e50.svg?style=flat-square&logo=microsoft-powerpoint&logoColor=white&labelColor=e74c3c" />
 )}](https://drive.google.com/file/d/15_gSZ6SLpyMk23H0r2f5CltLPKxKACD0/view?usp=sharing)
 
 
@@ -47,31 +47,60 @@ Para deixar os fluxogramas mais bonitos, podemos utilizar um programa chamado [d
 
 # Unidade 2 - Variáveis e Operações
 [${(
-  <SimpleImage src="https://img.shields.io/badge/slides-Unidade_2-95a5a6.svg?style=flat-square&logo=microsoft-powerpoint&logoColor=white&labelColor=e74c3c" />
+  <SimpleImage src="https://img.shields.io/badge/Unidade_2-2c3e50.svg?style=flat-square&logo=microsoft-powerpoint&logoColor=white&labelColor=e74c3c" />
 )}](https://drive.google.com/file/d/1cglJudMVZDX6xWseA8WURONlZPCBWHIc/view?usp=sharing)
 
 [${(
-  <SimpleImage src="https://img.shields.io/badge/notebook-Leitura Escrita e Desvio-2c3e50.svg?style=flat-square&logo=python&logoColor=white&labelColor=f39c12" />
+  <SimpleImage src="https://img.shields.io/badge/Leitura Escrita e Desvio-2c3e50.svg?style=flat-square&logo=jupyter&logoColor=white&labelColor=f39c12" />
 )}](https://colab.research.google.com/drive/19N_NSL4HKb1ZjMIswBqeY2sapkiuB6Bu?usp=sharing)
 
 Na unidade dois transformamos fluxogramas em código e resolvemos problemas com programas. A linguagem programação utilizada foi Python.
 
-A programação em python pode ser feita de maneira local (processando os programas em seu computador) com a utilização do [Anaconda](https://www.anaconda.com/), ou online com o [Google Colab](https://colab.research.google.com/).
+A programação em python pode ser feita de maneira local (processando os programas em seu computador) com a utilização do [Anaconda](https://www.anaconda.com/) , ou online com o [Google Colab](https://colab.research.google.com/).
 
-# Unidade Extra - Bibliocas
-[${(
-  <SimpleImage src="https://img.shields.io/badge/notebook-Pandas-2c3e50.svg?style=flat-square&logo=python&logoColor=white&labelColor=f39c12" />
-)}](https://colab.research.google.com/drive/1VGHuVyaNtdux6CPwZMLLA23_u0AFg51s?usp=sharing)
+## Bibliocas
+Preparei alguns materiais sobre bibliotecas Python que podemos utilizar.
 
-[${(
-  <SimpleImage src="https://img.shields.io/badge/notebook-Matplotlib-2c3e50.svg?style=flat-square&logo=python&logoColor=white&labelColor=f39c12" />
-)}](https://colab.research.google.com/drive/1Nc1zf4Vaie820uVxxxSmTjBq78AYkOxh?usp=sharing)
 
-[${(
-  <SimpleImage src="https://img.shields.io/badge/notebook-Plotly-2c3e50.svg?style=flat-square&logo=python&logoColor=white&labelColor=f39c12" />
-)}](https://colab.research.google.com/drive/1pUahKyytQUdRmBbrKtPpZxUHoLmyHLSs?usp=sharing)
+${(
+  <a href='https://colab.research.google.com/drive/1VGHuVyaNtdux6CPwZMLLA23_u0AFg51s?usp=sharing' target='_blank'>
+    <SimpleImage src="https://img.shields.io/badge/Pandas-2c3e50.svg?style=flat-square&logo=python&logoColor=white&labelColor=9c1de7" />
+  </a>
+)}
+
+
+${(
+  <a href='https://colab.research.google.com/drive/1Nc1zf4Vaie820uVxxxSmTjBq78AYkOxh?usp=sharing' target='_blank'>
+    <SimpleImage src="https://img.shields.io/badge/Matplotlib-2c3e50.svg?style=flat-square&logo=python&logoColor=white&labelColor=9c1de7" />
+  </a>
+)}
+
+${(
+  <a href='https://colab.research.google.com/drive/1pUahKyytQUdRmBbrKtPpZxUHoLmyHLSs?usp=sharing' target='_blank'>
+    <SimpleImage src="https://img.shields.io/badge/Plotly-2c3e50.svg?style=flat-square&logo=python&logoColor=white&labelColor=9c1de7" />
+  </a>
+)}
 
 O que faz o Python forte são suas bibliotecas. Com elas podemos fazer Data Science, Gráficos, Jogos etc. Esta Unidade é voltada às principais bibliotecas do Python.
+
+# Unidade 3 - Ferramentas de Desenvolvimento
+
+Agora que já aprendemos o básico da lógica de programação com o Python, podemos começar a criar nossos projetos.
+
+${(
+  <a href='https://bit.ly/TDC4kids2020' target='_blank'>
+    <SimpleImage src="https://img.shields.io/badge/Piskel-2c3e50.svg?style=flat-square&logo=awesome-lists&logoColor=white&labelColor=fc5185" />
+  </a>
+)}
+
+${(
+  <a href='https://docs.google.com/presentation/d/1j8NTonOgMRGBvvpw5gxUc5zMIsRGCkr4GiByePQYiqc/edit?usp=sharing' target='_blank'>
+    <SimpleImage src="https://img.shields.io/badge/Unity_Playground-2c3e50.svg?style=flat-square&logo=unity&logoColor=white&labelColor=000000" />
+  </a>
+)}
+
+
+
 `
 
 export default () => (
