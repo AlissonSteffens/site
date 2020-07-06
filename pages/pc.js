@@ -63,20 +63,20 @@ Preparei alguns materiais sobre bibliotecas Python que podemos utilizar.
 
 
 ${(
-  <a href='https://colab.research.google.com/drive/1VGHuVyaNtdux6CPwZMLLA23_u0AFg51s?usp=sharing' target='_blank'>
+  <a href='https://colab.research.google.com/drive/1VGHuVyaNtdux6CPwZMLLA23_u0AFg51s?usp=sharing' target='_blank' rel="noreferrer">
     <SimpleImage src="https://img.shields.io/badge/Pandas-2c3e50.svg?style=flat-square&logo=python&logoColor=white&labelColor=9c1de7" />
   </a>
 )}
 
 
 ${(
-  <a href='https://colab.research.google.com/drive/1Nc1zf4Vaie820uVxxxSmTjBq78AYkOxh?usp=sharing' target='_blank'>
+  <a href='https://colab.research.google.com/drive/1Nc1zf4Vaie820uVxxxSmTjBq78AYkOxh?usp=sharing' target='_blank' rel="noreferrer">
     <SimpleImage src="https://img.shields.io/badge/Matplotlib-2c3e50.svg?style=flat-square&logo=python&logoColor=white&labelColor=9c1de7" />
   </a>
 )}
 
 ${(
-  <a href='https://colab.research.google.com/drive/1pUahKyytQUdRmBbrKtPpZxUHoLmyHLSs?usp=sharing' target='_blank'>
+  <a href='https://colab.research.google.com/drive/1pUahKyytQUdRmBbrKtPpZxUHoLmyHLSs?usp=sharing' target='_blank' rel="noreferrer">
     <SimpleImage src="https://img.shields.io/badge/Plotly-2c3e50.svg?style=flat-square&logo=python&logoColor=white&labelColor=9c1de7" />
   </a>
 )}
@@ -88,13 +88,13 @@ O que faz o Python forte são suas bibliotecas. Com elas podemos fazer Data Scie
 Agora que já aprendemos o básico da lógica de programação com o Python, podemos começar a criar nossos projetos.
 
 ${(
-  <a href='https://bit.ly/TDC4kids2020' target='_blank'>
+  <a href='https://bit.ly/TDC4kids2020' target='_blank' rel="noreferrer">
     <SimpleImage src="https://img.shields.io/badge/Piskel-2c3e50.svg?style=flat-square&logo=awesome-lists&logoColor=white&labelColor=fc5185" />
   </a>
 )}
 
 ${(
-  <a href='https://docs.google.com/presentation/d/1j8NTonOgMRGBvvpw5gxUc5zMIsRGCkr4GiByePQYiqc/edit?usp=sharing' target='_blank'>
+  <a href='https://docs.google.com/presentation/d/1j8NTonOgMRGBvvpw5gxUc5zMIsRGCkr4GiByePQYiqc/edit?usp=sharing' target='_blank' rel="noreferrer">
     <SimpleImage src="https://img.shields.io/badge/Unity_Playground-2c3e50.svg?style=flat-square&logo=unity&logoColor=white&labelColor=000000" />
   </a>
 )}
