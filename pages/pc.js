@@ -87,7 +87,9 @@ Agora que já aprendemos o básico da lógica de programação com o Python, pod
 <a href='https://docs.google.com/presentation/d/1j8NTonOgMRGBvvpw5gxUc5zMIsRGCkr4GiByePQYiqc/edit?usp=sharing' target='_blank' rel="noreferrer">
   <SimpleImage src="https://img.shields.io/badge/Unity_Playground-2c3e50.svg?style=flat-square&logo=unity&logoColor=white&labelColor=000000" />
 </a>
-
+<a href='https://scratch.mit.edu/' target='_blank' rel="noreferrer">
+  <SimpleImage src="https://img.shields.io/badge/Scratch-2c3e50.svg?style=flat-square&logo=scratch&logoColor=white&labelColor=4D97FF" />
+</a>
 
 
 `
