@@ -91,6 +91,11 @@ Agora que já aprendemos o básico da lógica de programação com o Python, pod
   <SimpleImage src="https://img.shields.io/badge/Scratch-2c3e50.svg?style=flat-square&logo=scratch&logoColor=white&labelColor=4D97FF" />
 </a>
 
+# Unidade 4 - Materiais de Aprendizagem
+
+<a href='https://docs.google.com/document/d/1Ap2j8DB-PLijPkUi6xVL4AHvMgm73pKe7AzqYLKXcz0/edit?usp=sharing' target='_blank' rel="noreferrer">
+  <SimpleImage src="https://img.shields.io/badge/HTML5-2c3e50.svg?style=flat-square&logo=html5&logoColor=white&labelColor=E34F26" />
+</a>
 
 `
 
