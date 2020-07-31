@@ -114,48 +114,6 @@ export default () => (
       </div>
     </section>
 
-    <section className="section" id="posts">
-      <div className="container">
-        <h2 className="title">
-          Blog{' '}
-          <small>
-            <Link href="./essays" prefetch>
-              <a>
-                {' '}
-                <FaPlus /> more
-              </a>
-            </Link>
-          </small>
-        </h2>
-        <div className="postcontainer">
-          {preparePosts().map(p => (
-            <Link href={p.url} prefetch key={p.id}>
-              <div className="card" id={p.id}>
-                <div className="card-image">
-                  <SimpleImage
-                    src={
-                      './static/essays/' +
-                      parseDate(p.date).format('YYYY') +
-                      '/' +
-                      p.id +
-                      '/thumb.webp'
-                    }
-                    width={300}
-                  />
-                </div>
-                <div className="card-content">
-                  <div className="content">
-                    <h3>{p.title}</h3>
-                    <p>{p.description}</p>
-                  </div>
-                </div>
-              </div>
-            </Link>
-          ))}
-        </div>
-      </div>
-    </section>
-
     <section className="section" id="projects">
       <div className="container">
         <h2 className="title">Projects</h2>
@@ -203,6 +161,48 @@ export default () => (
       </div>
     </section>
 
+    <section className="section" id="posts">
+      <div className="container">
+        <h2 className="title">
+          Blog{' '}
+          <small>
+            <Link href="./essays" prefetch>
+              <a>
+                {' '}
+                <FaPlus /> more
+              </a>
+            </Link>
+          </small>
+        </h2>
+        <div className="postcontainer">
+          {preparePosts().map(p => (
+            <Link href={p.url} prefetch key={p.id}>
+              <div className="card" id={p.id}>
+                <div className="card-image">
+                  <SimpleImage
+                    src={
+                      './static/essays/' +
+                      parseDate(p.date).format('YYYY') +
+                      '/' +
+                      p.id +
+                      '/thumb.webp'
+                    }
+                    width={300}
+                  />
+                </div>
+                <div className="card-content">
+                  <div className="content">
+                    <h3>{p.title}</h3>
+                    <p>{p.description}</p>
+                  </div>
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </section>
+    
     {/* <section className="section" id="talks">
       <div className="container">
         <h2 className="title">Talks</h2>

@@ -38,8 +38,8 @@
       "url":"http://nyachan-server.herokuapp.com/",
       "description": "Censo do r/brasil com informações referentes a 2019",
       "date": "01-02-2020",
-      "color1": "#C46EE5",
-      "color2": "#791467"
+      "color2": "#fc5185",
+      "color1": "#f469a9"
     },
 
     {
@@ -49,18 +49,18 @@
       "url": "https://github.com/AlissonSteffens/image-processing-api",
       "description": "Censo do r/brasil com informações referentes a 2019",
       "date": "01-02-2020",
-      "color1": "#1EF5FE",
-      "color2": "#2398E7"
+      "color1": "#88bef5",
+      "color2": "#ba53de"
     },
     {
-      "id": "porous-render",
+      "id": "type-it",
       "type": "big",
-      "title": "Porous Render",
-      "url":"https://github.com/AlissonSteffens/porous-material-voxel-render",
+      "title": "Type It",
+      "url":"https://type-it.vercel.app/",
       "description": "Censo do r/brasil com informações referentes a 2019",
       "date": "01-02-2020",
-      "color1": "#FAAD8E",
-      "color2": "#AE583F"
+      "color1": "#8ED1FC",
+      "color2": "#0693E3"
     },
 
     {
@@ -70,8 +70,8 @@
       "url":"https://github.com/BeholderDEV/unity-knights-tour",
       "description": "Censo do r/brasil com informações referentes a 2019",
       "date": "01-02-2020",
-      "color1": "#FF5395",
-      "color2": "#D00456"
+      "color1": "#00fff0",
+      "color2": "#3d6cb9"
     },
     {
       "id": "neat-snake",
@@ -80,7 +80,7 @@
       "url":"https://github.com/lia-univali/neat-snake",
       "description": "Censo do r/brasil com informações referentes a 2019",
       "date": "01-02-2020",
-      "color1": "#17b978",
-      "color2": "#086972"
+      "color1": "#2cb978",
+      "color2": "#107a8b"
     }
   ] 
