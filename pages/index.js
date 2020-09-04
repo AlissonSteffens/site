@@ -101,10 +101,7 @@ export default () => (
             </a>
           </div>
           <p>
-            Graduated in Computer Science (Univali), with emphasis on education,
-            computer systems and games. I like to program 😁, in my free time I
-            usually watch movies, play video games (especially cooperatives) and
-            read comics.
+          Graduated in Computer Science (Univali), with an emphasis on education, computer systems, and games. Master of Computer Applications with an emphasis on Artificial Intelligence and Game Analytics. I like to program 😁, in my free time I usually watch movies, play video games (especially cooperatives) and read.
           </p>
           <p>
             I am currently a CAPES PROSUC fellow at Univali&apos;s Applied
@@ -121,39 +118,27 @@ export default () => (
           {projects.map(p => (
             <div className="tiltframe" key={p.id}>
               <a href={p.url} target="_blank" rel="noopener noreferrer">
-                <Tilt
+                <div
                   className="Tilt"
-                  options={{
-                    reverse: true,
-                    max: 15,
-                    glare: true,
-                    maxGlare: 0.5
-                  }}
-                  style={{ height: 200, width: 250 }}
                 >
                   <div className="Tilt-inner">
                     <div
                       className="project"
                       id={p.id}
-                      style={{
-                        background:
-                          'linear-gradient(to bottom right,' +
-                          p.color1 +
-                          ', ' +
-                          p.color2 +
-                          ')'
-                      }}
+                      
                     >
-                      <figure className="image is-2by1">
+                      {/* <figure className="image is-2by1">
                         <Image
                           src={'./static/projects/' + p.id + '.svg'}
                           width="100"
                         />
-                      </figure>
-                      <h3>{p.title}</h3>
+                      </figure> */}
+                      <h3 style={{
+                        color: p.color1
+                      }}>{p.title}</h3>
                     </div>
                   </div>
-                </Tilt>
+                </div>
               </a>
             </div>
           ))}

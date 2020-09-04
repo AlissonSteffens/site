@@ -6,8 +6,8 @@
       "url":"http://univali-lite.github.io/Portugol-Studio/",
       "description": "Censo do r/brasil com informações referentes a 2019",
       "date": "01-02-2020",
-      "color1": "#FFF556",
-      "color2": "#FF702B"
+      "color2": "#FFF556",
+      "color1": "#FF702B"
     },
 
     {
@@ -59,8 +59,8 @@
       "url":"https://type-it.vercel.app/",
       "description": "Censo do r/brasil com informações referentes a 2019",
       "date": "01-02-2020",
-      "color1": "#8ED1FC",
-      "color2": "#0693E3"
+      "color2": "#8ED1FC",
+      "color1": "#0693E3"
     },
 
     {
@@ -70,8 +70,8 @@
       "url":"https://github.com/BeholderDEV/unity-knights-tour",
       "description": "Censo do r/brasil com informações referentes a 2019",
       "date": "01-02-2020",
-      "color1": "#00fff0",
-      "color2": "#3d6cb9"
+      "color2": "#00fff0",
+      "color1": "#3d6cb9"
     },
     {
       "id": "neat-snake",

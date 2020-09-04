@@ -6,9 +6,13 @@ $branco: #fff;
 $roundness: 15px;
 $preto: #000;
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
 
 body{
   font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, .title, .subtitle{
+  font-family: 'Montserrat', sans-serif;
 }
 a{
   color: $pink !important;
@@ -230,13 +234,14 @@ a{
     background-size: contain;
     background-attachment: fixed;
     transition: opacity .5s ease-out;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
     &:hover{
-      box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
     }
     h3{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
       font-size: 1.2rem;
-      color: $branco !important;
     }
   }
   
