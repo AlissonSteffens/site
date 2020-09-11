@@ -125,17 +125,23 @@ export default () => (
                     <div
                       className="project"
                       id={p.id}
-                      
+                      style={{
+                        background:
+                          'linear-gradient(to bottom right,' +
+                          p.color1 +
+                          ', ' +
+                          p.color2 +
+                          ')'}}
                     >
-                      {/* <figure className="image is-2by1">
-                        <Image
-                          src={'./static/projects/' + p.id + '.svg'}
-                          width="100"
-                        />
-                      </figure> */}
-                      <h3 style={{
-                        color: p.color1
-                      }}>{p.title}</h3>
+                      <div className="project-inner-bg">
+                        <figure className="image">
+                          <Image
+                            src={'./static/projects/' + p.id + '.svg'}
+                          />
+                        </figure>
+                        <h3 >{p.title}</h3>
+                      </div>
+                      
                     </div>
                   </div>
                 </div>
