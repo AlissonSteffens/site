@@ -1,11 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
-body {
-  font-family: 'Roboto', sans-serif;
+html {
   background-image: radial-gradient(#e3e3e3 1px, transparent 0), radial-gradient(#e3e3e3 1px, transparent 0);
   background-position: 0 0,25px 25px;
   background-attachment: fixed;
   background-size: 50px 50px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+div {
+  background-color: transparent;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #000;
+}
+
+::selection {
+  color: #fff;
+  background: #000;
 }
 
 h1, h2, h3, h4, .title, .subtitle {
@@ -28,6 +45,11 @@ a:hover {
   .section {
     padding: 1rem 7rem;
   }
+}
+
+.section .title {
+  font-size: 2.5rem;
+  color: #000;
 }
 
 .social .social-link {
@@ -246,78 +268,107 @@ a:hover {
   border-radius: 15px 15px 0 0;
 }
 
-#projects .tiltcontainer {
+#projects .project-container {
   text-align: center;
-}
-
-@media screen and (min-width: 800px) {
-  #projects .tiltcontainer {
-    padding: 5px;
-  }
-}
-
-#projects .tiltframe {
-  display: inline-block;
-}
-
-@media screen and (min-width: 800px) {
-  #projects .tiltframe {
-    padding-top: 20px;
-    padding: 20px;
-  }
 }
 
 #projects .project {
-  border-radius: 15px;
-  background: #fff;
-  background-size: contain;
-  background-attachment: fixed;
-  -webkit-transition: .3s ease-out;
-  transition: .3s ease-out;
-  -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  width: 300px;
-  padding: 5px;
+  text-align: left;
+  position: relative;
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 300px;
+  width: 250px;
+  margin: 1rem;
+  border-radius: 25px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 2px 0 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 0 15px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
 }
 
-#projects .project .project-inner-bg {
-  padding: 15px;
-  background-color: transparent;
-  border-radius: 15px;
-}
-
-#projects .project:hover {
-  -webkit-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.2);
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
-#projects .project:hover .project-inner-bg {
-  background-color: #00000011;
-}
-
-#projects .project h3 {
+#projects .project h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 1.2rem;
-  color: #fff !important;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 20px 0 0 20px;
+  font-size: 1.5rem;
+  color: #000;
+  line-height: normal;
+  width: 80%;
 }
 
-#projects .project figure {
-  display: block;
-  margin: 0;
-  margin-bottom: 1rem;
-  text-align: center;
+#projects .project p {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 0 20px 60px 20px;
+  font-size: 18px;
+  color: #000;
+  padding-bottom: 1.5rem;
 }
 
-#projects .project figure img {
-  height: 100px;
+#projects .project #circle {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-color: #000000;
+  margin-top: -150px;
+  margin-left: 150px;
+}
+
+#projects .project #triangle {
+  height: 100%;
+  width: 100%;
+  -webkit-filter: invert(12%);
+          filter: invert(12%);
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+  margin-top: -170px;
+  margin-left: 90px;
+  background-position: bottom left;
+  background-size: 150px;
+  background-repeat: no-repeat;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+#projects .project:hover #triangle {
+  background-size: 175px;
+}
+
+#projects .project .content a {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0 20px 20px 0;
+  cursor: pointer;
+  color: #ffffff !important;
+  font-size: 1.3rem;
+  padding: 5px 15px;
+  border-radius: 30px;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+#projects .project .content a:hover {
+  background-color: #000;
+  color: #000 !important;
 }
 
 .is-fullheight {
-  min-height: 90vh !important;
+  min-height: 75vh !important;
 }
 
 #academic {

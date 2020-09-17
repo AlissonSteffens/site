@@ -4,10 +4,11 @@
       "type": "big",
       "title": "Portugol Studio",
       "url":"http://univali-lite.github.io/Portugol-Studio/",
-      "description": "Censo do r/brasil com informações referentes a 2019",
+      "description": "Easy to use IDE for beginners that speak portuguese",
       "date": "01-02-2020",
       "color1": "#FFF556",
-      "color2": "#FF702B"
+      "color2": "#FF702B",
+      "show":"true"
     },
 
     {
@@ -15,20 +16,22 @@
       "type": "big",
       "title": "Computer on the Beach",
       "url":"https://computeronthebeach.com.br/",
-      "description": "Censo do r/brasil com informações referentes a 2019",
+      "description": "Computer Science journal",
       "date": "01-02-2020",
-      "color1": "#4EA494",
-      "color2": "#1E5154"
+      "color2": "#4EA494",
+      "color1": "#1E5154",
+      "show":"true"
     },
     {
       "id": "cassie",
       "type": "big",
       "title": "Cassie",
       "url":"https://lia-univali.github.io/cassie/",
-      "description": "Censo do r/brasil com informações referentes a 2019",
+      "description": "Coastal Analysis via Satellite Imagery Engine",
       "date": "01-02-2020",
-      "color1": "#278ea5",
-      "color2": "#1f4287"
+      "color2": "#278ea5",
+      "color1": "#1f4287",
+      "show":"true"
     },
 
     {
@@ -36,10 +39,11 @@
       "type": "big",
       "title": "NyaChan",
       "url":"http://nyachan-server.herokuapp.com/",
-      "description": "Censo do r/brasil com informações referentes a 2019",
+      "description": "New alternative in image boards",
       "date": "01-02-2020",
       "color1": "#fc5185",
-      "color2": "#f469a9"
+      "color2": "#f469a9",
+      "show":"true"
     },
 
     {
@@ -47,20 +51,22 @@
       "type": "big",
       "title": "Image Processing API",
       "url": "https://github.com/AlissonSteffens/image-processing-api",
-      "description": "Censo do r/brasil com informações referentes a 2019",
+      "description": "A python based image processing api",
       "date": "01-02-2020",
       "color1": "#88bef5",
-      "color2": "#ba53de"
+      "color2": "#ba53de",
+      "show":"true"
     },
     {
       "id": "type-it",
       "type": "big",
       "title": "Type It",
       "url":"https://type-it.vercel.app/",
-      "description": "Censo do r/brasil com informações referentes a 2019",
+      "description": "Animates someone typing things for you",
       "date": "01-02-2020",
       "color1": "#8ED1FC",
-      "color2": "#0693E3"
+      "color2": "#0693E3",
+      "show":"true"
     },
 
     {
@@ -68,19 +74,21 @@
       "type": "big",
       "title": "Knight's Tour",
       "url":"https://github.com/BeholderDEV/unity-knights-tour",
-      "description": "Censo do r/brasil com informações referentes a 2019",
+      "description": "A knight's tour is a sequence of moves of a knight on a chessboard such that the knight visits every square only once",
       "date": "01-02-2020",
       "color1": "#00fff0",
-      "color2": "#3d6cb9"
+      "color2": "#3d6cb9",
+      "show":"true"
     },
     {
       "id": "neat-snake",
       "type": "big",
       "title": "Neat Snake",
       "url":"https://github.com/lia-univali/neat-snake",
-      "description": "Censo do r/brasil com informações referentes a 2019",
+      "description": "Integrating Neural Evolution In Augmented Topologies in a snake game to make it a self learner",
       "date": "01-02-2020",
       "color1": "#2cb978",
-      "color2": "#107a8b"
+      "color2": "#107a8b",
+      "show":"true"
     }
   ] 

@@ -114,39 +114,22 @@ export default () => (
     <section className="section" id="projects">
       <div className="container">
         <h2 className="title">Projects</h2>
-        <div className="tiltcontainer">
+        <div className="project-container">
           {projects.map(p => (
-            <div className="tiltframe" key={p.id}>
-              <a href={p.url} target="_blank" rel="noopener noreferrer">
-                <div
-                  className="Tilt"
-                >
-                  <div className="Tilt-inner">
-                    <div
-                      className="project"
-                      id={p.id}
-                      style={{
-                        background:
-                          'linear-gradient(to bottom right,' +
-                          p.color1 +
-                          ', ' +
-                          p.color2 +
-                          ')'}}
-                    >
-                      <div className="project-inner-bg">
-                        <figure className="image">
-                          <Image
-                            src={'./static/projects/' + p.id + '.svg'}
-                          />
-                        </figure>
-                        <h3 >{p.title}</h3>
-                      </div>
-                      
-                    </div>
-                  </div>
+            p.show=='true'?
+              <div className="project" key={p.id}>
+                <div id="triangle" style={{
+                        backgroundImage: 'url(./static/projects/' + p.id + '.svg)'}}>
+                        </div>
+                <h2>{p.title}</h2>
+                <p>{p.description}</p>
+                <div className="content">
+                  <a href={p.url} target="_blank" rel="noopener noreferrer" style={{
+                        color: p.color2 +'!important'}}
+                        >More</a>
                 </div>
-              </a>
-            </div>
+              </div>
+              :""
           ))}
         </div>
       </div>
