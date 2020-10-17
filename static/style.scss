@@ -1,7 +1,7 @@
 $azul: #200228;
 $azulclaro: #22045A;
-$pink: #FF5395;
-$purple: #791467;
+$pink: #1CB5E0;
+$purple: #000046;
 $branco: #fff;
 $roundness: 15px;
 $preto: #000;
@@ -41,8 +41,21 @@ a{
     padding: 1rem 7rem;
   }
   .title{
+    padding-top: 2rem;
     font-size: 2.5rem;
+    @media screen and (min-width: 800px) {
+      font-size: 3.5rem;
+    }
     color: $preto;
+    text-align: center;
+  }
+  .subtitle{  
+    font-size: 1rem;
+    @media screen and (min-width: 800px) {
+      font-size: 1.5rem;
+    }
+    color: $preto;
+    text-align: center;
   }
 }
 .social{
@@ -227,6 +240,15 @@ a{
   }
 }
 
+#about{
+  p{
+    background-color: $preto;
+    color: $branco;
+    border-radius: $roundness;
+    padding: 2rem;
+  }
+  
+}
 #projects{
   .project-container{
     text-align: center;
@@ -327,13 +349,10 @@ a{
 }
 #academic{
   margin-bottom: 100px;
+  text-align: center;
 }
 #hero{
-  background-size: 30%;
-  background-position-x: right;
-  background-position-y: top;
-  background-repeat: no-repeat;
-
+  text-align: center;
   .is-fixed{
     position: fixed;
     
@@ -345,7 +364,7 @@ a{
     }
     .navbar-item{
       a{
-        color: $preto !important !important;
+        color: $preto !important;
         &:hover{
           color: $pink;
         }
@@ -371,7 +390,10 @@ a{
   }
   
   .title{
-    font-size: 5rem;
+    font-size: 4rem;
+    @media screen and (min-width: 800px) {
+      font-size: 7rem;
+    }
   }
   .subtitle{
     font-size: 1.5rem;
@@ -381,10 +403,6 @@ a{
     margin: 1rem 0;
     font-size: 1.2rem;
     line-height: 2rem;
-    @media screen and (min-width: 800px) {
-      max-width: 55%;
-    }
-    
   }
 }
 .cover{

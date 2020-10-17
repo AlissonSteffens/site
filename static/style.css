@@ -30,11 +30,11 @@ h1, h2, h3, h4, .title, .subtitle {
 }
 
 a {
-  color: #FF5395 !important;
+  color: #1CB5E0 !important;
 }
 
 a:hover {
-  color: #791467 !important;
+  color: #000046 !important;
 }
 
 .section {
@@ -48,8 +48,28 @@ a:hover {
 }
 
 .section .title {
+  padding-top: 2rem;
   font-size: 2.5rem;
   color: #000;
+  text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+  .section .title {
+    font-size: 3.5rem;
+  }
+}
+
+.section .subtitle {
+  font-size: 1rem;
+  color: #000;
+  text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+  .section .subtitle {
+    font-size: 1.5rem;
+  }
 }
 
 .social .social-link {
@@ -194,7 +214,7 @@ a:hover {
 }
 
 #posts .title small a:hover {
-  color: #FF5395 !important;
+  color: #1CB5E0 !important;
 }
 
 #posts .postcontainer {
@@ -266,6 +286,13 @@ a:hover {
 
 #posts .postcontainer .card img {
   border-radius: 15px 15px 0 0;
+}
+
+#about p {
+  background-color: #000;
+  color: #fff;
+  border-radius: 15px;
+  padding: 2rem;
 }
 
 #projects .project-container {
@@ -373,13 +400,11 @@ a:hover {
 
 #academic {
   margin-bottom: 100px;
+  text-align: center;
 }
 
 #hero {
-  background-size: 30%;
-  background-position-x: right;
-  background-position-y: top;
-  background-repeat: no-repeat;
+  text-align: center;
 }
 
 #hero .is-fixed {
@@ -393,11 +418,11 @@ a:hover {
 }
 
 #hero .is-fixed .navbar-item a {
-  color: #000 !important !important;
+  color: #000 !important;
 }
 
 #hero .is-fixed .navbar-item a:hover {
-  color: #FF5395;
+  color: #1CB5E0;
 }
 
 #hero .is-fixed .navbar-item .tooltiptext {
@@ -417,7 +442,13 @@ a:hover {
 }
 
 #hero .title {
-  font-size: 5rem;
+  font-size: 4rem;
+}
+
+@media screen and (min-width: 800px) {
+  #hero .title {
+    font-size: 7rem;
+  }
 }
 
 #hero .subtitle {
@@ -428,12 +459,6 @@ a:hover {
   margin: 1rem 0;
   font-size: 1.2rem;
   line-height: 2rem;
-}
-
-@media screen and (min-width: 800px) {
-  #hero p {
-    max-width: 55%;
-  }
 }
 
 .cover {

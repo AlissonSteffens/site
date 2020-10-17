@@ -15,6 +15,7 @@ import {
   FaLinkedinIn,
   FaCamera,
   FaSchool,
+  FaEnvelope,
   FaPlus
 } from 'react-icons/fa'
 
@@ -43,7 +44,7 @@ export default () => (
   <Page>
     <Title />
 
-    <section className="hero is-fullheight" id="hero">
+    <section className="section hero is-fullheight" id="hero">
       <div className="hero-body">
         <div className="container">
           <h1 className="title">Alisson Steffens</h1>
@@ -85,6 +86,14 @@ export default () => (
             </a>
             <a
               className="social-link"
+              href="mailto:ali.steffens@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaEnvelope />
+            </a>
+            {/* <a
+              className="social-link"
               href="https://unsplash.com/@alissonsteffens"
               target="_blank"
               rel="noopener noreferrer"
@@ -98,38 +107,42 @@ export default () => (
               rel="noopener noreferrer"
             >
               <FaSchool />
-            </a>
+            </a> */}
           </div>
-          <p>
-          Graduated in Computer Science (Univali), with an emphasis on education, computer systems, and games. Master of Computer Applications with an emphasis on Artificial Intelligence and Game Analytics. I like to program 😁, in my free time I usually watch movies, play video games (especially cooperatives) and read.
-          </p>
-          <p>
-            I am currently a CAPES PROSUC fellow at Univali&apos;s Applied
-            Intelligence Laboratory
-          </p>
+
         </div>
       </div>
     </section>
+    <section className="section" id="about">
+      <p>
+        Graduated in Computer Science (Univali), with an emphasis on education, computer systems, and games. Master of Computer Applications with an emphasis on Artificial Intelligence and Game Analytics. I like to program 😁, in my free time I usually watch movies, play video games (especially cooperatives) and read.
+        I am currently a CAPES PROSUC fellow at Univali&apos;s Applied
+        Intelligence Laboratory
+          </p>
 
+    </section>
     <section className="section" id="projects">
       <div className="container">
         <h2 className="title">Projects</h2>
+        {/* <h3 className="subtitle">Some of my favorite projects</h3> */}
         <div className="project-container">
           {projects.map(p => (
-            p.show=='true'?
+            p.show == 'true' ?
               <div className="project" key={p.id}>
                 <div id="triangle" style={{
-                        backgroundImage: 'url(./static/projects/' + p.id + '.svg)'}}>
-                        </div>
+                  backgroundImage: 'url(./static/projects/' + p.id + '.svg)'
+                }}>
+                </div>
                 <h2>{p.title}</h2>
                 <p>{p.description}</p>
                 <div className="content">
                   <a href={p.url} target="_blank" rel="noopener noreferrer" style={{
-                        color: p.color2 +'!important'}}
-                        >More</a>
+                    color: p.color2 + '!important'
+                  }}
+                  >More</a>
                 </div>
               </div>
-              :""
+              : ""
           ))}
         </div>
       </div>
@@ -176,7 +189,7 @@ export default () => (
         </div>
       </div>
     </section>
-    
+
     {/* <section className="section" id="talks">
       <div className="container">
         <h2 className="title">Talks</h2>
