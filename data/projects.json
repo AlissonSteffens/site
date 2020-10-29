@@ -16,7 +16,7 @@
       "type": "big",
       "title": "Computer on the Beach",
       "url":"https://computeronthebeach.com.br/",
-      "description": "Computer Science journal",
+      "description": "Computer Science Event",
       "date": "01-02-2020",
       "color2": "#4EA494",
       "color1": "#1E5154",
@@ -43,7 +43,7 @@
       "date": "01-02-2020",
       "color1": "#fc5185",
       "color2": "#f469a9",
-      "show":"true"
+      "show":"false"
     },
 
     {
@@ -51,10 +51,21 @@
       "type": "big",
       "title": "Image Processing API",
       "url": "https://github.com/AlissonSteffens/image-processing-api",
-      "description": "A python based image processing api",
+      "description": "A python based image processing api (developed at my master degree)",
       "date": "01-02-2020",
       "color1": "#88bef5",
-      "color2": "#ba53de",
+      "color2": "#22d1ee",
+      "show":"true"
+    },
+    {
+      "id": "neat-snake",
+      "type": "big",
+      "title": "Neat Snake",
+      "url":"https://github.com/lia-univali/neat-snake",
+      "description": "Integrating NEAT in a snake game to make it a self learner",
+      "date": "01-02-2020",
+      "color1": "#2cb978",
+      "color2": "#107a8b",
       "show":"true"
     },
     {
@@ -74,21 +85,32 @@
       "type": "big",
       "title": "Knight's Tour",
       "url":"https://github.com/BeholderDEV/unity-knights-tour",
-      "description": "A knight's tour is a sequence of moves of a knight on a chessboard such that the knight visits every square only once",
+      "description": "A sequence of moves of a knight on a chessboard such that the knight visits every square only once",
       "date": "01-02-2020",
       "color1": "#00fff0",
       "color2": "#3d6cb9",
       "show":"true"
     },
     {
-      "id": "neat-snake",
+      "id": "castle",
       "type": "big",
-      "title": "Neat Snake",
-      "url":"https://github.com/lia-univali/neat-snake",
-      "description": "Integrating Neural Evolution In Augmented Topologies in a snake game to make it a self learner",
+      "title": "Castlevania SOT Agents",
+      "url":"https://github.com/BeholderDEV/castlevania-symphony-of-the-agents",
+      "description": "A Castlevania Symphony oh the Night based game using JADE for agents AI",
       "date": "01-02-2020",
-      "color1": "#2cb978",
-      "color2": "#107a8b",
+      "color1": "#ffffff",
+      "color2": "#ff304f",
       "show":"true"
+    },
+    {
+      "id": "urchin",
+      "type": "big",
+      "title": "See Urchin",
+      "url":"https://github.com/lia-univali/see-urchin",
+      "description": "A tool for computer vision in Paracentrotus.",
+      "date": "01-02-2020",
+      "color1": "#ffffff",
+      "color2": "#9c1de7",
+      "show":"false"
     }
   ] 

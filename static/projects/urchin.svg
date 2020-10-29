@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="1024.000000pt"
+   height="1024.000000pt"
+   viewBox="0 0 1024.000000 1024.000000"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg8"
+   sodipodi:docname="urchin.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1839"
+     inkscape:window-height="1051"
+     id="namedview10"
+     showgrid="false"
+     inkscape:zoom="0.69140625"
+     inkscape:cx="622.97852"
+     inkscape:cy="616.98763"
+     inkscape:window-x="72"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g6" />
+  <metadata
+     id="metadata2">
+Created by potrace 1.15, written by Peter Selinger 2001-2017
+<rdf:RDF>
+  <cc:Work
+     rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type
+       rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+  </cc:Work>
+</rdf:RDF>
+</metadata>
+  <g
+     transform="translate(0.000000,1024.000000) scale(0.100000,-0.100000)"
+     fill="#000000"
+     stroke="none"
+     id="g6">
+    <path
+       d="M4112 9498 l-242 -243 701 -701 700 -700 -268 -159 c-772 -457 -1652 -1011 -2318 -1459 -704 -475 -1221 -859 -1805 -1344 -392 -326 -522 -457 -586 -589 -24 -50 -28 -70 -28 -143 0 -76 3 -92 32 -152 40 -82 120 -171 193 -215 85 -51 164 -67 294 -59 181 10 259 32 440 123 449 227 1186 530 1925 793 775 276 1280 411 1595 427 l120 6 -492 -498 c-271 -274 -493 -501 -493 -504 0 -4 108 -114 240 -246 l240 -240 549 549 549 549 20 -89 c12 -49 26 -118 32 -154 18 -106 24 -393 11 -555 -48 -610 -280 -1668 -507 -2310 -213 -604 -257 -772 -258 -985 0 -106 3 -134 22 -181 42 -106 118 -167 232 -189 164 -31 333 53 560 280 210 209 264 272 516 605 690 914 1109 1576 1592 2515 165 322 519 1068 574 1209 8 24 44 -10 641 -607 l632 -632 245 245 245 245 -729 729 -730 730 96 243 c373 943 582 1622 649 2108 20 138 17 456 -4 549 l-16 73 357 365 c196 200 358 367 360 371 1 4 -106 115 -238 247 l-240 240 -318 -318 -319 -319 -104 51 c-125 60 -219 81 -366 81 -294 0 -655 -105 -1188 -345 -273 -122 -1045 -520 -1308 -673 l-27 -17 -768 768 -767 767 -243 -242z m4827 -457 c109 -87 255 -303 312 -459 l22 -64 -760 -761 -760 -762 23 -73 c53 -163 57 -344 11 -501 l-25 -84 393 -389 393 -388 -87 -208 c-48 -114 -114 -269 -147 -344 l-59 -138 -487 487 -486 486 -94 -27 c-167 -48 -341 -46 -509 7 l-72 22 -571 -573 -571 -573 -20 64 c-27 83 -49 116 -110 166 -102 84 -239 138 -394 156 l-64 7 625 627 625 626 -25 80 c-22 69 -25 100 -26 225 -1 132 2 154 28 244 l29 98 -427 427 -426 426 307 177 308 176 365 -363 365 -364 85 26 c76 24 101 26 235 26 130 0 161 -3 229 -24 l79 -24 805 808 c443 444 809 807 813 807 4 0 35 -22 68 -49z"
+       id="path4"
+       style="fill:#ffffff" />
+  </g>
+</svg>
