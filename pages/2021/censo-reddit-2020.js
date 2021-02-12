@@ -11,7 +11,7 @@ export default asPost({
 
 Todos os anos é realizada uma pesquisa interna no [r/brasil](https://www.reddit.com/r/brasil/) afim de melhor compreender os usuários do sub.
 
-A pesquisa foi feita entre setembro e outubro de 2020 e contou com **1810** participantes, que responderam cerca de **100** perguntas.
+A pesquisa foi realizada entre setembro e outubro de 2020 e contou com **1810** participantes, que responderam cerca de **100** perguntas [neste link](https://www.reddit.com/r/brasil/comments/j2ti4i/censo_oficial_do_rbrasil_2020/).
 
 ## Sobre o processamento de dados
 
