@@ -8,6 +8,7 @@ export default asPost({
   id: 'censo-reddit-2020',
   hasCover: true
 })(markdown(components)`
+
 Todos os anos é realizada uma pesquisa interna no [r/brasil](https://www.reddit.com/r/brasil/) afim de melhor compreender os usuários do sub.
 
 A pesquisa foi feita entre setembro e outubro de 2020 e contou com **1810** participantes, que responderam cerca de **100** perguntas.
