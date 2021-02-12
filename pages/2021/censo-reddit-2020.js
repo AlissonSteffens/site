@@ -2,6 +2,7 @@ import markdown from 'markdown-in-js'
 import asPost from '../../layouts/post'
 import { Ref, FootNotes, Note } from '../../components/footnotes'
 import components from '../../components'
+import { Image, MediumImage } from '../../components/figure'
 
 export default asPost({
   id: 'censo-reddit-2020',
@@ -9,7 +10,7 @@ export default asPost({
 })(markdown(components)`
 Todos os anos é realizada uma pesquisa interna no [r/brasil](https://www.reddit.com/r/brasil/) afim de melhor compreender os usuários do sub.
 
-A pesquisa feita no ano de 2020 contou com **1810** participantes, que responderam cerca de **100** perguntas.
+A pesquisa foi feita entre setembro e outubro de 2020 e contou com **1810** participantes, que responderam cerca de **100** perguntas.
 
 ## Sobre o processamento de dados
 
@@ -18,19 +19,30 @@ Todos os dados foram coletados de maneira anônima, a partir do formulario do Go
 Para geração dos gráficos foi utilizada a linguagem [Python](https://www.python.org/), com as ferramentas [pandas](https://pandas.pydata.org/), [numpy](https://numpy.org/), [matplotlib](https://matplotlib.org/), [plotly](https://plotly.com/) e [seaborn](https://seaborn.pydata.org/).
 
 # Quem São?
-Os usuários do SUB são em sua maioria homens.
-![](/static/essays/2021/censo-reddit-2020/genero.jpg)
+Os usuários do SUB são em sua maioria homens héteros.
 
-E héteros
-![](/static/essays/2021/censo-reddit-2020/orientacao.jpg)
+${(
+  <div className="columns">
+    <MediumImage
+      src="/static/essays/2021/censo-reddit-2020/genero.jpg"
+      className="column"
+    />
+    <MediumImage
+    src="/static/essays/2021/censo-reddit-2020/orientacao.jpg"
+    className="column"
+  />
+  </div>
+  
+  
+)}
 
-Com idade média 26 anos.
+Com idade média de 26 anos.
 ![](/static/essays/2021/censo-reddit-2020/idade.jpg)
 
 14% dos usuários têm entre 14 e 24 anos, 52% entre 25 e 44 anos.
 ![](/static/essays/2021/censo-reddit-2020/faixaetaria.jpg)
 
-37% são universitários, e 47% tê ensino superior completo ou maior grau de escolaridade.
+37% são universitários, e 47% têm ensino superior completo ou maior grau de escolaridade.
 ![](/static/essays/2021/censo-reddit-2020/escolaridade.jpg)
 
 Formados principalmente nas áreas de Engenharia e Computação.
@@ -48,7 +60,7 @@ Proporcionalmente à população, o estado com maior concentração de usuários
 Há também os usuários do /r/brasil que moram fora do país. Estes moram principalmente nos Estado Unidos e na Alemanha.
 ![](/static/essays/2021/censo-reddit-2020/outside.jpg)
 
-# Como Se posicionam?
+# Como se posicionam?
 
 No espectro político, os usuários do Reddit são de esquerda e centro-esquerda.
 ![](/static/essays/2021/censo-reddit-2020/politico.jpg)
