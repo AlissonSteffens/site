@@ -21,7 +21,7 @@ Para geração dos gráficos foi utilizada a linguagem [Python](https://www.pyth
 Os usuários do SUB são em sua maioria homens.
 ![](/static/essays/2021/censo-reddit-2020/genero.jpg)
 
-E heteros
+E héteros
 ![](/static/essays/2021/censo-reddit-2020/orientacao.jpg)
 
 Com idade média 26 anos.
