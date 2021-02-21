@@ -2,10 +2,11 @@
 import moment from 'moment'
 
 // Components
-import Link from 'next/link'
+
 import Title from '../components/title'
 import Back from '../components/back'
-import { Image, SimpleImage } from '../components/figure'
+import { PostCard, BlogPostCard } from '../components/postCard'
+
 
 // Layouts
 import Page from '../layouts/page'
@@ -33,15 +34,6 @@ export default () => (
     <Title />
 
     <section className="section" id="hero">
-      <div className="container">
-        <h1 className="title">Blog</h1>
-        <h2 className="subtitle" />
-        <p>
-          Aqui eu posto algumas páginas com coisas escritas por mim. A maioria
-          do que eu escrevo é acadêmico, então estes aparecerão como links para
-          os artigos. As postagens (não acadêmicas), são páginas neste site.
-        </p>
-      </div>
       <Back />
     </section>
 
@@ -50,28 +42,10 @@ export default () => (
         <h2 className="title">Blog</h2>
         <div className="postcontainer">
           {preparePosts().map(p => (
-            <Link href={p.url} prefetch key={p.id}>
-              <div className="card" id={p.id}>
-                <div className="card-image">
-                  <SimpleImage
-                    src={
-                      './static/essays/' +
-                      parseDate(p.date).format('YYYY') +
-                      '/' +
-                      p.id +
-                      '/cover.png'
-                    }
-                    width={300}
-                  />
-                </div>
-                <div className="card-content">
-                  <div className="content">
-                    <h3>{p.title}</h3>
-                    <p>{p.description}</p>
-                  </div>
-                </div>
-              </div>
-            </Link>
+            p.kind == 'blog' ?
+            <BlogPostCard post = {p} key={p.id} ></BlogPostCard>
+            :
+            <PostCard post = {p} key={p.id} ></PostCard>
           ))}
         </div>
       </div>

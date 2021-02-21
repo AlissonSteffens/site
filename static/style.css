@@ -1,18 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
-html {
-  background-image: radial-gradient(#e3e3e3 1px, transparent 0), radial-gradient(#e3e3e3 1px, transparent 0);
-  background-position: 0 0,25px 25px;
-  background-attachment: fixed;
-  background-size: 50px 50px;
-}
-
 .arte-meta {
   color: #ccc;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+  display: block;
+  padding-bottom: 4rem;
+  background-color: #fefefe;
+  background-image: radial-gradient(#e2e2e2 1px, transparent 0), radial-gradient(#e2e2e2 1px, transparent 0);
+  background-position: 0 0,25px 25px;
+  background-attachment: fixed;
+  background-size: 50px 50px;
 }
 
 div {
@@ -209,15 +209,15 @@ a:hover {
   padding: 5px;
 }
 
-#posts .title small {
+.title small {
   font-size: 1rem;
 }
 
-#posts .title small a {
+.title small a {
   color: #888 !important;
 }
 
-#posts .title small a:hover {
+.title small a:hover {
   color: #1CB5E0 !important;
 }
 
@@ -238,18 +238,18 @@ a:hover {
 
 #posts .postcontainer .card {
   border-radius: 15px;
-  height: 280px;
+  height: 300px;
   width: 250px;
   margin: 20px;
   -webkit-transition: .3s ease-out;
   transition: .3s ease-out;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
 }
 
 #posts .postcontainer .card .card-content {
-  margin-top: -8px;
-  padding-top: 0.5rem;
+  padding-top: 1rem;
 }
 
 #posts .postcontainer .card .card-content h3 {
@@ -267,29 +267,40 @@ a:hover {
   max-width: 100%;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-}
-
-#posts .postcontainer .card .card-image:after {
-  content: url("/static/project_effect.png");
-  position: relative;
-  margin-top: -60px;
-  top: -50px;
-  max-height: 0px;
-  width: 250px;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 #posts .postcontainer .card:hover {
   -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+  background-color: #fefefe;
 }
 
 #posts .postcontainer .card:hover .card-image img {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.3) rotate(3deg);
+          transform: scale(1.3) rotate(3deg);
+}
+
+#posts .postcontainer .card:hover .card-content {
+  padding-top: 0.85rem;
+  z-index: 2;
 }
 
 #posts .postcontainer .card img {
   border-radius: 15px 15px 0 0;
+}
+
+#posts .postcontainer .card.paper {
+  background-color: #200228;
+}
+
+#posts .postcontainer .card.paper .card-content p {
+  color: #fefefe;
+}
+
+#posts .postcontainer .card.paper .card-content h3 {
+  color: #1CB5E0;
 }
 
 #about p {
@@ -317,11 +328,11 @@ a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 300px;
+  height: 250px;
   width: 250px;
   margin: 1rem;
   border-radius: 25px;
-  background-color: #ffffff;
+  background-color: #fff;
   -webkit-box-shadow: 2px 0 15px rgba(0, 0, 0, 0.5);
           box-shadow: 2px 0 15px rgba(0, 0, 0, 0.5);
   overflow: hidden;
@@ -344,19 +355,10 @@ a:hover {
   position: absolute;
   left: 0;
   bottom: 0;
-  margin: 0 20px 60px 20px;
+  margin: 0 20px 20px 20px;
   font-size: 18px;
   color: #000;
   padding-bottom: 1.5rem;
-}
-
-#projects .project #circle {
-  height: 100%;
-  width: 100%;
-  border-radius: 50%;
-  background-color: #000000;
-  margin-top: -150px;
-  margin-left: 150px;
 }
 
 #projects .project #triangle {
@@ -366,8 +368,8 @@ a:hover {
           filter: invert(12%);
   -webkit-transform: rotate(-20deg);
           transform: rotate(-20deg);
-  margin-top: -170px;
-  margin-left: 90px;
+  margin-top: -120px;
+  margin-left: 80px;
   background-position: bottom left;
   background-size: 150px;
   background-repeat: no-repeat;
@@ -375,8 +377,16 @@ a:hover {
   transition: .3s ease;
 }
 
+#projects .project:hover {
+  background-color: #fefefe;
+}
+
 #projects .project:hover #triangle {
   background-size: 175px;
+}
+
+#projects .project:hover p {
+  bottom: 2px;
 }
 
 #projects .project .content a {
@@ -385,7 +395,6 @@ a:hover {
   bottom: 0;
   margin: 0 20px 20px 0;
   cursor: pointer;
-  color: #ffffff !important;
   font-size: 1.3rem;
   padding: 5px 15px;
   border-radius: 30px;
@@ -395,7 +404,6 @@ a:hover {
 
 #projects .project .content a:hover {
   background-color: #000;
-  color: #000 !important;
 }
 
 .is-fullheight {

@@ -51,7 +51,7 @@ const viewSource = event => {
 }
 
 export default ({ children }) => (
-  <main onDoubleClick={viewSource}>
+  <main>
     <Head>
       <link
         rel="mask-icon"
@@ -83,7 +83,6 @@ export default ({ children }) => (
         }
         html,
         body {
-          height: 100%;
         }
 
         main {

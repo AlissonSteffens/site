@@ -3,23 +3,59 @@
     "id": "bbb-minecraft-e-programacao",
     "title": "Como BBB me ensinou fazer extensões no Chrome",
     "description": "As vantagens de quem usa redstone",
-    "date": "20-04-2020"
+    "date": "20-04-2020",
+    "kind": "blog"
   },{
     "id": "engines",
     "title": "O impacto dos Motores de Jogos na vida útil dos jogos",
     "description": "O problema dos motores de jogos",
-    "date": "15-04-2020"
+    "date": "15-04-2020",
+    "kind": "blog"
   },
   {
     "id": "censo-reddit",
     "title": "Análise do censo do subreddit r/brasil 2019",
     "description": "Censo do r/brasil com informações referentes a 2019",
-    "date": "01-02-2020"
+    "date": "01-02-2020",
+    "kind": "blog"
   },
   {
     "id": "censo-reddit-2020",
     "title": "Análise do censo do subreddit r/brasil 2020",
     "description": "Censo do r/brasil com informações referentes a 2020",
-    "date": "12-02-2021"
+    "date": "12-02-2021",
+    "kind": "blog"
+  },
+  {
+    "id": "cisti-mnist",
+    "title": "Clothing Classification Using CNNs",
+    "description": "Explores and analyzes models of CNN for fashion.",
+    "date": "15-07-2020",
+    "kind": "paper",
+    "link": "https://ieeexplore.ieee.org/abstract/document/9141035"
+  },
+  {
+    "id": "neat-snake",
+    "title": "NEAT Snake",
+    "description": "Evolutionary and neural network adaptation.",
+    "date": "09-09-2020",
+    "kind": "paper",
+    "link": "https://doi.org/10.14210/cotb.v11n1.p052-053"
+  },
+  {
+    "id": "genetic-shoot",
+    "title": "Genetic Algorithm in NPCs",
+    "description": "Genetic Algorithm in Survival Shooter Games NPCs.",
+    "date": "09-09-2020",
+    "kind": "paper",
+    "link": "https://siaiap32.univali.br/seer/index.php/acotb/article/view/16800"
+  },
+  {
+    "id": "focus-track",
+    "title": "Player focus tracking",
+    "description": "Player focus tracking based on computer vision for Game Analytics.",
+    "date": "08-11-2020",
+    "kind": "paper",
+    "link": "https://www.sbgames.org/proceedings2020/ComputacaoShort/209498.pdf"
   }
 ]

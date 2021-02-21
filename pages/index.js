@@ -4,17 +4,16 @@ import Title from '../components/title'
 import { Image, MediumImage, SimpleImage } from '../components/figure'
 import moment from 'moment'
 import components from '../components'
-
+import Project from '../components/project'
 // Layouts
 import Page from '../layouts/page'
-import Tilt from 'react-tilt'
+import { PostCard, BlogPostCard } from '../components/postCard'
+
 // Icons
 import {
   FaTwitter,
   FaGithub,
   FaLinkedinIn,
-  FaCamera,
-  FaSchool,
   FaEnvelope,
   FaPlus
 } from 'react-icons/fa'
@@ -92,22 +91,7 @@ export default () => (
             >
               <FaEnvelope />
             </a>
-            {/* <a
-              className="social-link"
-              href="https://unsplash.com/@alissonsteffens"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaCamera />
-            </a>
-            <a
-              className="social-link"
-              href="http://lattes.cnpq.br/4379708414084009"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaSchool />
-            </a> */}
+            
           </div>
 
         </div>
@@ -124,25 +108,20 @@ export default () => (
     </section>
     <section className="section" id="projects">
       <div className="container">
-        <h2 className="title">Projects</h2>
+        <h2 className="title">Projects{' '}
+          <small>
+            <Link href="./projects" prefetch>
+              <a>
+                {' '}
+                <FaPlus /> more
+              </a>
+            </Link>
+          </small></h2>
         {/* <h3 className="subtitle">Some of my favorite projects</h3> */}
         <div className="project-container">
-          {projects.map(p => (
+          {projects.slice(0, 5).map(p => (
             p.show == 'true' ?
-              <div className="project" key={p.id}>
-                <div id="triangle" style={{
-                  backgroundImage: 'url(./static/projects/' + p.id + '.svg)'
-                }}>
-                </div>
-                <h2>{p.title}</h2>
-                <p>{p.description}</p>
-                <div className="content">
-                  <a href={p.url} target="_blank" rel="noopener noreferrer" style={{
-                    color: p.color2 + '!important'
-                  }}
-                  >More</a>
-                </div>
-              </div>
+              <Project project={p} key={p.id}></Project>
               : ""
           ))}
         </div>
@@ -163,29 +142,12 @@ export default () => (
           </small>
         </h2>
         <div className="postcontainer">
-          {preparePosts().map(p => (
-            <Link href={p.url} prefetch key={p.id}>
-              <div className="card" id={p.id}>
-                <div className="card-image">
-                  <SimpleImage
-                    src={
-                      './static/essays/' +
-                      parseDate(p.date).format('YYYY') +
-                      '/' +
-                      p.id +
-                      '/thumb.jpg'
-                    }
-                    width={300}
-                  />
-                </div>
-                <div className="card-content">
-                  <div className="content">
-                    <h3>{p.title}</h3>
-                    <p>{p.description}</p>
-                  </div>
-                </div>
-              </div>
-            </Link>
+          {preparePosts().slice(0, 4).map(p => (
+            p.kind == 'blog' ?
+            <BlogPostCard post = {p} key={p.id} ></BlogPostCard>
+            :
+            <PostCard post = {p} key={p.id} ></PostCard>
+            
           ))}
         </div>
       </div>
@@ -236,22 +198,7 @@ export default () => (
       </div>
     </section> */}
 
-    <section className="section" id="academic">
-      <div className="container">
-        <h1 className="title">Academic</h1>
-        <p>
-          You should look at{' '}
-          <a
-            className="link"
-            href="http://lattes.cnpq.br/4379708414084009"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            lattes
-          </a>
-        </p>
-      </div>
-    </section>
+    
 
     <style jsx>{``}</style>
     <style global jsx>{``}</style>
