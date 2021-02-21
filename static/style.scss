@@ -1,11 +1,29 @@
-$azul: #200228;
-$azulclaro: #22045A;
+// $azul: #7289da;
+// $azulclaro: #667ac2;
+// $pink: #F04747;
+// $purple: #F57731;
+// $branco: 	#40444b;
+// $quase-branco: #23272a;
+// $coiso: #202225;
+// $bolinhas: #3b3b3b;
+// $roundness: 15px;
+// $preto: #fff;
+// $quase-preto: #fdfdfd;
+// $project-invert: 92%;
+  
+$azul: #7289da;
+$azulclaro: #667ac2;
 $pink: #1CB5E0;
 $purple: #000046;
 $branco: #fff;
 $quase-branco: #fefefe;
+$coiso: #fafafa;
+$bolinhas: #efefef;
 $roundness: 15px;
 $preto: #000;
+$quase-preto: #222;
+$project-invert: 12%;
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
 
@@ -20,10 +38,11 @@ body{
   display: block;
   padding-bottom: 4rem;
   background-color: $quase-branco;
-  background-image: radial-gradient(#e2e2e2 1px,transparent 0), radial-gradient(#e2e2e2 1px,transparent 0);
+  background-image: radial-gradient($bolinhas 1px,transparent 0), radial-gradient($bolinhas  1px,transparent 0);
   background-position: 0 0,25px 25px;
   background-attachment: fixed;
   background-size: 50px 50px;
+  color: $quase-preto;
 }
 div{
   background-color: transparent;
@@ -36,11 +55,24 @@ h1, h2, h3, h4, .title, .subtitle{
   font-family: 'Montserrat', sans-serif;
 }
 a{
-  color: $pink !important;
+  color: $azul !important;
   &:hover{
-    color: $purple !important;
+    color: $azulclaro !important;
   }
 }
+img{
+  border-radius: 25px;
+}
+strong{
+  color: $preto;
+}
+hr{
+  background-color: $branco;
+}
+.medium-zoom-overlay{
+  background-color: $coiso !important;
+}
+
 .section{
   padding: 1rem 1rem;
   
@@ -68,7 +100,6 @@ a{
   }
 }
 .social{
-  
   .social-link{
     margin-right: 10px;
     font-size: 1.5rem;
@@ -93,7 +124,6 @@ a{
       margin-bottom: 0;
       border-radius: $roundness;
     }
-    
     
     @media (min-width: 835px) {
       right: 2.2rem;
@@ -184,9 +214,9 @@ a{
   small{
     font-size: 1rem;
     a{
-      color: #888 !important;
+      color: $quase-preto !important;
       &:hover{
-        color: $pink !important;
+        color: $azul !important;
       }
     }
   }
@@ -201,16 +231,32 @@ a{
     justify-content: center;
     .card{
       border-radius: $roundness;
-      height: 300px;
+      height: 310px;
       width: 250px;
       margin: 20px;
       transition: .3s ease-out;
       box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-      background-color: $branco;
+      background-color: $coiso;
       .card-content{
         padding-top: 1rem;
+        color: $preto;
         h3{
           font-size: 1.2rem;
+          color: $azul;
+          margin: 0;
+          margin-top: .7rem;
+        }
+        .kind{
+          position: absolute;
+          margin: 0;
+          top: 95px;
+          left: 10px;
+          display: inline-block;
+          border-radius: 15px;
+          padding: .2rem .5rem;
+          font-size: .5rem;
+          color: $preto;
+          background-color:$branco;
         }
       }
       .card-image{
@@ -222,7 +268,7 @@ a{
           transform: scale(1.1);
         }
         max-height: 125px;
-        background-color: #f3558e;
+        background-color: $branco;
       }
 
       &:hover{
@@ -242,17 +288,19 @@ a{
       img{
         border-radius: $roundness $roundness 0 0;
       }
-      &.paper{
+      &.blog{
         background-color: $azul;
         .card-content{
           p{
-            color: $quase-branco;
+            color: $preto;
           }
           h3{
-            color: $pink;
+            color: $quase-branco;
           }
+          
         }
         &:hover{
+          background-color: $azulclaro;
         }
       }
     }
@@ -284,7 +332,7 @@ a{
     width: 250px;
     margin: 1rem;
     border-radius: 25px;
-    background-color: $branco;
+    background-color: $coiso;
     box-shadow: 2px 0 15px rgba(0, 0, 0, 0.5);
     overflow: hidden;
 
@@ -297,7 +345,7 @@ a{
       top: 0;
       margin: 20px 0 0 20px;
       font-size: 1.5rem;
-      color: #000;
+      color: $preto;
       line-height: normal;
       width: 80%;
     }
@@ -308,7 +356,7 @@ a{
       bottom: 0;
       margin: 0 20px 20px 20px;
       font-size: 18px;
-      color: #000;
+      color: $preto;
       padding-bottom: 1.5rem;
     }
     
@@ -316,8 +364,7 @@ a{
     #triangle {
       height: 100%;
       width: 100%;
-      // background-color: #000000;
-      filter: invert(12%);
+      filter: invert($project-invert);
       transform: rotate(-20deg);
       margin-top: -120px;
       margin-left: 80px;
@@ -419,7 +466,15 @@ a{
   border-radius: $roundness;
 }
 aside{
+  color: $preto;
   .meta-title{
+    color: $preto;
+    span{
+      color: $azul;
+    }
+    h2{
+      color: $quase-preto;
+    }
     @media (min-width: 835px) {
       background: url('/static/post-title-effect.png');
       background-repeat: no-repeat;
@@ -427,6 +482,8 @@ aside{
       padding-left: 100px;
       padding-top: 100px;
       margin-top: -40px;
+      
     }
   }
+  
 }

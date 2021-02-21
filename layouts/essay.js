@@ -3,7 +3,7 @@ import Page from './page'
 import Title from '../components/title'
 
 export default ({ children }) => (
-  <Page>
+  <Page >
     <article>{children}</article>
 
     <style jsx>

@@ -57,12 +57,8 @@ export default ({ id, hasCover }) => {
           h1.has-cover {
             padding-right: 0;
           }
-          h2 {
-            color: #7c7c7c;
-          }
 
           span {
-            color: #7c7c7c;
             font-size: 13px;
           }
 

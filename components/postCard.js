@@ -26,6 +26,7 @@ const PostCardInner = ({post}) => (
         </div>
         <div className="card-content">
             <div className="content">
+            <p className="kind">{post.kind == 'blog' ? 'blog post' : 'paper'}</p>
             <h3>{post.title}</h3>
             <p>{post.description}</p>
             </div>
