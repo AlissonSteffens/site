@@ -115,10 +115,11 @@ export default () => (
     </section>
     <section className="section" id="about">
       <p>
-        Graduated in Computer Science (Univali), with an emphasis on education, computer systems, and games. Master of Computer Applications with an emphasis on Artificial Intelligence and Game Analytics. I like to program 😁, in my free time I usually watch movies, play video games (especially cooperatives) and read.
-        I am currently a CAPES PROSUC fellow at Univali&apos;s Applied
-        Intelligence Laboratory
-          </p>
+        Master in Applied Computing with an emphasis on Artificial Intelligence and Game Analytics.
+        Graduated in Computer Science (Univali), with an emphasis on education, computer systems, and games.
+        I like to program 😁, in my free time I usually watch movies, play video games (especially cooperatives) and read.
+        I am currently a CAPES PROSUC fellow at Univali&apos;s Applied Intelligence Laboratory.
+      </p>
 
     </section>
     <section className="section" id="projects">
