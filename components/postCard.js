@@ -35,7 +35,7 @@ const PostCardInner = ({post}) => (
 
 const PostCard = ({ post }) => (
     <ReactGA.OutboundLink
-        eventLabel={'go-to'+post.id}
+        eventLabel={'go-to-paper-'+post.id}
         to={post.link}
         target="_blank"
         key={post.id}

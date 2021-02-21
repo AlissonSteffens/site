@@ -2,7 +2,7 @@ var ReactGA = require('react-ga');
 
 const Project = ({ project }) => (
     <ReactGA.OutboundLink
-                eventLabel={'go-to'+project.id}
+                eventLabel={'go-to-project-'+project.id}
                 to={project.url}
                 target="_blank"
                 rel="noopener noreferrer"
